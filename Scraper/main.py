@@ -82,10 +82,11 @@ def extract_challenges(body):
     return challenges
 
 def extract_bonuses(body):
-    """Extract the actual money/RP bonuses (2X, 3X, 4X, etc.)"""
+    """Extract the actual money/RP bonuses with their multipliers (2X, 3X, 4X, etc.)"""
     lines = body.split('\n')
     bonuses = []
     capturing = False
+    current_multiplier = None
     
     for line in lines:
         stripped = line.strip()
@@ -99,11 +100,19 @@ def extract_bonuses(body):
         if capturing and stripped.startswith('# '):
             break
         
-        # Capture bonus lines (lines starting with * under multiplier headers)
-        if capturing and stripped.startswith('*'):
-            cleaned = clean_text(stripped[1:])  # Remove the bullet point
-            if cleaned and not any(x in cleaned for x in ['GTA$', 'RP']):  # Skip the header lines
-                bonuses.append(cleaned)
+        # Capture multiplier headers (e.g., "**4X GTA$ and RP**")
+        if capturing and 'GTA$' in stripped and 'RP' in stripped and stripped.startswith('**'):
+            # Extract the multiplier (e.g., "4X", "2X", "3X")
+            multiplier_match = re.search(r'(\d+X)', stripped)
+            if multiplier_match:
+                current_multiplier = multiplier_match.group(1)
+            continue
+        
+        # Capture bonus items and prepend the multiplier
+        if capturing and stripped.startswith('*') and current_multiplier:
+            item = clean_text(stripped[1:])  # Remove the bullet point
+            if item:
+                bonuses.append(f"{current_multiplier} GTA$ and RP - {item}")
     
     return bonuses if bonuses else ["See full post for details"]
 
