@@ -1,0 +1,1 @@
+This is where the weekly-update.json file goes, but I have placed that file in the github ignore
