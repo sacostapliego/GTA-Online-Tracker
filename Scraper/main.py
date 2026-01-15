@@ -100,19 +100,19 @@ def extract_bonuses(body):
         if capturing and stripped.startswith('# '):
             break
         
-        # Capture multiplier headers (e.g., "**4X GTA$ and RP**")
-        if capturing and 'GTA$' in stripped and 'RP' in stripped and stripped.startswith('**'):
-            # Extract the multiplier (e.g., "4X", "2X", "3X")
-            multiplier_match = re.search(r'(\d+X)', stripped)
+        # Capture multiplier headers (e.g., "4X GTA$ and RP", "2X GTA$", "3X RP")
+        if capturing and stripped.startswith('**') and stripped.endswith('**'):
+            # Check if it contains multiplier pattern (e.g., "2X", "3X", "4X")
+            multiplier_match = re.search(r'(\d+X\s+[^*]+)', stripped)
             if multiplier_match:
-                current_multiplier = multiplier_match.group(1)
+                current_multiplier = clean_text(stripped)
             continue
         
         # Capture bonus items and prepend the multiplier
         if capturing and stripped.startswith('*') and current_multiplier:
             item = clean_text(stripped[1:])  # Remove the bullet point
             if item:
-                bonuses.append(f"{current_multiplier} GTA$ and RP - {item}")
+                bonuses.append(f"{current_multiplier} - {item}")
     
     return bonuses if bonuses else ["See full post for details"]
 

@@ -44,10 +44,6 @@ export default function BonusesTab() {
       
       {weeklyData && (
         <>
-          <ThemedText style={styles.weekText}>
-            {weeklyData.weekOf}
-          </ThemedText>
-
           <ThemedView style={styles.bonusesContainer}>
             {weeklyData.bonuses.map((bonus, index) => (
               <ThemedView key={index} style={styles.bonusItem}>
