@@ -1,112 +1,154 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
-
-import { Collapsible } from '@/components/ui/collapsible';
-import { ExternalLink } from '@/components/external-link';
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { IconSymbol } from '@/components/ui/icon-symbol';
+import { useEffect, useState } from 'react';
+import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
 import { Fonts } from '@/constants/theme';
 
-export default function TabTwoScreen() {
+interface WeeklyData {
+  weekOf: string;
+  discounts: string[];
+}
+
+interface DiscountItem {
+  percentage: string;
+  name: string;
+  imageUrl: string | null;
+}
+
+export default function DiscountsTab() {
+  const [weeklyData, setWeeklyData] = useState<WeeklyData | null>(null);
+  const [discounts, setDiscounts] = useState<DiscountItem[]>([]);
+
+  useEffect(() => {
+    const data = require('@/assets/data/weekly-update.json');
+    setWeeklyData(data);
+    
+    // Parse discounts
+    const parsedDiscounts = data.discounts.map((discount: string) => {
+      const [percentage, name] = discount.split(': ');
+      return {
+        percentage,
+        name,
+        imageUrl: getVehicleImageUrl(name),
+      };
+    });
+    
+    setDiscounts(parsedDiscounts);
+  }, []);
+
+  const getVehicleImageUrl = (itemName: string): string | null => {
+    // Check if it's a property/upgrade (non-vehicle)
+    const nonVehicleKeywords = ['properties', 'upgrades', 'modifications', 'warehouse', 'facility', 'bunker'];
+    if (nonVehicleKeywords.some(keyword => itemName.toLowerCase().includes(keyword))) {
+      return null;
+    }
+
+    // Extract vehicle model name (e.g., "Cheval Taipan" -> "Taipan")
+    const parts = itemName.trim().split(' ');
+    const model = parts.length > 1 ? parts[parts.length - 1] : itemName;
+    
+    // Try format with GTAOe-front suffix first (newer vehicles)
+    const wikiNameWithSuffix = model.replace(/\s+/g, '');
+    const urlWithSuffix = `https://www.gta5rides.com/vehicleimages/cropped/${wikiNameWithSuffix}-GTAOe-front.png.jpg`;
+    
+    // If that fails, the Image component will show the placeholder
+    // Note: You could also try lowercase format as fallback: ${model.toLowerCase()}.png.jpg
+    return "https://www.gta5rides.com/vehicleimages/cropped/taipan.png.jpg";
+  };
+
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
-      headerImage={
-        <IconSymbol
-          size={310}
-          color="#808080"
-          name="chevron.left.forwardslash.chevron.right"
-          style={styles.headerImage}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText
-          type="title"
-          style={{
-            fontFamily: Fonts.rounded,
-          }}>
-          Explore
-        </ThemedText>
-      </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
-      <Collapsible title="File-based routing">
-        <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
-        </ThemedText>
-        <ThemedText>
-          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
-          sets up the tab navigator.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
-      </Collapsible>
-      <Collapsible title="Android, iOS, and web support">
-        <ThemedText>
-          You can open this project on Android, iOS, and the web. To open the web version, press{' '}
-          <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
-        </ThemedText>
-      </Collapsible>
-      <Collapsible title="Images">
-        <ThemedText>
-          For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
-          different screen densities
-        </ThemedText>
-        <Image
-          source={require('@/assets/images/temp.png')}
-          style={{ width: 100, height: 100, alignSelf: 'center' }}
-        />
-        <ExternalLink href="https://reactnative.dev/docs/images">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
-      </Collapsible>
-      <Collapsible title="Light and dark mode components">
-        <ThemedText>
-          This template has light and dark mode support. The{' '}
-          <ThemedText type="defaultSemiBold">useColorScheme()</ThemedText> hook lets you inspect
-          what the user&apos;s current color scheme is, and so you can adjust UI colors accordingly.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
-      </Collapsible>
-      <Collapsible title="Animations">
-        <ThemedText>
-          This template includes an example of an animated component. The{' '}
-          <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
-          the powerful{' '}
-          <ThemedText type="defaultSemiBold" style={{ fontFamily: Fonts.mono }}>
-            react-native-reanimated
-          </ThemedText>{' '}
-          library to create a waving hand animation.
-        </ThemedText>
-        {Platform.select({
-          ios: (
-            <ThemedText>
-              The <ThemedText type="defaultSemiBold">components/ParallaxScrollView.tsx</ThemedText>{' '}
-              component provides a parallax effect for the header image.
-            </ThemedText>
-          ),
-        })}
-      </Collapsible>
-    </ParallaxScrollView>
+    <ScrollView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Weekly Discounts</Text>
+        {weeklyData && (
+          <Text style={styles.weekText}>{weeklyData.weekOf}</Text>
+        )}
+      </View>
+
+      <View style={styles.discountsList}>
+        {discounts.map((discount, index) => (
+          <View key={index} style={styles.discountItem}>
+            {discount.imageUrl ? (
+              <Image 
+                source={{ uri: discount.imageUrl }}
+                style={styles.vehicleImage}
+                defaultSource={require('@/assets/images/temp.png')}
+                onError={() => console.log('Failed to load image for:', discount.name)}
+              />
+            ) : (
+              <View style={styles.placeholderImage}>
+                <Text style={styles.placeholderText}>???</Text>
+              </View>
+            )}
+            
+            <View style={styles.discountInfo}>
+              <Text style={styles.vehicleName}>{discount.name}</Text>
+              <Text style={styles.percentage}>{discount.percentage}</Text>
+            </View>
+          </View>
+        ))}
+      </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  headerImage: {
-    color: '#808080',
-    bottom: -90,
-    left: -35,
-    position: 'absolute',
+  container: {
+    flex: 1,
+    backgroundColor: '#1a1a1a',
   },
-  titleContainer: {
+  header: {
+    padding: 20,
+    paddingTop: 60,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#ffffff',
+    fontFamily: Fonts.rounded,
+    marginBottom: 8,
+  },
+  weekText: {
+    fontSize: 14,
+    color: '#888888',
+  },
+  discountsList: {
+    padding: 16,
+  },
+  discountItem: {
     flexDirection: 'row',
-    gap: 8,
+    padding: 12,
+    marginBottom: 12,
+    alignItems: 'center',
+  },
+  vehicleImage: {
+    width: 120,
+    height: 75,
+    borderRadius: 6,
+    objectFit: 'contain'
+  },
+  placeholderImage: {
+    width: 100,
+    height: 75,
+    borderRadius: 12,
+    backgroundColor: '#1a1a1a',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  placeholderText: {
+    fontSize: 30,
+  },
+  discountInfo: {
+    flex: 1,
+    marginLeft: 16,
+  },
+  vehicleName: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#ffffff',
+    marginBottom: 4,
+  },
+  percentage: {
+    fontSize: 14,
+    color: '#ffffffff',
+    fontWeight: 'bold',
   },
 });
