@@ -1,10 +1,5 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, ScrollView, View, Text } from 'react-native';
 import { useEffect, useState } from 'react';
-
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { IconSymbol } from '@/components/ui/icon-symbol';
 import { Fonts } from '@/constants/theme';
 
 interface WeeklyData {
@@ -22,74 +17,65 @@ export default function BonusesTab() {
   }, []);
 
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
-      headerImage={
-        <IconSymbol
-          size={310}
-          color="#808080"
-          name="star.fill"
-          style={styles.headerImage}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText
-          type="title"
-          style={{
-            fontFamily: Fonts.rounded,
-          }}>
-          Weekly Bonuses
-        </ThemedText>
-      </ThemedView>
-      
-      {weeklyData && (
-        <>
-          <ThemedView style={styles.bonusesContainer}>
-            {weeklyData.bonuses.map((bonus, index) => (
-              <ThemedView key={index} style={styles.bonusItem}>
-                <ThemedText style={styles.bulletPoint}>•</ThemedText>
-                <ThemedText style={styles.bonusText}>{bonus}</ThemedText>
-              </ThemedView>
-            ))}
-          </ThemedView>
-        </>
-      )}
-    </ParallaxScrollView>
+    <ScrollView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Weekly Bonuses</Text>
+        {weeklyData && (
+          <Text style={styles.weekText}>{weeklyData.weekOf}</Text>
+        )}
+      </View>
+
+      <View style={styles.bonusesList}>
+        {weeklyData?.bonuses.map((bonus, index) => (
+          <View key={index} style={styles.bonusItem}>
+            <Text style={styles.bulletPoint}>•</Text>
+            <Text style={styles.bonusText}>{bonus}</Text>
+          </View>
+        ))}
+      </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  headerImage: {
-    color: '#808080',
-    bottom: -90,
-    left: -35,
-    position: 'absolute',
+  container: {
+    flex: 1,
+    backgroundColor: '#1a1a1a',
   },
-  titleContainer: {
-    flexDirection: 'row',
-    gap: 8,
-    marginBottom: 16,
+  header: {
+    padding: 20,
+    paddingTop: 60,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#ffffff',
+    fontFamily: Fonts.rounded,
+    marginBottom: 8,
   },
   weekText: {
     fontSize: 14,
-    opacity: 0.7,
-    marginBottom: 24,
+    color: '#888888',
   },
-  bonusesContainer: {
-    gap: 12,
+  bonusesList: {
+    padding: 16,
   },
   bonusItem: {
     flexDirection: 'row',
-    gap: 8,
+    padding: 12,
+    marginBottom: 12,
     alignItems: 'flex-start',
+    gap: 8,
   },
   bulletPoint: {
     fontSize: 18,
     lineHeight: 24,
+    color: '#ffffff',
   },
   bonusText: {
     flex: 1,
     fontSize: 16,
     lineHeight: 24,
+    color: '#ffffff',
   },
 });
