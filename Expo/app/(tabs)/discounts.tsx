@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     color: '#888888',
   },
   discountsList: {
-    padding: 16,
+    padding: 10,
   },
   discountItem: {
     flexDirection: 'row',
@@ -114,13 +114,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   vehicleImage: {
-    width: 120,
+    width: 150,
     height: 75,
     borderRadius: 6,
-    objectFit: 'contain'
   },
   placeholderImage: {
-    width: 120,
+    width: 150,
     height: 75,
     borderRadius: 6,
     backgroundColor: '#2a2a2a',
