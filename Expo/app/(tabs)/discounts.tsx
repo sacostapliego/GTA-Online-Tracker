@@ -7,6 +7,14 @@ interface WeeklyData {
   discounts: string[];
 }
 
+interface VehicleImageData {
+  [key: string]: {
+    discount: string;
+    url: string;
+    image_url: string;
+  };
+}
+
 interface DiscountItem {
   percentage: string;
   name: string;
@@ -19,40 +27,26 @@ export default function DiscountsTab() {
 
   useEffect(() => {
     const data = require('@/assets/data/weekly-update.json');
+    const vehicleImages: VehicleImageData = require('@/assets/data/vehicle_images.json');
+    
     setWeeklyData(data);
     
-    // Parse discounts
+    // Parse discounts and match with images
     const parsedDiscounts = data.discounts.map((discount: string) => {
       const [percentage, name] = discount.split(': ');
+      
+      // Look up the vehicle in vehicle_images.json
+      const vehicleData = vehicleImages[name];
+      
       return {
         percentage,
         name,
-        imageUrl: getVehicleImageUrl(name),
+        imageUrl: vehicleData?.image_url || null,
       };
     });
     
     setDiscounts(parsedDiscounts);
   }, []);
-
-  const getVehicleImageUrl = (itemName: string): string | null => {
-    // Check if it's a property/upgrade (non-vehicle)
-    const nonVehicleKeywords = ['properties', 'upgrades', 'modifications', 'warehouse', 'facility', 'bunker'];
-    if (nonVehicleKeywords.some(keyword => itemName.toLowerCase().includes(keyword))) {
-      return null;
-    }
-
-    // Extract vehicle model name (e.g., "Cheval Taipan" -> "Taipan")
-    const parts = itemName.trim().split(' ');
-    const model = parts.length > 1 ? parts[parts.length - 1] : itemName;
-    
-    // Try format with GTAOe-front suffix first (newer vehicles)
-    const wikiNameWithSuffix = model.replace(/\s+/g, '');
-    const urlWithSuffix = `https://www.gta5rides.com/vehicleimages/cropped/${wikiNameWithSuffix}-GTAOe-front.png.jpg`;
-    
-    // If that fails, the Image component will show the placeholder
-    // Note: You could also try lowercase format as fallback: ${model.toLowerCase()}.png.jpg
-    return "https://www.gta5rides.com/vehicleimages/cropped/taipan.png.jpg";
-  };
 
   return (
     <ScrollView style={styles.container}>
@@ -75,7 +69,7 @@ export default function DiscountsTab() {
               />
             ) : (
               <View style={styles.placeholderImage}>
-                <Text style={styles.placeholderText}>???</Text>
+                <Text style={styles.placeholderText}>?</Text>
               </View>
             )}
             
@@ -126,15 +120,16 @@ const styles = StyleSheet.create({
     objectFit: 'contain'
   },
   placeholderImage: {
-    width: 100,
+    width: 120,
     height: 75,
-    borderRadius: 12,
-    backgroundColor: '#1a1a1a',
+    borderRadius: 6,
+    backgroundColor: '#2a2a2a',
     justifyContent: 'center',
     alignItems: 'center',
   },
   placeholderText: {
     fontSize: 30,
+    color: '#ffffff',
   },
   discountInfo: {
     flex: 1,
@@ -148,7 +143,7 @@ const styles = StyleSheet.create({
   },
   percentage: {
     fontSize: 14,
-    color: '#ffffffff',
+    color: '#ffffff',
     fontWeight: 'bold',
   },
 });
