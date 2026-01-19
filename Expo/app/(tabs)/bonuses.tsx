@@ -28,8 +28,13 @@ export default function BonusesTab() {
       <View style={styles.bonusesList}>
         {weeklyData?.bonuses.map((bonus, index) => (
           <View key={index} style={styles.bonusItem}>
-            <Text style={styles.bulletPoint}>•</Text>
-            <Text style={styles.bonusText}>{bonus}</Text>
+            <View style={styles.placeholderImage}>
+              <Text style={styles.placeholderText}>???</Text>
+            </View>
+            
+            <View style={styles.bonusInfo}>
+              <Text style={styles.bonusText}>{bonus}</Text>
+            </View>
           </View>
         ))}
       </View>
@@ -64,18 +69,27 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     padding: 12,
     marginBottom: 12,
-    alignItems: 'flex-start',
-    gap: 8,
+    alignItems: 'center',
   },
-  bulletPoint: {
-    fontSize: 18,
-    lineHeight: 24,
+  placeholderImage: {
+    width: 120,
+    height: 75,
+    borderRadius: 6,
+    backgroundColor: '#1a1a1a',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  placeholderText: {
+    fontSize: 30,
     color: '#ffffff',
   },
-  bonusText: {
+  bonusInfo: {
     flex: 1,
+    marginLeft: 16,
+  },
+  bonusText: {
     fontSize: 16,
-    lineHeight: 24,
+    fontWeight: '600',
     color: '#ffffff',
   },
 });
