@@ -9,7 +9,7 @@ import time
 
 # Base URL for the vehicle pages
 BASE_URL = "https://gtacars.net/gta5/"
-OUTPUT_FILE = "vehicle_images.json"
+OUTPUT_FILE = "vehicle_data.json"
 
 # Special cases where the vehicle name doesn't match the URL format
 SPECIAL_CASES = {
@@ -39,9 +39,39 @@ def normalize_vehicle_name(vehicle_name):
         return parts[-1].lower()
     return vehicle_name.lower()
 
-def scrape_vehicle_image(driver, vehicle_url_name):
+def extract_price(driver):
     """
-    Scrape the vehicle image URL from gtacars.net using Selenium
+    Extract the vehicle price from the page.
+    Targets the first <data> element with price class.
+    """
+    try:
+        # Look for the data element with price
+        price_element = driver.find_element(By.CSS_SELECTOR, "data.text-lg.text-green-500, data.text-lg.text-green-600")
+        price_value = price_element.get_attribute('value')
+        
+        if price_value:
+            return int(price_value)
+        else:
+            # Fallback: parse the text content
+            price_text = price_element.text
+            price_clean = re.sub(r'[^\d]', '', price_text)
+            return int(price_clean) if price_clean else None
+    except Exception as e:
+        print(f"  Could not extract price: {e}")
+        return None
+
+def calculate_discounted_price(original_price, discount_percent):
+    """
+    Calculate the discounted price based on the percentage off.
+    """
+    if original_price and discount_percent:
+        discount_amount = original_price * (discount_percent / 100)
+        return int(original_price - discount_amount)
+    return None
+
+def scrape_vehicle_data(driver, vehicle_url_name, discount_percent=None):
+    """
+    Scrape the vehicle image URL and price from gtacars.net using Selenium
     """
     url = f"{BASE_URL}{vehicle_url_name}"
     
@@ -56,14 +86,19 @@ def scrape_vehicle_image(driver, vehicle_url_name):
         
         image_src = img_element.get_attribute('src')
         
-        if image_src:
-            # Construct full URL if relative path
-            if image_src.startswith('/'):
-                image_src = f"https://gtacars.net{image_src}"
-            return image_src
-        else:
-            print(f"No image src found for {vehicle_url_name}")
-            return None
+        if image_src and image_src.startswith('/'):
+            image_src = f"https://gtacars.net{image_src}"
+        
+        # Extract price
+        original_price = extract_price(driver)
+        discounted_price = calculate_discounted_price(original_price, discount_percent) if discount_percent else None
+        
+        return {
+            "image_url": image_src,
+            "original_price": original_price,
+            "discounted_price": discounted_price,
+            "discount_percent": discount_percent
+        }
             
     except Exception as e:
         print(f"Error fetching {url}: {e}")
@@ -71,7 +106,7 @@ def scrape_vehicle_image(driver, vehicle_url_name):
 
 def process_weekly_update(json_file_path):
     """
-    Process the weekly-update.json file and fetch images for discounted vehicles
+    Process the weekly-update.json file and fetch data for discounted vehicles
     """
     with open(json_file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -92,8 +127,13 @@ def process_weekly_update(json_file_path):
         # Process discounts
         if 'discounts' in data:
             for discount in data['discounts']:
-                # Extract vehicle name (e.g., "30% Off: Cheval Taipan" -> "Cheval Taipan")
-                vehicle_name = re.sub(r'\d+%\s+Off:\s+', '', discount)
+                # Extract discount percentage
+                discount_match = re.match(r'(\d+)%\s+Off:\s+(.+)', discount)
+                if not discount_match:
+                    continue
+                
+                discount_percent = int(discount_match.group(1))
+                vehicle_name = discount_match.group(2)
                 
                 # Skip non-vehicle items
                 if "Properties" in vehicle_name or "Upgrades" in vehicle_name or "Modifications" in vehicle_name:
@@ -103,15 +143,16 @@ def process_weekly_update(json_file_path):
                 # Get URL-friendly name
                 url_name = normalize_vehicle_name(vehicle_name)
                 
-                # Scrape image
-                print(f"Fetching image for: {vehicle_name} ({url_name})...")
-                image_url = scrape_vehicle_image(driver, url_name)
+                # Scrape data
+                print(f"Fetching data for: {vehicle_name} ({url_name})...")
+                vehicle_data = scrape_vehicle_data(driver, url_name, discount_percent)
                 
-                results[vehicle_name] = {
-                    "discount": discount,
-                    "url": f"{BASE_URL}{url_name}",
-                    "image_url": image_url
-                }
+                if vehicle_data:
+                    results[vehicle_name] = {
+                        "discount": discount,
+                        "url": f"{BASE_URL}{url_name}",
+                        **vehicle_data
+                    }
                 
                 # avoid overwhelming the server
                 time.sleep(0.5)
@@ -124,7 +165,7 @@ def process_weekly_update(json_file_path):
 if __name__ == "__main__":
     json_path = "weekly-update.json"   
      
-    print("Starting vehicle image scraper with Selenium...\n")
+    print("Starting vehicle data scraper with Selenium...\n")
     vehicle_data = process_weekly_update(json_path)
     
     # Print results
@@ -133,6 +174,9 @@ if __name__ == "__main__":
         print(f"\n{vehicle}:")
         print(f"  URL: {info['url']}")
         print(f"  Image: {info['image_url']}")
+        print(f"  Original Price: ${info['original_price']:,}" if info['original_price'] else "  Original Price: Not found")
+        print(f"  Discounted Price: ${info['discounted_price']:,}" if info['discounted_price'] else "  Discounted Price: N/A")
+        print(f"  Discount: {info['discount_percent']}%" if info['discount_percent'] else "")
     
     # Save to JSON file
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
