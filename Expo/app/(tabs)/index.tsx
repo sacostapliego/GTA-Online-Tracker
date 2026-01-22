@@ -1,5 +1,5 @@
-import { StyleSheet, ScrollView, View, Text, Image } from 'react-native';
-import { useEffect, useState } from 'react';
+import { StyleSheet, ScrollView, View, Text, Image, FlatList, Dimensions } from 'react-native';
+import { useEffect, useState, useRef } from 'react';
 import { Fonts } from '@/constants/theme';
 
 interface WeeklyData {
@@ -17,15 +17,36 @@ interface WeeklyData {
   }[];
 }
 
+interface VehicleImageData {
+  [key: string]: {
+    type: string;
+    image_url: string;
+    original_price: number | null;
+  };
+}
+
 const DEFAULT_IMAGE = 'https://static.wikia.nocookie.net/gtawiki/images/5/50/GTAOnlineWebsite-ScreensPC-589-3840.jpg/revision/latest/scale-to-width-down/1000?cb=20210629175043';
+const { width } = Dimensions.get('window');
 
 export default function HomeScreen() {
   const [weeklyData, setWeeklyData] = useState<WeeklyData | null>(null);
+  const [vehicleImages, setVehicleImages] = useState<VehicleImageData>({});
 
   useEffect(() => {
     const data = require('@/assets/data/weekly-update.json');
+    const images = require('@/assets/data/vehicle_images.json');
     setWeeklyData(data);
+    setVehicleImages(images);
   }, []);
+
+  const getVehicleImage = (vehicleName: string): string => {
+    return vehicleImages[vehicleName]?.image_url || DEFAULT_IMAGE;
+  };
+
+  const formatPrice = (price: number | null): string => {
+    if (!price) return 'Price unavailable';
+    return `$${price.toLocaleString()}`;
+  };
 
   if (!weeklyData) {
     return (
@@ -55,7 +76,7 @@ export default function HomeScreen() {
         <Text style={styles.sectionTitle}>Podium Vehicle</Text>
         <View style={styles.vehicleCard}>
           <Image 
-            source={{ uri: DEFAULT_IMAGE }}
+            source={{ uri: getVehicleImage(weeklyData.podiumVehicle) }}
             style={styles.vehicleImage}
             defaultSource={require('@/assets/images/temp.png')}
           />
@@ -68,7 +89,7 @@ export default function HomeScreen() {
         <Text style={styles.sectionTitle}>Prize Ride Vehicle</Text>
         <View style={styles.vehicleCard}>
           <Image 
-            source={{ uri: DEFAULT_IMAGE }}
+            source={{ uri: getVehicleImage(weeklyData.prizeRideVehicle) }}
             style={styles.vehicleImage}
             defaultSource={require('@/assets/images/temp.png')}
           />
@@ -91,14 +112,30 @@ export default function HomeScreen() {
       </View>
 
       {/* Salvage Yard Robberies */}
-      <View style={styles.listSection}>
-        <Text style={styles.sectionTitle}>Salvage Yard Robberies</Text>
-        {weeklyData.salvageYardRobberies.map((robbery, index) => (
-          <View key={index} style={styles.listItem}>
-            <Text style={styles.listLabel}>{robbery.type}:</Text>
-            <Text style={styles.listValue}>{robbery.vehicle}</Text>
-          </View>
-        ))}
+      <View style={styles.carouselSection}>
+        <Text style={styles.carouselSectionTitle}>Salvage Yard Robberies</Text>
+        <FlatList
+          horizontal
+          data={weeklyData.salvageYardRobberies}
+          keyExtractor={(item, index) => index.toString()}
+          showsHorizontalScrollIndicator={false}
+          snapToInterval={width - 40}
+          decelerationRate="fast"
+          contentContainerStyle={styles.carouselContent}
+          renderItem={({ item }) => (
+            <View style={styles.carouselCard}>
+              <Image 
+                source={{ uri: getVehicleImage(item.vehicle) }}
+                style={styles.carouselImage}
+                defaultSource={require('@/assets/images/temp.png')}
+              />
+              <View style={styles.carouselInfo}>
+                <Text style={styles.robberyType}>{item.type}</Text>
+                <Text style={styles.robberyVehicle}>{item.vehicle}</Text>
+              </View>
+            </View>
+          )}
+        />
       </View>
     </ScrollView>
   );
@@ -170,7 +207,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#ffffff',
     padding: 16,
+    paddingBottom: 8,
     textAlign: 'center',
+  },
+  vehiclePrice: {
+    fontSize: 16,
+    color: '#4ade80',
+    paddingBottom: 16,
   },
   challengeSubtext: {
     fontSize: 14,
@@ -198,5 +241,49 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     color: '#ffffff',
+  },
+  carouselSection: {
+    paddingVertical: 20,
+  },
+  carouselSectionTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#ffffff',
+    marginBottom: 12,
+    fontFamily: Fonts.rounded,
+    paddingHorizontal: 20,
+  },
+  carouselContent: {
+    paddingLeft: 20,
+  },
+  carouselCard: {
+    width: width - 60,
+    marginRight: 20,
+    backgroundColor: '#2a2a2a',
+    borderRadius: 8,
+    overflow: 'hidden',
+  },
+  carouselImage: {
+    width: '100%',
+    height: 180,
+    resizeMode: 'cover',
+  },
+  carouselInfo: {
+    padding: 16,
+  },
+  robberyType: {
+    fontSize: 14,
+    color: '#888888',
+    marginBottom: 4,
+  },
+  robberyVehicle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#ffffff',
+    marginBottom: 8,
+  },
+  robberyPrice: {
+    fontSize: 16,
+    color: '#4ade80',
   },
 });
