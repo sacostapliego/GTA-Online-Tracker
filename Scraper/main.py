@@ -89,8 +89,8 @@ def get_vehicle_value(text, key_phrase):
     return "Not found"
 
 def extract_salvage_yard_robberies(body):
-    """Extract the three salvage yard robbery vehicles"""
-    robberies = {}
+    """Extract the three salvage yard robbery types and vehicles"""
+    robberies = []
     lines = body.split('\n')
     capturing = False
     
@@ -106,14 +106,16 @@ def extract_salvage_yard_robberies(body):
         if capturing and stripped.startswith('**') and 'Robbery' not in stripped:
             break
         
-        # Capture robbery vehicles
-        if capturing and stripped.startswith('*'):
-            if 'Gangbanger Robbery:' in stripped:
-                robberies['gangbangerRobbery'] = clean_text(stripped.split(':', 1)[1])
-            elif 'Podium Robbery:' in stripped:
-                robberies['podiumRobbery'] = clean_text(stripped.split(':', 1)[1])
-            elif 'Duggan Robbery:' in stripped:
-                robberies['dugganRobbery'] = clean_text(stripped.split(':', 1)[1])
+        # Capture robbery vehicles - extract both type and vehicle
+        if capturing and stripped.startswith('*') and 'Robbery:' in stripped:
+            # Remove bullet point and split by colon
+            robbery_text = clean_text(stripped[1:])
+            if ':' in robbery_text:
+                robbery_type, vehicle = robbery_text.split(':', 1)
+                robberies.append({
+                    "type": robbery_type.strip(),
+                    "vehicle": vehicle.strip()
+                })
     
     return robberies
 

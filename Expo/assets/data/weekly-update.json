@@ -6,11 +6,20 @@
   "timeTrial": "Up Chiliad",
   "premiumRace": "At the Races, locked to Off-Road",
   "hswTimeTrial": "East Vinewood to Vespucci Beach",
-  "salvageYardRobberies": {
-    "gangbangerRobbery": "Albany Cavalcade XL",
-    "podiumRobbery": "Maibatsu Penumbra FF",
-    "dugganRobbery": "Pfister Astron"
-  },
+  "salvageYardRobberies": [
+    {
+      "type": "The Gangbanger Robbery",
+      "vehicle": "Albany Cavalcade XL"
+    },
+    {
+      "type": "The Podium Robbery",
+      "vehicle": "Maibatsu Penumbra FF"
+    },
+    {
+      "type": "The Duggan Robbery",
+      "vehicle": "Pfister Astron"
+    }
+  ],
   "weeklyChallenge": "Complete 3 Auto Shop Client Jobs to receive GTA$100,000",
   "bonuses": [
     "3X GTA$ and RP - Madrazo Hits",
