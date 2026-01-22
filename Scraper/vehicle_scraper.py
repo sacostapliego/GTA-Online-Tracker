@@ -98,7 +98,8 @@ def scrape_vehicle_data(driver, vehicle_url_name, discount_percent=None):
 
 def process_weekly_update(json_file_path):
     """
-    Process the weekly-update.json file and fetch data for discounted vehicles
+    Process the weekly-update.json file and fetch data for discounted vehicles,
+    podium vehicle, prize ride vehicle, and salvage yard robbery vehicles
     """
     with open(json_file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -116,6 +117,56 @@ def process_weekly_update(json_file_path):
     results = {}
     
     try:
+        # Process podium vehicle
+        if 'podiumVehicle' in data:
+            vehicle_name = data['podiumVehicle']
+            url_name = normalize_vehicle_name(vehicle_name)
+            
+            print(f"Fetching data for Podium Vehicle: {vehicle_name} ({url_name})...")
+            vehicle_data = scrape_vehicle_data(driver, url_name)
+            
+            if vehicle_data:
+                results[vehicle_name] = {
+                    "type": "Podium Vehicle",
+                    "url": f"{BASE_URL}{url_name}",
+                    **vehicle_data
+                }
+            time.sleep(0.5)
+        
+        # Process prize ride vehicle
+        if 'prizeRideVehicle' in data:
+            vehicle_name = data['prizeRideVehicle']
+            url_name = normalize_vehicle_name(vehicle_name)
+            
+            print(f"Fetching data for Prize Ride Vehicle: {vehicle_name} ({url_name})...")
+            vehicle_data = scrape_vehicle_data(driver, url_name)
+            
+            if vehicle_data:
+                results[vehicle_name] = {
+                    "type": "Prize Ride Vehicle",
+                    "url": f"{BASE_URL}{url_name}",
+                    **vehicle_data
+                }
+            time.sleep(0.5)
+        
+        # Process salvage yard robbery vehicles
+        if 'salvageYardRobberies' in data:
+            for robbery in data['salvageYardRobberies']:
+                vehicle_name = robbery['vehicle']
+                robbery_type = robbery['type']
+                url_name = normalize_vehicle_name(vehicle_name)
+                
+                print(f"Fetching data for {robbery_type}: {vehicle_name} ({url_name})...")
+                vehicle_data = scrape_vehicle_data(driver, url_name)
+                
+                if vehicle_data:
+                    results[vehicle_name] = {
+                        "type": robbery_type,
+                        "url": f"{BASE_URL}{url_name}",
+                        **vehicle_data
+                    }
+                time.sleep(0.5)
+        
         # Process discounts
         if 'discounts' in data:
             for discount in data['discounts']:
@@ -136,11 +187,12 @@ def process_weekly_update(json_file_path):
                 url_name = normalize_vehicle_name(vehicle_name)
                 
                 # Scrape data
-                print(f"Fetching data for: {vehicle_name} ({url_name})...")
+                print(f"Fetching data for Discount: {vehicle_name} ({url_name})...")
                 vehicle_data = scrape_vehicle_data(driver, url_name, discount_percent)
                 
                 if vehicle_data:
                     results[vehicle_name] = {
+                        "type": "Discount",
                         "discount": discount,
                         "url": f"{BASE_URL}{url_name}",
                         **vehicle_data
@@ -155,7 +207,7 @@ def process_weekly_update(json_file_path):
 
 # Example usage
 if __name__ == "__main__":
-    json_path = "weekly-update.json"   
+    json_path = "data/weekly-update.json"   
      
     print("Starting vehicle data scraper with Selenium...\n")
     vehicle_data = process_weekly_update(json_path)
@@ -163,12 +215,13 @@ if __name__ == "__main__":
     # Print results
     print("\n--- Results ---")
     for vehicle, info in vehicle_data.items():
-        print(f"\n{vehicle}:")
+        print(f"\n{vehicle} ({info.get('type', 'Unknown')}):")
         print(f"  URL: {info['url']}")
         print(f"  Image: {info['image_url']}")
         print(f"  Original Price: ${info['original_price']:,}" if info['original_price'] else "  Original Price: Not found")
-        print(f"  Discounted Price: ${info['discounted_price']:,}" if info['discounted_price'] else "  Discounted Price: N/A")
-        print(f"  Discount: {info['discount_percent']}%" if info['discount_percent'] else "")
+        if info.get('discounted_price'):
+            print(f"  Discounted Price: ${info['discounted_price']:,}")
+            print(f"  Discount: {info['discount_percent']}%")
     
     # Save to JSON file
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:

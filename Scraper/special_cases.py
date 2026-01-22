@@ -8,4 +8,5 @@ SPECIAL_CASES = {
     "Vapid Firebolt ASP" : "firebolt",
     "Pfister 811" : "pfister811",
     "Truffade Z-Type" : "ztype",
+    "Maibatsu Penumbra FF": "penumbra2",
 }
