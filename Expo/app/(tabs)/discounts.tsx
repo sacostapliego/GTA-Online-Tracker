@@ -25,6 +25,13 @@ interface DiscountItem {
   discountedPrice: number | null;
 } 
 
+interface PropertyImageData {
+  [key: string]: {
+    image1: string;
+    image2: string;
+  };
+}
+
 export default function DiscountsTab() {
   const [weeklyData, setWeeklyData] = useState<WeeklyData | null>(null);
   const [discounts, setDiscounts] = useState<DiscountItem[]>([]);
@@ -32,22 +39,41 @@ export default function DiscountsTab() {
   useEffect(() => {
     const data = require('@/assets/data/weekly-update.json');
     const vehicleImages: VehicleImageData = require('@/assets/data/vehicle_images.json');
+    const propertyImages: PropertyImageData = require('@/assets/data/property_images.json');
     
     setWeeklyData(data);
     
+    // Counter to track image usage for properties
+    const propertyImageCounter: { [key: string]: number } = {};
+
     // Parse discounts and match with images
     const parsedDiscounts = data.discounts.map((discount: string) => {
       const [percentage, name] = discount.split(': ');
+
+      let imageUrl = null;
       
-      // Look up the vehicle in vehicle_images.json
-      const vehicleData = vehicleImages[name];
+      // Check if this name matches any property key
+      const matchedProperty = Object.keys(propertyImages).find(propertyKey => 
+        name.includes(propertyKey)
+      );
+      
+      if (matchedProperty) {
+        // Increment counter for this property
+        propertyImageCounter[matchedProperty] = (propertyImageCounter[matchedProperty] || 0) + 1;
+        const imageKey = `image${propertyImageCounter[matchedProperty]}` as 'image1' | 'image2';
+        imageUrl = propertyImages[matchedProperty]?.[imageKey] || propertyImages[matchedProperty]?.image1 || null;
+      } else {
+        // Look up the vehicle in vehicle_images.json
+        const vehicleData = vehicleImages[name];
+        imageUrl = vehicleData?.image_url || null;
+      }
       
       return {
         percentage,
         name,
-        imageUrl: vehicleData?.image_url || null,
-        originalPrice: vehicleData?.original_price || null,
-        discountedPrice: vehicleData?.discounted_price || null,
+        imageUrl,
+        originalPrice: vehicleImages[name]?.original_price || null,
+        discountedPrice: vehicleImages[name]?.discounted_price || null,
       };
     });
     
@@ -125,17 +151,18 @@ const styles = StyleSheet.create({
   },
   discountItem: {
     flexDirection: 'row',
-    padding: 12,
-    marginBottom: 12,
+    padding: 10,
+    marginBottom: 10,
     alignItems: 'center',
   },
   vehicleImage: {
-    width: 150,
-    height: 75,
+    width: "50%",
+    height: 100,
     borderRadius: 6,
+    resizeMode: 'cover',
   },
   placeholderImage: {
-    width: 150,
+    width: "50%",
     height: 75,
     borderRadius: 6,
     backgroundColor: '#2a2a2a',
