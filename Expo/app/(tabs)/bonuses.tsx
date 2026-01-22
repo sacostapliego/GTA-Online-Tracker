@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     color: '#888888',
   },
   bonusesList: {
-    padding: 16,
+    padding: 10,
   },
   bonusItem: {
     flexDirection: 'row',
@@ -134,8 +134,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   bonusImage: {
-    width: 120,
-    height: 75,
+    width: "50%",
+    height: 100,
     borderRadius: 6,
     resizeMode: 'cover',
   },
