@@ -12,6 +12,8 @@ interface VehicleImageData {
     discount: string;
     url: string;
     image_url: string;
+    original_price: number;
+    discounted_price: number;
   };
 }
 
@@ -19,7 +21,9 @@ interface DiscountItem {
   percentage: string;
   name: string;
   imageUrl: string | null;
-}
+  originalPrice: number | null;
+  discountedPrice: number | null;
+} 
 
 export default function DiscountsTab() {
   const [weeklyData, setWeeklyData] = useState<WeeklyData | null>(null);
@@ -42,6 +46,8 @@ export default function DiscountsTab() {
         percentage,
         name,
         imageUrl: vehicleData?.image_url || null,
+        originalPrice: vehicleData?.original_price || null,
+        discountedPrice: vehicleData?.discounted_price || null,
       };
     });
     
@@ -76,6 +82,16 @@ export default function DiscountsTab() {
             <View style={styles.discountInfo}>
               <Text style={styles.vehicleName}>{discount.name}</Text>
               <Text style={styles.percentage}>{discount.percentage}</Text>
+              {discount.originalPrice !== null && discount.discountedPrice !== null && (
+                <>
+                  <Text style={styles.originalPrice}>
+                    ${discount.originalPrice.toLocaleString()}
+                  </Text>
+                  <Text style={styles.price}>
+                    ${discount.discountedPrice.toLocaleString()}
+                  </Text>
+                </>
+              )}
             </View>
           </View>
         ))}
@@ -144,5 +160,16 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#ffffff',
     fontWeight: 'bold',
+  },
+  originalPrice: {
+    fontSize: 12,
+    color: '#ff6666',
+    textDecorationLine: 'line-through',
+    marginTop: 4,
+  },
+  price: {
+    fontSize: 12,
+    color: '#cccccc',
+    marginTop: 4,
   },
 });
