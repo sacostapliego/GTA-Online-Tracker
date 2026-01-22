@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
+from special_cases import SPECIAL_CASES
 import json
 import re
 import time
@@ -12,15 +13,6 @@ BASE_URL = "https://gtacars.net/gta5/"
 OUTPUT_FILE = "vehicle_data.json"
 
 # Special cases where the vehicle name doesn't match the URL format
-SPECIAL_CASES = {
-    "Rhino Tank": "rhino",
-    "Dashound": "coach",
-    "Declasse Vigero ZX": "vigero2",
-    "Obey Omnis e-GT": "omnisegt",
-    "Albany Cavalcade XL": "cavalcade3",
-    "Vapid Dominator FX": "dominator10"
-}
-
 def normalize_vehicle_name(vehicle_name):
     """
     Convert vehicle name to URL-friendly format.
@@ -136,7 +128,7 @@ def process_weekly_update(json_file_path):
                 vehicle_name = discount_match.group(2)
                 
                 # Skip non-vehicle items
-                if "Properties" in vehicle_name or "Upgrades" in vehicle_name or "Modifications" in vehicle_name:
+                if "Properties" in vehicle_name or "Upgrades" in vehicle_name or "Modifications" in vehicle_name or "Offices" in vehicle_name:
                     print(f"Skipping non-vehicle: {vehicle_name}")
                     continue
                 

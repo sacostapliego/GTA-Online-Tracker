@@ -1,0 +1,11 @@
+SPECIAL_CASES = {
+    "Rhino Tank": "rhino",
+    "Dashound": "coach",
+    "Declasse Vigero ZX": "vigero2",
+    "Obey Omnis e-GT": "omnisegt",
+    "Albany Cavalcade XL": "cavalcade3",
+    "Vapid Dominator FX": "dominator10",
+    "Vapid Firebolt ASP" : "firebolt",
+    "Pfister 811" : "pfister811",
+    "Truffade Z-Type" : "ztype",
+}
