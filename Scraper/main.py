@@ -5,7 +5,7 @@ import re
 # Configuration
 SUBREDDIT = "gtaonline"
 SEARCH_URL = f"https://www.reddit.com/r/{SUBREDDIT}/search.json?q=title:%22Weekly+Bonuses+and+Discounts%22&restrict_sr=1&sort=new&limit=1"
-OUTPUT_FILE = "weekly-update.json"
+OUTPUT_FILE = "data/weekly-update.json"
 
 def fetch_reddit_post():
     headers = {'User-Agent': 'GTAWeeklyTrack/1.0'}
@@ -47,7 +47,11 @@ def parse_markdown_content(post_data):
         "podiumVehicle": get_vehicle_value(body, "Podium Vehicle"),
         "prizeRideVehicle": get_vehicle_value(body, "Prize Ride Vehicle"),
         "prizeRideChallenge": get_vehicle_value(body, "Prize Ride Challenge"),
-        "challenges": extract_challenges(body),
+        "timeTrial": get_vehicle_value(body, "Time Trial"),
+        "premiumRace": get_vehicle_value(body, "Premium Race"),
+        "hswTimeTrial": get_vehicle_value(body, "HSW Time Trial"),
+        "salvageYardRobberies": extract_salvage_yard_robberies(body),
+        "weeklyChallenge": extract_weekly_challenge(body),
         "bonuses": extract_bonuses(body),
         "discounts": extract_discounts(body),
     }
@@ -58,28 +62,83 @@ def clean_title(title):
     return title.split(" - ")[-1] if " - " in title else title
 
 def get_vehicle_value(text, key_phrase):
-    """Extract vehicle/challenge info after a colon"""
+    """Extract vehicle/challenge info after a colon, removing wiki links"""
     lines = text.split('\n')
     for line in lines:
         if key_phrase in line and ':' in line:
-            # Split by colon and take everything after it
-            parts = line.split(':', 1)
+            # First remove markdown links completely
+            line = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', line)
+            
+            # Split by the last colon to get the value
+            parts = line.split(':**')
+            if len(parts) < 2:
+                parts = line.split(':')
+            
             if len(parts) > 1:
-                return clean_text(parts[1])
+                value = parts[-1].strip()
+                # Remove bold markers
+                value = value.replace('**', '').replace('*', '')
+                # Remove any remaining parenthetical content
+                value = re.sub(r'\([^)]*\)', '', value).strip()
+                # Remove any remaining URL fragments
+                value = re.sub(r'https?://[^\s]+', '', value).strip()
+                value = re.sub(r'//[^\s:)]+\)', '', value).strip()
+                # Clean up extra whitespace
+                value = ' '.join(value.split())
+                return value
     return "Not found"
 
-def extract_challenges(body):
-    """Extract Time Trial and Premium Race"""
-    challenges = {}
+def extract_salvage_yard_robberies(body):
+    """Extract the three salvage yard robbery vehicles"""
+    robberies = {}
     lines = body.split('\n')
+    capturing = False
     
     for line in lines:
-        if 'Time Trial:' in line and 'HSW' not in line:
-            challenges['timeTrial'] = clean_text(line.split(':', 1)[1])
-        elif 'Premium Race:' in line:
-            challenges['premiumRace'] = clean_text(line.split(':', 1)[1])
+        stripped = line.strip()
+        
+        # Start capturing after "This Week's Salvage Yard Robberies" header
+        if "Salvage Yard Robberies" in stripped:
+            capturing = True
+            continue
+        
+        # Stop at next section
+        if capturing and stripped.startswith('**') and 'Robbery' not in stripped:
+            break
+        
+        # Capture robbery vehicles
+        if capturing and stripped.startswith('*'):
+            if 'Gangbanger Robbery:' in stripped:
+                robberies['gangbangerRobbery'] = clean_text(stripped.split(':', 1)[1])
+            elif 'Podium Robbery:' in stripped:
+                robberies['podiumRobbery'] = clean_text(stripped.split(':', 1)[1])
+            elif 'Duggan Robbery:' in stripped:
+                robberies['dugganRobbery'] = clean_text(stripped.split(':', 1)[1])
     
-    return challenges
+    return robberies
+
+def extract_weekly_challenge(body):
+    """Extract this week's challenge"""
+    lines = body.split('\n')
+    capturing = False
+    
+    for line in lines:
+        stripped = line.strip()
+        
+        # Start capturing after "This Week's Challenge" header
+        if "This Week's Challenge" in stripped:
+            capturing = True
+            continue
+        
+        # Stop at next section
+        if capturing and stripped.startswith('**'):
+            break
+        
+        # Capture the challenge
+        if capturing and stripped.startswith('*'):
+            return clean_text(stripped[1:])
+    
+    return "Not found"
 
 def extract_bonuses(body):
     """Extract the actual money/RP bonuses with their multipliers (2X, 3X, 4X, etc.)"""

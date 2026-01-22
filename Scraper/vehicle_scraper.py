@@ -10,7 +10,7 @@ import time
 
 # Base URL for the vehicle pages
 BASE_URL = "https://gtacars.net/gta5/"
-OUTPUT_FILE = "vehicle_data.json"
+OUTPUT_FILE = "data/vehicle_data.json"
 
 # Special cases where the vehicle name doesn't match the URL format
 def normalize_vehicle_name(vehicle_name):
