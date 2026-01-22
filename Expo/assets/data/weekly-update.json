@@ -1,9 +1,17 @@
 {
   "weekOf": "January 22nd to January 29th (Not live until ~5am EDT on January 22nd)",
-  "podiumVehicle": "//gta.fandom.com/wiki/Lucky_Wheel): Vapid FMJ",
-  "prizeRideVehicle": "//gta.fandom.com/wiki/Prize_Ride_Challenge#Claiming_the_reward): Pegassi Tempesta",
-  "prizeRideChallenge": "//gta.fandom.com/wiki/Prize_Ride_Challenge): Place Top 5 in the LS Car Meet Series Once",
-  "challenges": {},
+  "podiumVehicle": "Vapid FMJ",
+  "prizeRideVehicle": "Pegassi Tempesta",
+  "prizeRideChallenge": "Place Top 5 in the LS Car Meet Series Once",
+  "timeTrial": "Up Chiliad",
+  "premiumRace": "At the Races, locked to Off-Road",
+  "hswTimeTrial": "East Vinewood to Vespucci Beach",
+  "salvageYardRobberies": {
+    "gangbangerRobbery": "Albany Cavalcade XL",
+    "podiumRobbery": "Maibatsu Penumbra FF",
+    "dugganRobbery": "Pfister Astron"
+  },
+  "weeklyChallenge": "Complete 3 Auto Shop Client Jobs to receive GTA$100,000",
   "bonuses": [
     "3X GTA$ and RP - Madrazo Hits",
     "3X GTA$ and RP - Community Combat Series",
