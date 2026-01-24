@@ -37,6 +37,27 @@ def clean_text(text):
     text = ' '.join(text.split())
     return text.strip()
 
+def extract_intro_message(body):
+    """Extract the introductory messages before the first section header"""
+    lines = body.split('\n')
+    intro_lines = []
+    
+    for line in lines:
+        stripped = line.strip()
+        
+        # Stop when we hit the first section (starting with #)
+        if stripped.startswith('#'):
+            break
+        
+        # Capture lines that start with *** (bold italic) or have content
+        if stripped.startswith('***') and stripped.endswith('***'):
+            # Remove the *** markers and clean the text
+            message = clean_text(stripped)
+            if message:
+                intro_lines.append(message)
+    
+    return intro_lines
+
 def parse_markdown_content(post_data):
     title = post_data.get('title', 'Unknown Date')
     body = post_data.get('selftext', '')
@@ -44,6 +65,7 @@ def parse_markdown_content(post_data):
     # Initialize structure
     structured_data = {
         "weekOf": clean_title(title),
+        "introMessages": extract_intro_message(body),
         "podiumVehicle": get_vehicle_value(body, "Podium Vehicle"),
         "prizeRideVehicle": get_vehicle_value(body, "Prize Ride Vehicle"),
         "prizeRideChallenge": get_vehicle_value(body, "Prize Ride Challenge"),
