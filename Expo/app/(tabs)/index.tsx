@@ -4,6 +4,7 @@ import { Fonts } from '@/constants/theme';
 
 interface WeeklyData {
   weekOf: string;
+  introMessages: string[];
   weeklyChallenge: string;
   podiumVehicle: string;
   prizeRideVehicle: string;
@@ -60,7 +61,15 @@ export default function HomeScreen() {
     <ScrollView style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>GTA Online Tracker</Text>
-        <Text style={styles.weekText}>{weeklyData.weekOf}</Text>
+      </View>
+
+      {/* Intro Messages */}
+      <View style={styles.introSection}>
+        <View >
+          {weeklyData.introMessages.map((message, index) => (
+            <Text key={index} style={styles.introText}>{message}</Text>
+          ))}
+        </View>
       </View>
 
       {/* Weekly Challenge */}
@@ -137,6 +146,7 @@ export default function HomeScreen() {
           )}
         />
       </View>
+      <Text style={styles.weekText}>{weeklyData.weekOf}</Text>
     </ScrollView>
   );
 }
@@ -166,6 +176,7 @@ const styles = StyleSheet.create({
   weekText: {
     fontSize: 14,
     color: '#888888',
+    padding: 20,
   },
   challengeSection: {
     padding: 20,
@@ -286,4 +297,12 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#4ade80',
   },
+  introText: {
+    fontSize: 14,
+    color: '#ffffff',
+    marginBottom: 8,
+  },
+  introSection : {
+    padding: 20,
+  }
 });

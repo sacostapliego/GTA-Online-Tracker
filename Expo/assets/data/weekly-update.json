@@ -1,5 +1,8 @@
 {
   "weekOf": "January 22nd to January 29th (Not live until ~5am EDT on January 22nd)",
+  "introMessages": [
+    "Wrap the Karin Everon RS in the new Mosh Mosh livery, now available from all Vehicle Workshops in GTA Online."
+  ],
   "podiumVehicle": "Vapid FMJ",
   "prizeRideVehicle": "Pegassi Tempesta",
   "prizeRideChallenge": "Place Top 5 in the LS Car Meet Series Once",
