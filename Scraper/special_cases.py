@@ -16,4 +16,5 @@ SPECIAL_CASES = {
     "Übermacht Sentinel Classic": "sentinel3",
     "Dinka Veto Modern" : "veto2",
     "Declasse Hotring Sabre": "hotring",
+    "Brute Bobcat Security Stockade": "stockade4",
 }
