@@ -1,47 +1,65 @@
 {
-  "weekOf": "January 22nd to January 29th (Not live until ~5am EDT on January 22nd)",
+  "weekOf": "January 29 to February 5th (Not live until ~5am EDT on January 29th)",
   "introMessages": [
-    "Wrap the Karin Everon RS in the new Mosh Mosh livery, now available from all Vehicle Workshops in GTA Online.",
-    "Elsewhere, get Double Rewards completing Auto Shop Client Jobs and Document Forgery sales, 3X GTA$ and RP on Madrazo Hits, and much more.",
-    "Get ready to roll your sleeves up as a trio of new Odd Jobs comes to GTA Online next week."
+    "Clock in and work as a Firefighter, Forklift Operator, or deliver a Paper Route in three new Odd Jobs, arriving in GTA Online tomorrow.",
+    "All Odd Jobs are paying out double through February 4, alongside additional rewards for earning an honest living, such as a tripled Weekly Challenge paycheck and the returning Downtown Cab Co. Revere Collar Shirt.",
+    "Cocaine Production Speeds are also doubled, as are prize purses for competing in the Community Race Series, and more.",
+    "Prepare for an explosive Valentine’s Day and get ready to blow opposing couples up in the new Deadline Duet adversary mode and take a ride on the wild side in the Pfister Astrale (Sports Classic), both releasing in GTA Online next week.",
+    "We recently introduced several bug fixes and improvements to GTA Online, including updates to Wanted Level Options in the Mission Creator — allowing for greater flexibility to create a full range of GTA mission styles. For more information, visit the latest Title Update notes."
   ],
-  "podiumVehicle": "Vapid FMJ",
-  "prizeRideVehicle": "Pegassi Tempesta",
-  "prizeRideChallenge": "Place Top 5 in the LS Car Meet Series Once",
-  "timeTrial": "Up Chiliad",
-  "premiumRace": "At the Races, locked to Off-Road",
-  "hswTimeTrial": "East Vinewood to Vespucci Beach",
+  "podiumVehicle": "Mammoth Patriot Mil-Spec",
+  "prizeRideVehicle": "Declasse Tampa GT",
+  "prizeRideChallenge": "Place Top 4 in the LS Car Meet Series",
+  "timeTrial": "Sawmill",
+  "premiumRace": "Down the Drain, locked to Muscle",
+  "hswTimeTrial": "Del Perro Beach to Murietta Heights",
   "salvageYardRobberies": [
     {
       "type": "The Gangbanger Robbery",
-      "vehicle": "Albany Cavalcade XL"
-    },
-    {
-      "type": "The Podium Robbery",
-      "vehicle": "Maibatsu Penumbra FF"
+      "vehicle": "Canis Kamacho"
     },
     {
       "type": "The Duggan Robbery",
-      "vehicle": "Pfister Astron"
+      "vehicle": "Declasse Drift Yosemite"
+    },
+    {
+      "type": "The Podium Robbery",
+      "vehicle": "Grotti Stinger TT"
     }
   ],
-  "weeklyChallenge": "Complete 3 Auto Shop Client Jobs to receive GTA$100,000",
+  "weeklyChallenge": "Complete 5 Pizza Deliveries to receive the Pizza This Tee and GTA$300,000",
   "bonuses": [
-    "3X GTA$ and RP - Madrazo Hits",
-    "3X GTA$ and RP - Community Combat Series",
-    "2X GTA$ and RP - Featured Series: Transform Races",
-    "2X GTA$ - Document Forgery Sell Missions",
-    "2X GTA$ - 2X GTA$ and Car Meet Rep (4X for GTA+ Members)",
-    "2X GTA$ - Auto Shop Client Jobs (Customer Cars and Delivery NOT the Contracts)"
+    "2X GTA$ and RP - New Odd Jobs:",
+    "2X GTA$ and RP - Firefighter",
+    "2X GTA$ and RP - Forklift Operator",
+    "2X GTA$ and RP - Paper Route",
+    "2X GTA$ and RP - Existing Odd Jobs:",
+    "2X GTA$ and RP - Taxi Work (GTA$ only)",
+    "2X GTA$ and RP - Pizza Delivery",
+    "2X GTA$ and RP - QuickiePharm",
+    "2X GTA$ and RP - Safeguard",
+    "2X GTA$ and RP - RC Time Trials",
+    "2X GTA$ and RP - Featured Series: Issi Classic Races",
+    "2X GTA$ and RP - Community Race Series",
+    "2X GTA$ and RP - Cocaine Production Speed"
   ],
   "discounts": [
-    "40% Off: Auto Shop Properties",
-    "40% Off: Auto Shop Property Upgrades and Modifications",
-    "40% Off: Document Forgery Offices",
-    "40% Off: Document Forgery Office Upgrades and Modifications",
-    "30% Off: Vapid Firebolt ASP",
-    "30% Off: Pfister 811",
-    "30% Off: Truffade Z-Type",
-    "30% Off: Classique Broadway"
+    "Free: Pegassi Pizza Boy",
+    "40% Off: Cocaine Lockup Properties",
+    "40% Off: Cocaine Lockup Upgrades",
+    "30% Off: MTL Fire Truck",
+    "30% Off: Brute Bobcat Security Stockade",
+    "30% Off: Brute Stockade",
+    "30% Off: Vapid Taxi",
+    "30% Off: Pegassi Zorrusso",
+    "30% Off: MTL Dune",
+    "30% Off: Nagasaki Outlaw",
+    "30% Off: Blimp",
+    "30% Off: Buckingham Shamal",
+    "30% Off: Dinka Veto Modern",
+    "30% Off: Declasse Hotring Sabre",
+    "30% Off: Übermacht Sentinel Classic",
+    "30% Off: Grotti Cheetah",
+    "30% Off: Canis Freecrawler"
   ]
 }

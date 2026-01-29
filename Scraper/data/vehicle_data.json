@@ -1,78 +1,108 @@
 {
-  "Vapid FMJ": {
-    "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/fmj",
-    "image_url": "https://gtacars.net/images/62ecea12bb863e78984b1b977f85fe4a",
-    "original_price": 1750000,
-    "discounted_price": null,
-    "discount_percent": null
-  },
-  "Pegassi Tempesta": {
-    "type": "Prize Ride Vehicle",
-    "url": "https://gtacars.net/gta5/tempesta",
-    "image_url": "https://gtacars.net/images/41242cbbb2644235ec4bfc72864d0a56",
-    "original_price": 1329000,
-    "discounted_price": null,
-    "discount_percent": null
-  },
-  "Albany Cavalcade XL": {
+  "Canis Kamacho": {
     "type": "The Gangbanger Robbery",
-    "url": "https://gtacars.net/gta5/cavalcade3",
-    "image_url": "https://gtacars.net/images/c69269f1585872b2530c8eb1a7b4ee22",
-    "original_price": 1665000,
+    "url": "https://gtacars.net/gta5/kamacho",
+    "image_url": "https://gtacars.net/images/7058e4ed99359839e5b4eab51a57a33d",
+    "original_price": 345000,
     "discounted_price": null,
     "discount_percent": null
   },
-  "Maibatsu Penumbra FF": {
-    "type": "The Podium Robbery",
-    "url": "https://gtacars.net/gta5/penumbra2",
-    "image_url": "https://gtacars.net/images/44d89062eff5535b1269e5ee808f70cd",
-    "original_price": 1380000,
-    "discounted_price": null,
-    "discount_percent": null
-  },
-  "Pfister Astron": {
+  "Declasse Drift Yosemite": {
     "type": "The Duggan Robbery",
-    "url": "https://gtacars.net/gta5/astron",
-    "image_url": "https://gtacars.net/images/6bcd16c0bdae988298c6365b96830cb7",
-    "original_price": 1580000,
+    "url": "https://gtacars.net/gta5/yosemite",
+    "image_url": "https://gtacars.net/images/368352c6c1a6304cdb9f94662584a78b",
+    "original_price": 485000,
     "discounted_price": null,
     "discount_percent": null
   },
-  "Vapid Firebolt ASP": {
+  "Brute Bobcat Security Stockade": {
     "type": "Discount",
-    "discount": "30% Off: Vapid Firebolt ASP",
-    "url": "https://gtacars.net/gta5/firebolt",
-    "image_url": "https://gtacars.net/images/a372427778ad1bd847d5ad7c29b882df",
-    "original_price": 1894500,
-    "discounted_price": 1326150,
+    "discount": "30% Off: Brute Bobcat Security Stockade",
+    "url": "https://gtacars.net/gta5/stockade",
+    "image_url": "https://gtacars.net/images/7b28dfdd1add66b4fb18b1a4512ef5d4",
+    "original_price": 2240000,
+    "discounted_price": 1568000,
     "discount_percent": 30
   },
-  "Pfister 811": {
+  "Brute Stockade": {
     "type": "Discount",
-    "discount": "30% Off: Pfister 811",
-    "url": "https://gtacars.net/gta5/pfister811",
-    "image_url": "https://gtacars.net/images/a66803102a89831ef213b67f63d5efe3",
-    "original_price": 1135000,
-    "discounted_price": 794500,
+    "discount": "30% Off: Brute Stockade",
+    "url": "https://gtacars.net/gta5/stockade",
+    "image_url": "https://gtacars.net/images/7b28dfdd1add66b4fb18b1a4512ef5d4",
+    "original_price": 2240000,
+    "discounted_price": 1568000,
     "discount_percent": 30
   },
-  "Truffade Z-Type": {
+  "Vapid Taxi": {
     "type": "Discount",
-    "discount": "30% Off: Truffade Z-Type",
-    "url": "https://gtacars.net/gta5/ztype",
-    "image_url": "https://gtacars.net/images/f39273f124d491f0d0d9f6254c5ecef8",
-    "original_price": 950000,
-    "discounted_price": 665000,
+    "discount": "30% Off: Vapid Taxi",
+    "url": "https://gtacars.net/gta5/taxi",
+    "image_url": "https://gtacars.net/images/1747e82fbec763ae5610cbe571ead88a",
+    "original_price": 650000,
+    "discounted_price": 455000,
     "discount_percent": 30
   },
-  "Classique Broadway": {
+  "Pegassi Zorrusso": {
     "type": "Discount",
-    "discount": "30% Off: Classique Broadway",
-    "url": "https://gtacars.net/gta5/broadway",
-    "image_url": "https://gtacars.net/images/20c30c03750a32dffc9a3cec5a5bb9d3",
-    "original_price": 925000,
-    "discounted_price": 647500,
+    "discount": "30% Off: Pegassi Zorrusso",
+    "url": "https://gtacars.net/gta5/zorrusso",
+    "image_url": "https://gtacars.net/images/1ae5701d3074736143c13cc10d8b81b2",
+    "original_price": 1925000,
+    "discounted_price": 1347500,
+    "discount_percent": 30
+  },
+  "MTL Dune": {
+    "type": "Discount",
+    "discount": "30% Off: MTL Dune",
+    "url": "https://gtacars.net/gta5/dune",
+    "image_url": "https://gtacars.net/images/b82b384f9f72c15da475e99f87495114",
+    "original_price": 20000,
+    "discounted_price": 14000,
+    "discount_percent": 30
+  },
+  "Nagasaki Outlaw": {
+    "type": "Discount",
+    "discount": "30% Off: Nagasaki Outlaw",
+    "url": "https://gtacars.net/gta5/outlaw",
+    "image_url": "https://gtacars.net/images/7387e46fdc56553bd1b3f9c145be09a4",
+    "original_price": 1268000,
+    "discounted_price": 887600,
+    "discount_percent": 30
+  },
+  "Blimp": {
+    "type": "Discount",
+    "discount": "30% Off: Blimp",
+    "url": "https://gtacars.net/gta5/blimp",
+    "image_url": "https://gtacars.net/images/19cfadb04a38cbfc0a6614a2b0c8d637",
+    "original_price": null,
+    "discounted_price": null,
+    "discount_percent": 30
+  },
+  "Buckingham Shamal": {
+    "type": "Discount",
+    "discount": "30% Off: Buckingham Shamal",
+    "url": "https://gtacars.net/gta5/shamal",
+    "image_url": "https://gtacars.net/images/e2bffb65ca50a6c24e0b8a3ec215fd04",
+    "original_price": 1150000,
+    "discounted_price": 805000,
+    "discount_percent": 30
+  },
+  "Grotti Cheetah": {
+    "type": "Discount",
+    "discount": "30% Off: Grotti Cheetah",
+    "url": "https://gtacars.net/gta5/cheetah",
+    "image_url": "https://gtacars.net/images/9bf4d9bcf46b953bb655afbffd5645fb",
+    "original_price": 650000,
+    "discounted_price": 455000,
+    "discount_percent": 30
+  },
+  "Canis Freecrawler": {
+    "type": "Discount",
+    "discount": "30% Off: Canis Freecrawler",
+    "url": "https://gtacars.net/gta5/freecrawler",
+    "image_url": "https://gtacars.net/images/d2b06da4b80a44b510c52c947ba11be0",
+    "original_price": 597000,
+    "discounted_price": 417900,
     "discount_percent": 30
   }
 }

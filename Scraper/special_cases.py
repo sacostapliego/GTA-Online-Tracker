@@ -9,4 +9,8 @@ SPECIAL_CASES = {
     "Pfister 811" : "pfister811",
     "Truffade Z-Type" : "ztype",
     "Maibatsu Penumbra FF": "penumbra2",
+    "MTL Fire Truck": "firetruk",
+    "Mammoth Patriot Mil-Spec": "patriot3",
+    "Declasse Tampa GT": "tampa4",
+    "Grotti Stinger TT": "stingertt",
 }
