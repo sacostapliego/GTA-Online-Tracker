@@ -1,4 +1,4 @@
-import { StyleSheet, ScrollView, View, Text, Image, FlatList, Dimensions } from 'react-native';
+import { StyleSheet, ScrollView, View, Text, Image, FlatList, Dimensions, TouchableOpacity } from 'react-native';
 import { useEffect, useState, useRef } from 'react';
 import { Fonts } from '@/constants/theme';
 
@@ -32,6 +32,7 @@ const { width } = Dimensions.get('window');
 export default function HomeScreen() {
   const [weeklyData, setWeeklyData] = useState<WeeklyData | null>(null);
   const [vehicleImages, setVehicleImages] = useState<VehicleImageData>({});
+  const [isIntroExpanded, setIsIntroExpanded] = useState(false);
 
   useEffect(() => {
     const data = require('@/assets/data/weekly-update.json');
@@ -64,13 +65,22 @@ export default function HomeScreen() {
       </View>
 
       {/* Intro Messages */}
-      <View style={styles.introSection}>
-        <View >
+      <TouchableOpacity 
+        style={styles.introSection}
+        onPress={() => setIsIntroExpanded(!isIntroExpanded)}
+        activeOpacity={0.7}
+      >
+        <View style={[styles.introContainer, !isIntroExpanded && styles.introCollapsed]}>
           {weeklyData.introMessages.map((message, index) => (
             <Text key={index} style={styles.introText}>{message}</Text>
           ))}
         </View>
-      </View>
+        <View style={styles.expandButton}>
+          <Text style={styles.expandButtonText}>
+            {isIntroExpanded ? 'Show Less' : 'Click for More'}
+          </Text>
+        </View>
+      </TouchableOpacity>
 
       {/* Weekly Challenge */}
       <View style={styles.challengeSection}>
@@ -297,12 +307,34 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#4ade80',
   },
+  introSection: {
+    marginHorizontal: 20,
+    marginBottom: 20,
+    backgroundColor: '#2a2a2a',
+    borderRadius: 8,
+    overflow: 'hidden',
+  },
+  introContainer: {
+    padding: 16,
+  },
+  introCollapsed: {
+    maxHeight: 80,
+    overflow: 'hidden',
+  },
   introText: {
     fontSize: 14,
     color: '#ffffff',
     marginBottom: 8,
+    lineHeight: 20,
   },
-  introSection : {
-    padding: 20,
-  }
+  expandButton: {
+    backgroundColor: '#2a2a2a',
+    paddingVertical: 10,
+    alignItems: 'center',
+  },
+  expandButtonText: {
+    fontSize: 14,
+    color: '#ffffff',
+    fontWeight: '800',
+  },
 });
