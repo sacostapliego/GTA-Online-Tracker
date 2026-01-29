@@ -151,8 +151,8 @@ const styles = StyleSheet.create({
   },
   discountItem: {
     flexDirection: 'row',
-    padding: 10,
-    marginBottom: 10,
+    padding: 12,
+    marginBottom: 12,
     alignItems: 'center',
   },
   vehicleImage: {
