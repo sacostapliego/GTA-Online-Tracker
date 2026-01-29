@@ -54,16 +54,20 @@ def extract_price(driver):
         print(f"  Could not extract price: {e}")
         return None
 
-def calculate_discounted_price(original_price, discount_percent):
+def calculate_discounted_price(original_price, discount_percent, is_free=False):
     """
     Calculate the discounted price based on the percentage off.
+    If is_free is True, return 0.
     """
+    if is_free:
+        return 0
     if original_price and discount_percent:
         discount_amount = original_price * (discount_percent / 100)
         return int(original_price - discount_amount)
     return None
 
-def scrape_vehicle_data(driver, vehicle_url_name, discount_percent=None):
+
+def scrape_vehicle_data(driver, vehicle_url_name, discount_percent=None, is_free=False):
     """
     Scrape the vehicle image URL and price from gtacars.net using Selenium
     """
@@ -85,18 +89,20 @@ def scrape_vehicle_data(driver, vehicle_url_name, discount_percent=None):
         
         # Extract price
         original_price = extract_price(driver)
-        discounted_price = calculate_discounted_price(original_price, discount_percent) if discount_percent else None
+        discounted_price = calculate_discounted_price(original_price, discount_percent, is_free) if (discount_percent or is_free) else None
         
         return {
             "image_url": image_src,
             "original_price": original_price,
             "discounted_price": discounted_price,
-            "discount_percent": discount_percent
+            "discount_percent": discount_percent if not is_free else 100,
+            "is_free": is_free
         }
             
     except Exception as e:
         print(f"Error fetching {url}: {e}")
         return None
+    
 
 def process_weekly_update(json_file_path):
     """
@@ -180,13 +186,21 @@ def process_weekly_update(json_file_path):
         # Process discounts
         if 'discounts' in data:
             for discount in data['discounts']:
-                # Extract discount percentage
-                discount_match = re.match(r'(\d+)%\s+Off:\s+(.+)', discount)
-                if not discount_match:
-                    continue
+                # Check if it's a free vehicle
+                is_free = discount.startswith("Free:")
                 
-                discount_percent = int(discount_match.group(1))
-                vehicle_name = discount_match.group(2)
+                if is_free:
+                    # Extract vehicle name for free items
+                    vehicle_name = discount.replace("Free:", "").strip()
+                    discount_percent = None
+                else:
+                    # Extract discount percentage
+                    discount_match = re.match(r'(\d+)%\s+Off:\s+(.+)', discount)
+                    if not discount_match:
+                        continue
+                    
+                    discount_percent = int(discount_match.group(1))
+                    vehicle_name = discount_match.group(2)
                 
                 # Skip non-vehicle items
                 if "Properties" in vehicle_name or "Upgrades" in vehicle_name or "Modifications" in vehicle_name or "Offices" in vehicle_name:
@@ -197,18 +211,18 @@ def process_weekly_update(json_file_path):
                 url_name = normalize_vehicle_name(vehicle_name)
                 
                 # Scrape data
-                print(f"Fetching data for Discount: {vehicle_name} ({url_name})...")
-                vehicle_data = scrape_vehicle_data(driver, url_name, discount_percent)
+                print(f"Fetching data for {'Free' if is_free else 'Discount'}: {vehicle_name} ({url_name})...")
+                vehicle_data = scrape_vehicle_data(driver, url_name, discount_percent, is_free)
                 
                 if vehicle_data:
                     results[vehicle_name] = {
-                        "type": "Discount",
+                        "type": "Free" if is_free else "Discount",
                         "discount": discount,
                         "url": f"{BASE_URL}{url_name}",
                         **vehicle_data
                     }
                 else:
-                    failed_vehicles.append((vehicle_name, url_name, "Discount"))
+                    failed_vehicles.append((vehicle_name, url_name, "Free" if is_free else "Discount"))
                 
                 # avoid overwhelming the server
                 time.sleep(0.5)
@@ -231,7 +245,9 @@ if __name__ == "__main__":
         print(f"  URL: {info['url']}")
         print(f"  Image: {info['image_url']}")
         print(f"  Original Price: ${info['original_price']:,}" if info['original_price'] else "  Original Price: Not found")
-        if info.get('discounted_price'):
+        if info.get('is_free'):
+            print(f"  Price: FREE")
+        elif info.get('discounted_price') is not None:
             print(f"  Discounted Price: ${info['discounted_price']:,}")
             print(f"  Discount: {info['discount_percent']}%")
             
