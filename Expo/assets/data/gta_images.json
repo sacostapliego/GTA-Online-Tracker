@@ -10,5 +10,38 @@
   },
   "Car Meet": {
     "imageURL": "https://static.wikia.nocookie.net/gtawiki/images/5/57/LSCarMeet-GTAO-DayView.png/revision/latest/scale-to-width-down/1200?cb=20210720182327"
+  },
+  "RC Time Trials": {
+    "imageURL": "https://gtacars.net/images/17a069b12d0b5cfd144d2da923f05a9b"
+  },
+  "Safeguard": {
+    "imageURL":"https://www.gtabase.com/images/gta-5/online-jobs/contact/safeguard-deliveries.jpg"
+  },
+  "QuickiePharm": {
+    "imageURL":"https://www.gtabase.com/images/gta-5/online-jobs/contact/quickiepharm-medical-courier.jpg"
+  },
+  "Pizza": {
+    "imageURL":"https://www.gtabase.com/images/gta-5/online-jobs/freemode/pizza-this.jpg"
+  },
+  "Taxi": {
+    "imageURL": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/17384a7312771k/6099a377cadb35d6564f32bf1bdc7cdc522ecb83.jpg"
+  },
+  "Paper Route": {
+    "imageURL": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/01/how-to-start-the-paper-route-job-in-gta-online.jpg?w=1600&h=900&fit=crop"
+  },
+  "Forklift": {
+    "imageURL": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/01/how-to-become-a-forklift-operator-in-gta-online.jpg"
+  },
+  "Firefighter": {
+    "imageURL": "https://static0.srcdn.com/wordpress/wp-content/uploads/2020/06/GTA-Firefighters.jpg?w=1200&h=628&fit=crop"
+  },
+  "BLANK4": {
+    "imageURL": "BLANK"
+  },
+  "BLANK5": {
+    "imageURL": "BLANK"
+  },
+  "BLANK6": {
+    "imageURL": "BLANK"
   }
 }

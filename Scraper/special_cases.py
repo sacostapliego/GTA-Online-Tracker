@@ -17,4 +17,5 @@ SPECIAL_CASES = {
     "Dinka Veto Modern" : "veto2",
     "Declasse Hotring Sabre": "hotring",
     "Brute Bobcat Security Stockade": "stockade4",
+    "Pegassi Pizza Boy" : "pizzaboy",
 }
