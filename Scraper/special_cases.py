@@ -13,4 +13,7 @@ SPECIAL_CASES = {
     "Mammoth Patriot Mil-Spec": "patriot3",
     "Declasse Tampa GT": "tampa4",
     "Grotti Stinger TT": "stingertt",
+    "Übermacht Sentinel Classic": "sentinel3",
+    "Dinka Veto Modern" : "veto2",
+    "Declasse Hotring Sabre": "hotring",
 }

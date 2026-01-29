@@ -118,6 +118,7 @@ def process_weekly_update(json_file_path):
     driver = webdriver.Chrome(service=service, options=chrome_options)
     
     results = {}
+    failed_vehicles = []  # Track failed vehicles
     
     try:
         # Process podium vehicle
@@ -134,6 +135,8 @@ def process_weekly_update(json_file_path):
                     "url": f"{BASE_URL}{url_name}",
                     **vehicle_data
                 }
+            else:
+                failed_vehicles.append((vehicle_name, url_name, "Podium Vehicle"))
             time.sleep(0.5)
         
         # Process prize ride vehicle
@@ -150,6 +153,8 @@ def process_weekly_update(json_file_path):
                     "url": f"{BASE_URL}{url_name}",
                     **vehicle_data
                 }
+            else:
+                failed_vehicles.append((vehicle_name, url_name, "Prize Ride Vehicle"))
             time.sleep(0.5)
         
         # Process salvage yard robbery vehicles
@@ -168,6 +173,8 @@ def process_weekly_update(json_file_path):
                         "url": f"{BASE_URL}{url_name}",
                         **vehicle_data
                     }
+                else:
+                    failed_vehicles.append((vehicle_name, url_name, robbery_type))
                 time.sleep(0.5)
         
         # Process discounts
@@ -200,20 +207,22 @@ def process_weekly_update(json_file_path):
                         "url": f"{BASE_URL}{url_name}",
                         **vehicle_data
                     }
+                else:
+                    failed_vehicles.append((vehicle_name, url_name, "Discount"))
                 
                 # avoid overwhelming the server
                 time.sleep(0.5)
     finally:
         driver.quit()
     
-    return results
+    return results, failed_vehicles
 
 # Example usage
 if __name__ == "__main__":
     json_path = "data/weekly-update.json"   
      
     print("Starting vehicle data scraper with Selenium...\n")
-    vehicle_data = process_weekly_update(json_path)
+    vehicle_data, failed_vehicles = process_weekly_update(json_path)
     
     # Print results
     print("\n--- Results ---")
@@ -225,6 +234,13 @@ if __name__ == "__main__":
         if info.get('discounted_price'):
             print(f"  Discounted Price: ${info['discounted_price']:,}")
             print(f"  Discount: {info['discount_percent']}%")
+            
+    # Print failed vehicles
+    if failed_vehicles:
+        print("\n\n--- FAILED VEHICLES (Add to special_cases.py) ---")
+        print("The following vehicles failed to scrape. Add them to SPECIAL_CASES:\n")
+        for vehicle_name, attempted_url, vehicle_type in failed_vehicles:
+            print(f'    "{vehicle_name}": "correct-url-here",  # {vehicle_type} - Attempted: {attempted_url}')
     
     # Save to JSON file
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:

@@ -1,4 +1,20 @@
 {
+  "Mammoth Patriot Mil-Spec": {
+    "type": "Podium Vehicle",
+    "url": "https://gtacars.net/gta5/patriot3",
+    "image_url": "https://gtacars.net/images/5707f118a207842e713226c9609dda1c",
+    "original_price": 1710000,
+    "discounted_price": null,
+    "discount_percent": null
+  },
+  "Declasse Tampa GT": {
+    "type": "Prize Ride Vehicle",
+    "url": "https://gtacars.net/gta5/tampa4",
+    "image_url": "https://gtacars.net/images/38e5ba3c9faa896f5049accf8fbc2e39",
+    "original_price": 1311000,
+    "discounted_price": null,
+    "discount_percent": null
+  },
   "Canis Kamacho": {
     "type": "The Gangbanger Robbery",
     "url": "https://gtacars.net/gta5/kamacho",
@@ -14,6 +30,23 @@
     "original_price": 485000,
     "discounted_price": null,
     "discount_percent": null
+  },
+  "Grotti Stinger TT": {
+    "type": "The Podium Robbery",
+    "url": "https://gtacars.net/gta5/stingertt",
+    "image_url": "https://gtacars.net/images/7acdca8b9c29b91b9bae13c1dd79c6fb",
+    "original_price": 2380000,
+    "discounted_price": null,
+    "discount_percent": null
+  },
+  "MTL Fire Truck": {
+    "type": "Discount",
+    "discount": "30% Off: MTL Fire Truck",
+    "url": "https://gtacars.net/gta5/firetruk",
+    "image_url": "https://gtacars.net/images/16c2a611c3bbc64b7d4c2a64fb60f5e7",
+    "original_price": 3295000,
+    "discounted_price": 2306500,
+    "discount_percent": 30
   },
   "Brute Bobcat Security Stockade": {
     "type": "Discount",
@@ -85,6 +118,33 @@
     "image_url": "https://gtacars.net/images/e2bffb65ca50a6c24e0b8a3ec215fd04",
     "original_price": 1150000,
     "discounted_price": 805000,
+    "discount_percent": 30
+  },
+  "Dinka Veto Modern": {
+    "type": "Discount",
+    "discount": "30% Off: Dinka Veto Modern",
+    "url": "https://gtacars.net/gta5/veto2",
+    "image_url": "https://gtacars.net/images/11efc52bae8531ede391ef307ca8d41c",
+    "original_price": 995000,
+    "discounted_price": 696500,
+    "discount_percent": 30
+  },
+  "Declasse Hotring Sabre": {
+    "type": "Discount",
+    "discount": "30% Off: Declasse Hotring Sabre",
+    "url": "https://gtacars.net/gta5/hotring",
+    "image_url": "https://gtacars.net/images/8f0b5732a807bee74acb0659aace27d1",
+    "original_price": 830000,
+    "discounted_price": 581000,
+    "discount_percent": 30
+  },
+  "\u00dcbermacht Sentinel Classic": {
+    "type": "Discount",
+    "discount": "30% Off: \u00dcbermacht Sentinel Classic",
+    "url": "https://gtacars.net/gta5/sentinel3",
+    "image_url": "https://gtacars.net/images/39603b6eb6dfe10663486c2cde6c5fe7",
+    "original_price": 650000,
+    "discounted_price": 455000,
     "discount_percent": 30
   },
   "Grotti Cheetah": {
