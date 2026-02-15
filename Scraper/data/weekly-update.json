@@ -1,50 +1,47 @@
 {
-  "weekOf": "February 5th to February 12th (Not live until ~5am EDT on February 5th)",
+  "weekOf": "February 12th to February 19th (Not live until ~5am EDT on February 12th)",
   "introMessages": [
-    "Use twin Shotaro beam trails to destroy rival couples in Deadline Duet, a new Adversary Mode added to GTA Online right in time for Valentine’s Day and paying out Triple Rewards for the next two weeks.",
-    "Winning two matches of Deadline Duet will satisfy the Weekly Challenge and reward you with GTA$100,000.",
-    "The next two weeks will also feature plenty of activities for groups: earn 4X Salaries working as an Associate or Bodyguard through February 18 and get free Champagne in all Nightclubs.",
-    "Come back next week to celebrate the Year of the Fire Horse in GTA Online with a new Lunar New Year Stunt Race, Yuanbao Collectibles, and more."
+    "This week marks the release of the Grotti Itali Classic, now available to purchase from Legendary Motorsport.",
+    "Valentine’s Day celebrations in GTA Online this week include Triple Rewards on Deadline Duet, 4X GTA$ on Associate and Bodyguard Salaries, and boosted chances of finding the Pink Diamond in El Rubio’s compound during the Cayo Perico Heist.",
+    "We’re also celebrating the Year of the Fire Horse with a new Lunar New Year Stunt Race: The Senora Derby, as well as 3X GTA$ and RP on all Lunar New Year Stunt Races. Plus, the return of Yuanbao Collectibles, free Horse Tattoos and Masks, and more."
   ],
-  "podiumVehicle": "Invetero Coquette D1",
-  "prizeRideVehicle": "Übermacht Rhinehart",
-  "prizeRideChallenge": "Win in the LS Car Meet Series Once",
-  "timeTrial": "Cypress Flats",
-  "premiumRace": "Senora Freeway, locked to Super",
-  "hswTimeTrial": "Sandy Shores to La Puerta",
+  "podiumVehicle": "Bravado Buffalo EVX",
+  "prizeRideVehicle": "Lampadati Corsita",
+  "prizeRideChallenge": "Place Top 2 in the LS Car Meet Series",
+  "timeTrial": "Up N Atom",
+  "premiumRace": "Muscle In, locked to Muscle",
+  "hswTimeTrial": "Textile City to Stab City",
   "salvageYardRobberies": [
     {
-      "type": "The Cargo Ship Robbery",
-      "vehicle": "Grotti Furia"
+      "type": "The Duggan Robbery",
+      "vehicle": "Obey Omnis e-GT"
     },
     {
-      "type": "The McTony Robbery",
-      "vehicle": "Classique Broadway"
+      "type": "The Cargo Ship Robbery",
+      "vehicle": "Pfister Comet Safari"
     },
     {
       "type": "The Gangbanger Robbery",
-      "vehicle": "Bravado Greenwood"
+      "vehicle": "Vapid Caracara 4x4"
     }
   ],
-  "weeklyChallenge": "Win two Adversary Modes to receive GTA$100,000",
+  "weeklyChallenge": "Earn GTA$100,000 as an Associate or Bodyguard to receive the Valentines Blazer and GTA$100,000",
   "bonuses": [
-    "2X GTA$, RP, and Research Progress - Bunker Research Missions",
-    "2X GTA$ and RP - Short Trips",
-    "2X GTA$ and RP - Community Race Series"
+    "4X GTA$ and RP - CEO/VIP Work",
+    "2X GTA$ and RP - Community Series"
   ],
   "discounts": [
-    "40% Off: Meth Lab Properties and Upgrades",
-    "30% Off: Emperor ETR1",
-    "30% Off: Överflöd Autarch",
-    "30% Off: Pfister Comet S2",
-    "30% Off: Nagasaki Weaponized Dinghy",
-    "30% Off: Benefactor Vorschlaghammer",
-    "30% Off: Gallivanter Baller ST-D",
-    "30% Off: HVY Vetir",
-    "30% Off: Western Powersurge",
-    "30% Off: Western Company Rogue",
-    "30% Off: Karin Futo GTX",
-    "30% Off: Truffade Nero",
-    "30% Off: Vulcar Warrener HKR"
+    "40% Off: Executive Offices",
+    "40% Off: Executive Office Upgrades",
+    "30% Off: Karin Hotring Everon",
+    "30% Off: Declasse Tulip M-100",
+    "30% Off: Dewbauchee Vagner",
+    "30% Off: Declasse Tahoma Coupe",
+    "30% Off: Pfister Neon",
+    "30% Off: Coil Raiden",
+    "30% Off: Jobuilt Velum 5-Seater",
+    "30% Off: Declasse Yosemite 1500",
+    "30% Off: Pegassi Torero",
+    "30% Off: Grotti Cheetah Classic"
   ]
 }

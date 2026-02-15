@@ -1,0 +1,11 @@
+--- FAILED VEHICLES (Add to special_cases.py) ---
+The following vehicles failed to scrape. Add them to SPECIAL_CASES:
+
+    "Bravado Buffalo EVX": "correct-url-here",  # Podium Vehicle - Attempted: evx
+    "Pfister Comet Safari": "correct-url-here",  # The Cargo Ship Robbery - Attempted: safari
+    "Vapid Caracara 4x4": "correct-url-here",  # The Gangbanger Robbery - Attempted: 4x4
+    "Declasse Tulip M-100": "correct-url-here",  # Discount - Attempted: m-100
+    "Declasse Tahoma Coupe": "correct-url-here",  # Discount - Attempted: coupe
+    "Jobuilt Velum 5-Seater": "correct-url-here",  # Discount - Attempted: 5-seater
+    "Declasse Yosemite 1500": "correct-url-here",  # Discount - Attempted: 1500
+    "Grotti Cheetah Classic": "correct-url-here",  # Discount - Attempted: classic
