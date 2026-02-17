@@ -18,4 +18,12 @@ SPECIAL_CASES = {
     "Declasse Hotring Sabre": "hotring",
     "Brute Bobcat Security Stockade": "stockade4",
     "Pegassi Pizza Boy" : "pizzaboy",
+    "Bravado Buffalo EVX": "buffalo5",
+    "Pfister Comet Safari": "comet4",
+    "Vapid Caracara 4x4" : "caracara2",
+    "Declasse Tulip M-100" : "tulip2",
+    "Declasse Tahoma Coupe": "tahoma",
+    "Jobuilt Velum 5-Seater" : "velum2",
+    "Declasse Yosemite 1500" : "yosemite1500",
+    "Grotti Cheetah Classic" : "cheetah2",
 }
