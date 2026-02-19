@@ -1,47 +1,53 @@
 {
-  "weekOf": "February 12th to February 19th (Not live until ~5am EDT on February 12th)",
+  "weekOf": "February 19th to February 26th (Not live until ~5am EDT on February 19th)",
   "introMessages": [
-    "This week marks the release of the Grotti Itali Classic, now available to purchase from Legendary Motorsport.",
-    "Valentine’s Day celebrations in GTA Online this week include Triple Rewards on Deadline Duet, 4X GTA$ on Associate and Bodyguard Salaries, and boosted chances of finding the Pink Diamond in El Rubio’s compound during the Cayo Perico Heist.",
-    "We’re also celebrating the Year of the Fire Horse with a new Lunar New Year Stunt Race: The Senora Derby, as well as 3X GTA$ and RP on all Lunar New Year Stunt Races. Plus, the return of Yuanbao Collectibles, free Horse Tattoos and Masks, and more."
+    "Earn illicit profits by taking advantage of discounts on Counterfeit Cash Factories and boosted bottom lines on Clubhouse Contracts, MC Work and Challenges, Street Dealer Sales, and more.",
+    "Meanwhile, the Lunar New Year celebration continues over the next two weeks with Triple Rewards (6X for GTA+ Members) on all Lunar New Year Stunt Races."
   ],
-  "podiumVehicle": "Bravado Buffalo EVX",
-  "prizeRideVehicle": "Lampadati Corsita",
-  "prizeRideChallenge": "Place Top 2 in the LS Car Meet Series",
-  "timeTrial": "Up N Atom",
-  "premiumRace": "Muscle In, locked to Muscle",
-  "hswTimeTrial": "Textile City to Stab City",
+  "podiumVehicle": "Karin Sultan RS Classic",
+  "prizeRideVehicle": "Grotti Stinger GT",
+  "prizeRideChallenge": "Place Top 4 in the LS Car Meet Series",
+  "timeTrial": "Maze Bank Arena",
+  "premiumRace": "Art to Art, locked to Motorcycle",
+  "hswTimeTrial": "Ron Alternates to Elysian Island",
   "salvageYardRobberies": [
     {
-      "type": "The Duggan Robbery",
-      "vehicle": "Obey Omnis e-GT"
-    },
-    {
-      "type": "The Cargo Ship Robbery",
-      "vehicle": "Pfister Comet Safari"
-    },
-    {
       "type": "The Gangbanger Robbery",
-      "vehicle": "Vapid Caracara 4x4"
+      "vehicle": "Dewbauchee Champion"
+    },
+    {
+      "type": "The Podium Robbery",
+      "vehicle": "Karin Everon"
+    },
+    {
+      "type": "The McTony Robbery",
+      "vehicle": "BF Weevil"
     }
   ],
-  "weeklyChallenge": "Earn GTA$100,000 as an Associate or Bodyguard to receive the Valentines Blazer and GTA$100,000",
+  "weeklyChallenge": "Win 2 Stunt Races to receive GTA$100,000",
   "bonuses": [
-    "4X GTA$ and RP - CEO/VIP Work",
-    "2X GTA$ and RP - Community Series"
+    "3X GTA$ and RP - All Lunar New Year Stunt Races (6X for GTA+ Members)",
+    "2X GTA$ - Counterfeit Cash Sell Missions",
+    "2X GTA$ - Street Dealer Sales",
+    "2X GTA$ and RP - Biker Clubhouse Contracts, MC Work, and MC Challenges",
+    "2X GTA$ and RP - Community Combat Series"
   ],
   "discounts": [
-    "40% Off: Executive Offices",
-    "40% Off: Executive Office Upgrades",
-    "30% Off: Karin Hotring Everon",
-    "30% Off: Declasse Tulip M-100",
-    "30% Off: Dewbauchee Vagner",
-    "30% Off: Declasse Tahoma Coupe",
-    "30% Off: Pfister Neon",
-    "30% Off: Coil Raiden",
-    "30% Off: Jobuilt Velum 5-Seater",
-    "30% Off: Declasse Yosemite 1500",
-    "30% Off: Pegassi Torero",
-    "30% Off: Grotti Cheetah Classic"
+    "Free: tba",
+    "50% Off: tba",
+    "40% Off: Counterfeit Cash Factories",
+    "40% Off: Counterfeit Cash Factory Upgrades and Modifications",
+    "30% Off: Western Company Cargobob (Jetsam)",
+    "30% Off: Western Company Cargobob",
+    "30% Off: Canis Terminus",
+    "30% Off: HVY Insurgent Pick-Up",
+    "30% Off: Vapid Caracara",
+    "30% Off: Vapid Retinue Mk II",
+    "30% Off: Vapid Slamtruck",
+    "30% Off: Declasse Walton L35 Stock",
+    "30% Off: Ocelot Jugular",
+    "30% Off: Declasse Drift Tampa",
+    "30% Off: Vulcar Nebula Turbo",
+    "30% Off: Dinka Jester Classic"
   ]
 }
