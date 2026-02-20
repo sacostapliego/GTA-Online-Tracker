@@ -1,65 +1,53 @@
 {
-  "weekOf": "January 29 to February 5th (Not live until ~5am EDT on January 29th)",
+  "weekOf": "February 19th to February 26th (Not live until ~5am EDT on February 19th)",
   "introMessages": [
-    "Clock in and work as a Firefighter, Forklift Operator, or deliver a Paper Route in three new Odd Jobs, arriving in GTA Online tomorrow.",
-    "All Odd Jobs are paying out double through February 4, alongside additional rewards for earning an honest living, such as a tripled Weekly Challenge paycheck and the returning Downtown Cab Co. Revere Collar Shirt.",
-    "Cocaine Production Speeds are also doubled, as are prize purses for competing in the Community Race Series, and more.",
-    "Prepare for an explosive Valentine’s Day and get ready to blow opposing couples up in the new Deadline Duet adversary mode and take a ride on the wild side in the Pfister Astrale (Sports Classic), both releasing in GTA Online next week.",
-    "We recently introduced several bug fixes and improvements to GTA Online, including updates to Wanted Level Options in the Mission Creator — allowing for greater flexibility to create a full range of GTA mission styles. For more information, visit the latest Title Update notes."
+    "Earn illicit profits by taking advantage of discounts on Counterfeit Cash Factories and boosted bottom lines on Clubhouse Contracts, MC Work and Challenges, Street Dealer Sales, and more.",
+    "Meanwhile, the Lunar New Year celebration continues over the next two weeks with Triple Rewards (6X for GTA+ Members) on all Lunar New Year Stunt Races."
   ],
-  "podiumVehicle": "Mammoth Patriot Mil-Spec",
-  "prizeRideVehicle": "Declasse Tampa GT",
+  "podiumVehicle": "Karin Sultan RS Classic",
+  "prizeRideVehicle": "Grotti Stinger GT",
   "prizeRideChallenge": "Place Top 4 in the LS Car Meet Series",
-  "timeTrial": "Sawmill",
-  "premiumRace": "Down the Drain, locked to Muscle",
-  "hswTimeTrial": "Del Perro Beach to Murietta Heights",
+  "timeTrial": "Maze Bank Arena",
+  "premiumRace": "Art to Art, locked to Motorcycle",
+  "hswTimeTrial": "Ron Alternates to Elysian Island",
   "salvageYardRobberies": [
     {
       "type": "The Gangbanger Robbery",
-      "vehicle": "Canis Kamacho"
-    },
-    {
-      "type": "The Duggan Robbery",
-      "vehicle": "Declasse Drift Yosemite"
+      "vehicle": "Dewbauchee Champion"
     },
     {
       "type": "The Podium Robbery",
-      "vehicle": "Grotti Stinger TT"
+      "vehicle": "Karin Everon"
+    },
+    {
+      "type": "The McTony Robbery",
+      "vehicle": "BF Weevil"
     }
   ],
-  "weeklyChallenge": "Complete 5 Pizza Deliveries to receive the Pizza This Tee and GTA$300,000",
+  "weeklyChallenge": "Win 2 Stunt Races to receive GTA$100,000",
   "bonuses": [
-    "2X GTA$ and RP - New Odd Jobs:",
-    "2X GTA$ and RP - Firefighter",
-    "2X GTA$ and RP - Forklift Operator",
-    "2X GTA$ and RP - Paper Route",
-    "2X GTA$ and RP - Existing Odd Jobs:",
-    "2X GTA$ and RP - Taxi Work (GTA$ only)",
-    "2X GTA$ and RP - Pizza Delivery",
-    "2X GTA$ and RP - QuickiePharm",
-    "2X GTA$ and RP - Safeguard",
-    "2X GTA$ and RP - RC Time Trials",
-    "2X GTA$ and RP - Featured Series: Issi Classic Races",
-    "2X GTA$ and RP - Community Race Series",
-    "2X GTA$ and RP - Cocaine Production Speed"
+    "3X GTA$ and RP - All Lunar New Year Stunt Races (6X for GTA+ Members)",
+    "2X GTA$ - Counterfeit Cash Sell Missions",
+    "2X GTA$ - Street Dealer Sales",
+    "2X GTA$ and RP - Biker Clubhouse Contracts, MC Work, and MC Challenges",
+    "2X GTA$ and RP - Community Combat Series"
   ],
   "discounts": [
-    "Free: Pegassi Pizza Boy",
-    "40% Off: Cocaine Lockup Properties",
-    "40% Off: Cocaine Lockup Upgrades",
-    "30% Off: MTL Fire Truck",
-    "30% Off: Brute Bobcat Security Stockade",
-    "30% Off: Brute Stockade",
-    "30% Off: Vapid Taxi",
-    "30% Off: Pegassi Zorrusso",
-    "30% Off: MTL Dune",
-    "30% Off: Nagasaki Outlaw",
-    "30% Off: Blimp",
-    "30% Off: Buckingham Shamal",
-    "30% Off: Dinka Veto Modern",
-    "30% Off: Declasse Hotring Sabre",
-    "30% Off: Übermacht Sentinel Classic",
-    "30% Off: Grotti Cheetah",
-    "30% Off: Canis Freecrawler"
+    "Free: tba",
+    "50% Off: tba",
+    "40% Off: Counterfeit Cash Factories",
+    "40% Off: Counterfeit Cash Factory Upgrades and Modifications",
+    "30% Off: Western Company Cargobob (Jetsam)",
+    "30% Off: Western Company Cargobob",
+    "30% Off: Canis Terminus",
+    "30% Off: HVY Insurgent Pick-Up",
+    "30% Off: Vapid Caracara",
+    "30% Off: Vapid Retinue Mk II",
+    "30% Off: Vapid Slamtruck",
+    "30% Off: Declasse Walton L35 Stock",
+    "30% Off: Ocelot Jugular",
+    "30% Off: Declasse Drift Tampa",
+    "30% Off: Vulcar Nebula Turbo",
+    "30% Off: Dinka Jester Classic"
   ]
 }
