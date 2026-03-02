@@ -1,53 +1,52 @@
 {
-  "weekOf": "February 19th to February 26th (Not live until ~5am EDT on February 19th)",
+  "weekOf": "February 26th to March 5th (Not live until ~5am EDT on February 26th)",
   "introMessages": [
-    "Earn illicit profits by taking advantage of discounts on Counterfeit Cash Factories and boosted bottom lines on Clubhouse Contracts, MC Work and Challenges, Street Dealer Sales, and more.",
-    "Meanwhile, the Lunar New Year celebration continues over the next two weeks with Triple Rewards (6X for GTA+ Members) on all Lunar New Year Stunt Races."
+    "Drift to victory in the surprisingly powerful new Shitzu Keitora — now available from Southern San Andreas Super Autos and eligible for Drift Tuning alongside three existing vehicles.",
+    "During this week's Drift Event in GTA Online earn triple on Drift Races, 5X LS Car Meet Rep, get the Manga Classic livery for the Drift variant of the Annis Euros, a claimable Salvage Yard Robbery vehicle, and much more.",
+    "There’s also GTA$500,000 in Twitch Drops available to claim by watching a special Community Series featuring top racing tracks from Japanese creators — look out for more info on that tomorrow and check out the rest of this week's details below."
   ],
-  "podiumVehicle": "Karin Sultan RS Classic",
-  "prizeRideVehicle": "Grotti Stinger GT",
-  "prizeRideChallenge": "Place Top 4 in the LS Car Meet Series",
-  "timeTrial": "Maze Bank Arena",
-  "premiumRace": "Art to Art, locked to Motorcycle",
-  "hswTimeTrial": "Ron Alternates to Elysian Island",
+  "podiumVehicle": "Benefactor Stirling GT",
+  "prizeRideVehicle": "Fathom FR36",
+  "prizeRideChallenge": "Place Top 3 in the LS Car Meet Series for 4 days in a row",
+  "timeTrial": "Tongva Valley",
+  "premiumRace": "Cutting Coroners, locked to Super",
+  "hswTimeTrial": "Terminal to Chiliad Mountain State Wilderness",
   "salvageYardRobberies": [
     {
-      "type": "The Gangbanger Robbery",
-      "vehicle": "Dewbauchee Champion"
-    },
-    {
-      "type": "The Podium Robbery",
-      "vehicle": "Karin Everon"
+      "type": "The Duggan Robbery",
+      "vehicle": "Maibatsu Penumbra FF with LS Car Meet Vanity Plate CLAIMABLE"
     },
     {
       "type": "The McTony Robbery",
+      "vehicle": "Grotti GT500"
+    },
+    {
+      "type": "The Cargo Ship Robbery",
       "vehicle": "BF Weevil"
     }
   ],
-  "weeklyChallenge": "Win 2 Stunt Races to receive GTA$100,000",
+  "weeklyChallenge": "Participate in 3 Drift Races to earn the Bright Manor Racing Suit and GTA$100,000",
   "bonuses": [
-    "3X GTA$ and RP - All Lunar New Year Stunt Races (6X for GTA+ Members)",
-    "2X GTA$ - Counterfeit Cash Sell Missions",
-    "2X GTA$ - Street Dealer Sales",
-    "2X GTA$ and RP - Biker Clubhouse Contracts, MC Work, and MC Challenges",
-    "2X GTA$ and RP - Community Combat Series"
+    "4X GTA$ and RP - Exotic Exports )(10 Cars From the Auto Shop List)",
+    "3X GTA$ and RP - Drift Races (6X for GTA+ Members)",
+    "2X GTA$ - Weed Sell Missions (Biker Weed Farms and Nightclub Organic Produce)",
+    "2X GTA$ and RP - Sumo (Remix)"
   ],
   "discounts": [
-    "Free: tba",
-    "50% Off: tba",
-    "40% Off: Counterfeit Cash Factories",
-    "40% Off: Counterfeit Cash Factory Upgrades and Modifications",
-    "30% Off: Western Company Cargobob (Jetsam)",
-    "30% Off: Western Company Cargobob",
-    "30% Off: Canis Terminus",
-    "30% Off: HVY Insurgent Pick-Up",
-    "30% Off: Vapid Caracara",
-    "30% Off: Vapid Retinue Mk II",
-    "30% Off: Vapid Slamtruck",
-    "30% Off: Declasse Walton L35 Stock",
-    "30% Off: Ocelot Jugular",
-    "30% Off: Declasse Drift Tampa",
-    "30% Off: Vulcar Nebula Turbo",
-    "30% Off: Dinka Jester Classic"
+    "Free: Dinka Blista Kanjo",
+    "Free: Declasse Drift Walton L35",
+    "Free: LS Car Meet Membership",
+    "40% Off: Weed Farm Businesses",
+    "40% Off: Weed Farm Business Upgrades",
+    "30% Off: Drift Tuning Upgrades",
+    "30% Off: Dinka Jester RR",
+    "30% Off: Fathom FR36",
+    "30% Off: Dinka Chavos V6",
+    "30% Off: Declasse Drift Yosemite",
+    "30% Off: Buckingham Howard NX-25",
+    "30% Off: Zirconium Journey II",
+    "30% Off: Bravado Gauntlet Hellfire",
+    "30% Off: RUNE Cheburek",
+    "30% Off: Karin Futo"
   ]
 }
