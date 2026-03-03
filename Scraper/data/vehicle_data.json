@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "Dewbauchee Champion": {
     "type": "The Gangbanger Robbery",
     "url": "https://gtacars.net/gta5/champion",
@@ -83,6 +84,83 @@
     "image_url": "https://gtacars.net/images/5decfcda9d082403831a72df24aa9c78",
     "original_price": 375000,
     "discounted_price": 262500,
+=======
+  "Fathom FR36": {
+    "type": "Discount",
+    "discount": "30% Off: Fathom FR36",
+    "url": "https://gtacars.net/gta5/fr36",
+    "image_url": "https://gtacars.net/images/4331afdcb99c1c02a6c0d467669b735f",
+    "original_price": 1610000,
+    "discounted_price": 1127000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Grotti GT500": {
+    "type": "The McTony Robbery",
+    "url": "https://gtacars.net/gta5/gt500",
+    "image_url": "https://gtacars.net/images/7b8e2f1c957bf4e4daf551a863743470",
+    "original_price": 785000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "BF Weevil": {
+    "type": "The Cargo Ship Robbery",
+    "url": "https://gtacars.net/gta5/weevil",
+    "image_url": "https://gtacars.net/images/551dc919cf92fab2374ec7cc5fcd3cbc",
+    "original_price": 870000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "Dinka Blista Kanjo": {
+    "type": "Free",
+    "discount": "Free: Dinka Blista Kanjo",
+    "url": "https://gtacars.net/gta5/kanjo",
+    "image_url": "https://gtacars.net/images/0e512a64cccb8adec297578b3e7feaa9",
+    "original_price": 580000,
+    "discounted_price": 0,
+    "discount_percent": 100,
+    "is_free": true
+  },
+  "Declasse Drift Walton L35": {
+    "type": "Free",
+    "discount": "Free: Declasse Drift Walton L35",
+    "url": "https://gtacars.net/gta5/l35",
+    "image_url": "https://gtacars.net/images/b398fcca43b5529c1b92022024a27b6f",
+    "original_price": 1670000,
+    "discounted_price": 0,
+    "discount_percent": 100,
+    "is_free": true
+  },
+  "Declasse Drift Yosemite": {
+    "type": "Discount",
+    "discount": "30% Off: Declasse Drift Yosemite",
+    "url": "https://gtacars.net/gta5/yosemite",
+    "image_url": "https://gtacars.net/images/368352c6c1a6304cdb9f94662584a78b",
+    "original_price": 485000,
+    "discounted_price": 339500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "RUNE Cheburek": {
+    "type": "Discount",
+    "discount": "30% Off: RUNE Cheburek",
+    "url": "https://gtacars.net/gta5/cheburek",
+    "image_url": "https://gtacars.net/images/ffa5abdb48c00d0b715e203fd5970110",
+    "original_price": 145000,
+    "discounted_price": 101500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Karin Futo": {
+    "type": "Discount",
+    "discount": "30% Off: Karin Futo",
+    "url": "https://gtacars.net/gta5/futo",
+    "image_url": "https://gtacars.net/images/8f09ecdb4bf6c5c1a64e10a8d9c92456",
+    "original_price": 9000,
+    "discounted_price": 6300,
+>>>>>>> 11a41aa0717bb1f2495eab24f2244c9f586e0d0b
     "discount_percent": 30,
     "is_free": false
   }
