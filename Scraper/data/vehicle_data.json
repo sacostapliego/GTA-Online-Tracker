@@ -1,166 +1,88 @@
 {
-<<<<<<< HEAD
-  "Dewbauchee Champion": {
-    "type": "The Gangbanger Robbery",
-    "url": "https://gtacars.net/gta5/champion",
-    "image_url": "https://gtacars.net/images/158bb4a74e98a84fde2867442be9f626",
-    "original_price": 3750000,
+  "Pegassi Reaper": {
+    "type": "Podium Vehicle",
+    "url": "https://gtacars.net/gta5/reaper",
+    "image_url": "https://gtacars.net/images/671a28ac359e6225402a49f3dbf62a09",
+    "original_price": 1595000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Karin Everon": {
-    "type": "The Podium Robbery",
-    "url": "https://gtacars.net/gta5/everon",
-    "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
-    "original_price": 1475000,
+  "Annis Remus": {
+    "type": "Prize Ride Vehicle",
+    "url": "https://gtacars.net/gta5/remus",
+    "image_url": "https://gtacars.net/images/8dd636d2d77270e80547a46b206e77e4",
+    "original_price": 1370000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "BF Weevil": {
+  "Obey Omnis e-GT": {
     "type": "The McTony Robbery",
-    "url": "https://gtacars.net/gta5/weevil",
-    "image_url": "https://gtacars.net/images/551dc919cf92fab2374ec7cc5fcd3cbc",
-    "original_price": 870000,
+    "url": "https://gtacars.net/gta5/omnisegt",
+    "image_url": "https://gtacars.net/images/7244b0fab15821a69b9bc926edc290c6",
+    "original_price": 1795000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Western Company Cargobob": {
+  "Buckingham Miljet": {
     "type": "Discount",
-    "discount": "30% Off: Western Company Cargobob",
-    "url": "https://gtacars.net/gta5/cargobob",
-    "image_url": "https://gtacars.net/images/14511ec7bd341fc6f26664a0a035bf9a",
-    "original_price": 1790000,
-    "discounted_price": 1253000,
+    "discount": "30% Off: Buckingham Miljet",
+    "url": "https://gtacars.net/gta5/miljet",
+    "image_url": "https://gtacars.net/images/0349cc82f29679ae40397d03a15ac785",
+    "original_price": 1700000,
+    "discounted_price": 1190000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Canis Terminus": {
+  "Pfister Astron": {
     "type": "Discount",
-    "discount": "30% Off: Canis Terminus",
-    "url": "https://gtacars.net/gta5/terminus",
-    "image_url": "https://gtacars.net/images/993490e0f776f764c577ec4a3aa09f37",
-    "original_price": 1877500,
-    "discounted_price": 1314250,
+    "discount": "30% Off: Pfister Astron",
+    "url": "https://gtacars.net/gta5/astron",
+    "image_url": "https://gtacars.net/images/6bcd16c0bdae988298c6365b96830cb7",
+    "original_price": 1580000,
+    "discounted_price": 1106000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Vapid Caracara": {
+  "Pegassi Tempesta": {
     "type": "Discount",
-    "discount": "30% Off: Vapid Caracara",
-    "url": "https://gtacars.net/gta5/caracara",
-    "image_url": "https://gtacars.net/images/801c73b5ac35aeb7834071ddcdd2cd0b",
-    "original_price": 1775000,
-    "discounted_price": 1242500,
+    "discount": "30% Off: Pegassi Tempesta",
+    "url": "https://gtacars.net/gta5/tempesta",
+    "image_url": "https://gtacars.net/images/41242cbbb2644235ec4bfc72864d0a56",
+    "original_price": 1329000,
+    "discounted_price": 930300,
     "discount_percent": 30,
     "is_free": false
   },
-  "Vapid Slamtruck": {
+  "Dinka Sugoi": {
     "type": "Discount",
-    "discount": "30% Off: Vapid Slamtruck",
-    "url": "https://gtacars.net/gta5/slamtruck",
-    "image_url": "https://gtacars.net/images/58047dc399229a0049218763de41aa3a",
-    "original_price": 1310000,
-    "discounted_price": 917000,
+    "discount": "30% Off: Dinka Sugoi",
+    "url": "https://gtacars.net/gta5/sugoi",
+    "image_url": "https://gtacars.net/images/bee2f4a92dd3055e4f31f583e2c51b51",
+    "original_price": 1224000,
+    "discounted_price": 856800,
     "discount_percent": 30,
     "is_free": false
   },
-  "Ocelot Jugular": {
+  "Declasse Mamba": {
     "type": "Discount",
-    "discount": "30% Off: Ocelot Jugular",
-    "url": "https://gtacars.net/gta5/jugular",
-    "image_url": "https://gtacars.net/images/859e4a027f547501947ca247be15223b",
-    "original_price": 1225000,
-    "discounted_price": 857500,
+    "discount": "30% Off: Declasse Mamba",
+    "url": "https://gtacars.net/gta5/mamba",
+    "image_url": "https://gtacars.net/images/3f20a676700da328ea7632082f2beb8f",
+    "original_price": 995000,
+    "discounted_price": 696500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Declasse Drift Tampa": {
+  "Lampadati Novak": {
     "type": "Discount",
-    "discount": "30% Off: Declasse Drift Tampa",
-    "url": "https://gtacars.net/gta5/tampa",
-    "image_url": "https://gtacars.net/images/5decfcda9d082403831a72df24aa9c78",
-    "original_price": 375000,
-    "discounted_price": 262500,
-=======
-  "Fathom FR36": {
-    "type": "Discount",
-    "discount": "30% Off: Fathom FR36",
-    "url": "https://gtacars.net/gta5/fr36",
-    "image_url": "https://gtacars.net/images/4331afdcb99c1c02a6c0d467669b735f",
-    "original_price": 1610000,
-    "discounted_price": 1127000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Grotti GT500": {
-    "type": "The McTony Robbery",
-    "url": "https://gtacars.net/gta5/gt500",
-    "image_url": "https://gtacars.net/images/7b8e2f1c957bf4e4daf551a863743470",
-    "original_price": 785000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "BF Weevil": {
-    "type": "The Cargo Ship Robbery",
-    "url": "https://gtacars.net/gta5/weevil",
-    "image_url": "https://gtacars.net/images/551dc919cf92fab2374ec7cc5fcd3cbc",
-    "original_price": 870000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Dinka Blista Kanjo": {
-    "type": "Free",
-    "discount": "Free: Dinka Blista Kanjo",
-    "url": "https://gtacars.net/gta5/kanjo",
-    "image_url": "https://gtacars.net/images/0e512a64cccb8adec297578b3e7feaa9",
-    "original_price": 580000,
-    "discounted_price": 0,
-    "discount_percent": 100,
-    "is_free": true
-  },
-  "Declasse Drift Walton L35": {
-    "type": "Free",
-    "discount": "Free: Declasse Drift Walton L35",
-    "url": "https://gtacars.net/gta5/l35",
-    "image_url": "https://gtacars.net/images/b398fcca43b5529c1b92022024a27b6f",
-    "original_price": 1670000,
-    "discounted_price": 0,
-    "discount_percent": 100,
-    "is_free": true
-  },
-  "Declasse Drift Yosemite": {
-    "type": "Discount",
-    "discount": "30% Off: Declasse Drift Yosemite",
-    "url": "https://gtacars.net/gta5/yosemite",
-    "image_url": "https://gtacars.net/images/368352c6c1a6304cdb9f94662584a78b",
-    "original_price": 485000,
-    "discounted_price": 339500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "RUNE Cheburek": {
-    "type": "Discount",
-    "discount": "30% Off: RUNE Cheburek",
-    "url": "https://gtacars.net/gta5/cheburek",
-    "image_url": "https://gtacars.net/images/ffa5abdb48c00d0b715e203fd5970110",
-    "original_price": 145000,
-    "discounted_price": 101500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Karin Futo": {
-    "type": "Discount",
-    "discount": "30% Off: Karin Futo",
-    "url": "https://gtacars.net/gta5/futo",
-    "image_url": "https://gtacars.net/images/8f09ecdb4bf6c5c1a64e10a8d9c92456",
-    "original_price": 9000,
-    "discounted_price": 6300,
->>>>>>> 11a41aa0717bb1f2495eab24f2244c9f586e0d0b
+    "discount": "30% Off: Lampadati Novak",
+    "url": "https://gtacars.net/gta5/novak",
+    "image_url": "https://gtacars.net/images/a064b718ebc51fe5f7409d8eab397227",
+    "original_price": 608000,
+    "discounted_price": 425600,
     "discount_percent": 30,
     "is_free": false
   }

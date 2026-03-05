@@ -1,2 +1,7 @@
 --- FAILED VEHICLES (Add to special_cases.py) ---
 The following vehicles failed to scrape. Add them to SPECIAL_CASES:
+
+    "Pfister Comet S2 Cabrio with LS Pounders Vanity Plate CLAIMABLE": "correct-url-here",  # The Podium Robbery - Attempted: claimable
+    "Lampadati Tigon with LS Panic Vanity Plate CLAIMABLE": "correct-url-here",  # The Gangbanger Robbery - Attempted: claimable
+    "Nagasaki Buzzard Attack Chopper": "correct-url-here",  # Discount - Attempted: chopper
+    "JoBuilt Phantom Custom": "correct-url-here",  # Discount - Attempted: custom

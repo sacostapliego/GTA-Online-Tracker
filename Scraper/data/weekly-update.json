@@ -1,52 +1,48 @@
 {
-  "weekOf": "February 26th to March 5th (Not live until ~5am EDT on February 26th)",
+  "weekOf": "March 5th to March 12th (Not live until ~5am EDT on March 5th)",
   "introMessages": [
-    "Drift to victory in the surprisingly powerful new Shitzu Keitora — now available from Southern San Andreas Super Autos and eligible for Drift Tuning alongside three existing vehicles.",
-    "During this week's Drift Event in GTA Online earn triple on Drift Races, 5X LS Car Meet Rep, get the Manga Classic livery for the Drift variant of the Annis Euros, a claimable Salvage Yard Robbery vehicle, and much more.",
-    "There’s also GTA$500,000 in Twitch Drops available to claim by watching a special Community Series featuring top racing tracks from Japanese creators — look out for more info on that tomorrow and check out the rest of this week's details below."
+    "Wrap the Pfister X-treme in the new Premier Half Camo livery, now available from all Vehicle Workshops in GTA Online.",
+    "Take advantage of doubled Salvaging Speed to break down neglected vehicles and earn 2X Daily Income and Scrap Value at your Salvage Yard. Complete The Podium Robbery and The Gangbanger Robbery for the chance to claim two Personal Vehicles.",
+    "And brace yourself for a new event starting next week celebrating the very best Jobs in the Community Series and the Creators who make them."
   ],
-  "podiumVehicle": "Benefactor Stirling GT",
-  "prizeRideVehicle": "Fathom FR36",
-  "prizeRideChallenge": "Place Top 3 in the LS Car Meet Series for 4 days in a row",
-  "timeTrial": "Tongva Valley",
-  "premiumRace": "Cutting Coroners, locked to Super",
-  "hswTimeTrial": "Terminal to Chiliad Mountain State Wilderness",
+  "podiumVehicle": "Pegassi Reaper",
+  "prizeRideVehicle": "Annis Remus",
+  "prizeRideChallenge": "Place Top 5 in the LS Car Meet Series 3 days in a row",
+  "timeTrial": "Coast to Coast",
+  "premiumRace": "Crossing Paths, locked to Sports Classic",
+  "hswTimeTrial": "Pacific Bluffs to Mount Gordo",
   "salvageYardRobberies": [
     {
-      "type": "The Duggan Robbery",
-      "vehicle": "Maibatsu Penumbra FF with LS Car Meet Vanity Plate CLAIMABLE"
+      "type": "The Podium Robbery",
+      "vehicle": "Pfister Comet S2 Cabrio with LS Pounders Vanity Plate CLAIMABLE"
+    },
+    {
+      "type": "The Gangbanger Robbery",
+      "vehicle": "Lampadati Tigon with LS Panic Vanity Plate CLAIMABLE"
     },
     {
       "type": "The McTony Robbery",
-      "vehicle": "Grotti GT500"
-    },
-    {
-      "type": "The Cargo Ship Robbery",
-      "vehicle": "BF Weevil"
+      "vehicle": "Obey Omnis e-GT"
     }
   ],
-  "weeklyChallenge": "Participate in 3 Drift Races to earn the Bright Manor Racing Suit and GTA$100,000",
+  "weeklyChallenge": "Complete two Salvage Yard Robberies to receive GTA$100,000",
   "bonuses": [
-    "4X GTA$ and RP - Exotic Exports )(10 Cars From the Auto Shop List)",
-    "3X GTA$ and RP - Drift Races (6X for GTA+ Members)",
-    "2X GTA$ - Weed Sell Missions (Biker Weed Farms and Nightclub Organic Produce)",
-    "2X GTA$ and RP - Sumo (Remix)"
+    "2X GTA$ and RP - Hunting Pack (Remix)",
+    "2X GTA$ and RP - Community Race Series (4X for GTA+ Members)",
+    "2X GTA$ - Salvage Yard Daily Income (4X for GTA+ Members)",
+    "2X GTA$ - Tow Truck Service Salvage Value",
+    "2X GTA$ - Salvage Yard Vehicle Salvaging Speed"
   ],
   "discounts": [
-    "Free: Dinka Blista Kanjo",
-    "Free: Declasse Drift Walton L35",
-    "Free: LS Car Meet Membership",
-    "40% Off: Weed Farm Businesses",
-    "40% Off: Weed Farm Business Upgrades",
-    "30% Off: Drift Tuning Upgrades",
-    "30% Off: Dinka Jester RR",
-    "30% Off: Fathom FR36",
-    "30% Off: Dinka Chavos V6",
-    "30% Off: Declasse Drift Yosemite",
-    "30% Off: Buckingham Howard NX-25",
-    "30% Off: Zirconium Journey II",
-    "30% Off: Bravado Gauntlet Hellfire",
-    "30% Off: RUNE Cheburek",
-    "30% Off: Karin Futo"
+    "40% Off: Salvage Yard Properties",
+    "40% Off: Salvage Yard Upgrades and Modifications",
+    "30% Off: Nagasaki Buzzard Attack Chopper",
+    "30% Off: Buckingham Miljet",
+    "30% Off: Pfister Astron",
+    "30% Off: Pegassi Tempesta",
+    "30% Off: JoBuilt Phantom Custom",
+    "30% Off: Dinka Sugoi",
+    "30% Off: Declasse Mamba",
+    "30% Off: Lampadati Novak"
   ]
 }
