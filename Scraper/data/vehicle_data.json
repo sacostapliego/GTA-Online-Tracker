@@ -17,6 +17,24 @@
     "discount_percent": null,
     "is_free": false
   },
+  "Pfister Comet S2 Cabrio": {
+    "type": "The Podium Robbery",
+    "url": "https://gtacars.net/gta5/comet7",
+    "image_url": "https://gtacars.net/images/fea4da7b31358eeea1b133987ca81765",
+    "original_price": 1797000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "Lampadati Tigon": {
+    "type": "The Gangbanger Robbery",
+    "url": "https://gtacars.net/gta5/tigon",
+    "image_url": "https://gtacars.net/images/292cca5d9e841983122539c187f9db2a",
+    "original_price": 2310000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
   "Obey Omnis e-GT": {
     "type": "The McTony Robbery",
     "url": "https://gtacars.net/gta5/omnisegt",
@@ -24,6 +42,16 @@
     "original_price": 1795000,
     "discounted_price": null,
     "discount_percent": null,
+    "is_free": false
+  },
+  "Nagasaki Buzzard Attack Chopper": {
+    "type": "Discount",
+    "discount": "30% Off: Nagasaki Buzzard Attack Chopper",
+    "url": "https://gtacars.net/gta5/buzzard",
+    "image_url": "https://gtacars.net/images/22e85c2b7cecd5715ecf74ec33804753",
+    "original_price": 1750000,
+    "discounted_price": 1225000,
+    "discount_percent": 30,
     "is_free": false
   },
   "Buckingham Miljet": {
@@ -53,6 +81,16 @@
     "image_url": "https://gtacars.net/images/41242cbbb2644235ec4bfc72864d0a56",
     "original_price": 1329000,
     "discounted_price": 930300,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "JoBuilt Phantom Custom": {
+    "type": "Discount",
+    "discount": "30% Off: JoBuilt Phantom Custom",
+    "url": "https://gtacars.net/gta5/phantom3",
+    "image_url": "https://gtacars.net/images/8a3e139826638d29b22ec7dae4604544",
+    "original_price": 1225000,
+    "discounted_price": 857500,
     "discount_percent": 30,
     "is_free": false
   },

@@ -134,6 +134,7 @@ def extract_salvage_yard_robberies(body):
             robbery_text = clean_text(stripped[1:])
             if ':' in robbery_text:
                 robbery_type, vehicle = robbery_text.split(':', 1)
+                vehicle = re.sub(r'\s+with\s+.*$', '', vehicle.strip(), flags=re.IGNORECASE)
                 robberies.append({
                     "type": robbery_type.strip(),
                     "vehicle": vehicle.strip()

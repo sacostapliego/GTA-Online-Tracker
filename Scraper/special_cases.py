@@ -26,4 +26,7 @@ SPECIAL_CASES = {
     "Jobuilt Velum 5-Seater" : "velum2",
     "Declasse Yosemite 1500" : "yosemite1500",
     "Grotti Cheetah Classic" : "cheetah2",
+    "Nagasaki Buzzard Attack Chopper" : "buzzard",
+    "JoBuilt Phantom Custom" : "phantom3",
+    "Pfister Comet S2 Cabrio" : "comet7",
 }
