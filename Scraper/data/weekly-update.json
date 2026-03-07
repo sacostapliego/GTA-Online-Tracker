@@ -44,5 +44,20 @@
     "30% Off: Dinka Sugoi",
     "30% Off: Declasse Mamba",
     "30% Off: Lampadati Novak"
+  ],
+  "gunVanDiscounts": [
+    "40% off: Railgun",
+    "30% off for GTA+ Members: Up-N-Atomizer"
+  ],
+  "gunVanStock": [
+    "RPG (10%, 20%)",
+    "Heavy Sniper (10%, 20%)",
+    "Railgun (40%, 40%)",
+    "Up-n-Atomizer (10%, 30%)",
+    "Musket (10%, 20%)",
+    "Pipe Wrench (10%, 20%)",
+    "Grenade (10%, 20%)",
+    "Pipe Bomb (10%, 20%)",
+    "Sticky Bomb (10%, 20%)"
   ]
 }
