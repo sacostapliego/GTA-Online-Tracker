@@ -1,7 +1,14 @@
 --- FAILED VEHICLES (Add to special_cases.py) ---
 The following vehicles failed to scrape. Add them to SPECIAL_CASES:
 
-    "Pfister Comet S2 Cabrio with LS Pounders Vanity Plate CLAIMABLE": "correct-url-here",  # The Podium Robbery - Attempted: claimable
-    "Lampadati Tigon with LS Panic Vanity Plate CLAIMABLE": "correct-url-here",  # The Gangbanger Robbery - Attempted: claimable
-    "Nagasaki Buzzard Attack Chopper": "correct-url-here",  # Discount - Attempted: chopper
-    "JoBuilt Phantom Custom": "correct-url-here",  # Discount - Attempted: custom
+    "Enus Paragon R": "correct-url-here",  # The Duggan Robbery - Attempted: r
+    "Vapid Dominator GTT": "correct-url-here",  # The Cargo Ship Robbery - Attempted: gtt
+    "LSIA Vehicle Warehouse": "correct-url-here",  # Free - Attempted: warehouse
+    "BF Ramp Buggy": "correct-url-here",  # Free - Attempted: buggy
+    "Eclipse Blvd Garage": "correct-url-here",  # Discount - Attempted: garage
+    "Eclipse Blvd Garage Customizations": "correct-url-here",  # Discount - Attempted: customizations
+    "Bravado Hotring Hellfire": "correct-url-here",  # Discount - Attempted: hellfire
+    "Dinka Veto Classic": "correct-url-here",  # Discount - Attempted: classic
+    "Ocelot R88": "correct-url-here",  # Discount - Attempted: r88
+    "Karin Sultan Classic": "correct-url-here",  # Discount - Attempted: classic
+    "Dinka Kanjo SJ": "correct-url-here",  # Discount - Attempted: sj

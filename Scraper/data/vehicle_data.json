@@ -1,126 +1,68 @@
 {
-  "Pegassi Reaper": {
+  "Albany Brigham": {
     "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/reaper",
-    "image_url": "https://gtacars.net/images/671a28ac359e6225402a49f3dbf62a09",
-    "original_price": 1595000,
+    "url": "https://gtacars.net/gta5/brigham",
+    "image_url": "https://gtacars.net/images/81029c1e7e9a2cbf7c87bec78bb0035d",
+    "original_price": 1499000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Annis Remus": {
+  "Grotti Visione": {
     "type": "Prize Ride Vehicle",
-    "url": "https://gtacars.net/gta5/remus",
-    "image_url": "https://gtacars.net/images/8dd636d2d77270e80547a46b206e77e4",
-    "original_price": 1370000,
+    "url": "https://gtacars.net/gta5/visione",
+    "image_url": "https://gtacars.net/images/0699d68a4b054d19386995135ac603a7",
+    "original_price": 2250000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Pfister Comet S2 Cabrio": {
+  "BF Weevil": {
     "type": "The Podium Robbery",
-    "url": "https://gtacars.net/gta5/comet7",
-    "image_url": "https://gtacars.net/images/fea4da7b31358eeea1b133987ca81765",
-    "original_price": 1797000,
+    "url": "https://gtacars.net/gta5/weevil",
+    "image_url": "https://gtacars.net/images/551dc919cf92fab2374ec7cc5fcd3cbc",
+    "original_price": 870000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Lampadati Tigon": {
-    "type": "The Gangbanger Robbery",
-    "url": "https://gtacars.net/gta5/tigon",
-    "image_url": "https://gtacars.net/images/292cca5d9e841983122539c187f9db2a",
-    "original_price": 2310000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Obey Omnis e-GT": {
-    "type": "The McTony Robbery",
-    "url": "https://gtacars.net/gta5/omnisegt",
-    "image_url": "https://gtacars.net/images/7244b0fab15821a69b9bc926edc290c6",
-    "original_price": 1795000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Nagasaki Buzzard Attack Chopper": {
+  "Lampadati Komoda": {
     "type": "Discount",
-    "discount": "30% Off: Nagasaki Buzzard Attack Chopper",
-    "url": "https://gtacars.net/gta5/buzzard",
-    "image_url": "https://gtacars.net/images/22e85c2b7cecd5715ecf74ec33804753",
-    "original_price": 1750000,
-    "discounted_price": 1225000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Buckingham Miljet": {
-    "type": "Discount",
-    "discount": "30% Off: Buckingham Miljet",
-    "url": "https://gtacars.net/gta5/miljet",
-    "image_url": "https://gtacars.net/images/0349cc82f29679ae40397d03a15ac785",
+    "discount": "30% Off: Lampadati Komoda",
+    "url": "https://gtacars.net/gta5/komoda",
+    "image_url": "https://gtacars.net/images/33e974c2d5d875139150d1f799b9724f",
     "original_price": 1700000,
     "discounted_price": 1190000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Pfister Astron": {
+  "Karin Everon": {
     "type": "Discount",
-    "discount": "30% Off: Pfister Astron",
-    "url": "https://gtacars.net/gta5/astron",
-    "image_url": "https://gtacars.net/images/6bcd16c0bdae988298c6365b96830cb7",
-    "original_price": 1580000,
-    "discounted_price": 1106000,
+    "discount": "30% Off: Karin Everon",
+    "url": "https://gtacars.net/gta5/everon",
+    "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
+    "original_price": 1475000,
+    "discounted_price": 1032500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Pegassi Tempesta": {
+  "HVY Dump": {
     "type": "Discount",
-    "discount": "30% Off: Pegassi Tempesta",
-    "url": "https://gtacars.net/gta5/tempesta",
-    "image_url": "https://gtacars.net/images/41242cbbb2644235ec4bfc72864d0a56",
-    "original_price": 1329000,
-    "discounted_price": 930300,
+    "discount": "30% Off: HVY Dump",
+    "url": "https://gtacars.net/gta5/dump",
+    "image_url": "https://gtacars.net/images/a21b8d64f25f5a4e64446dafa07cfb91",
+    "original_price": 1000000,
+    "discounted_price": 700000,
     "discount_percent": 30,
     "is_free": false
   },
-  "JoBuilt Phantom Custom": {
+  "Albany Hermes": {
     "type": "Discount",
-    "discount": "30% Off: JoBuilt Phantom Custom",
-    "url": "https://gtacars.net/gta5/phantom3",
-    "image_url": "https://gtacars.net/images/8a3e139826638d29b22ec7dae4604544",
-    "original_price": 1225000,
-    "discounted_price": 857500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Dinka Sugoi": {
-    "type": "Discount",
-    "discount": "30% Off: Dinka Sugoi",
-    "url": "https://gtacars.net/gta5/sugoi",
-    "image_url": "https://gtacars.net/images/bee2f4a92dd3055e4f31f583e2c51b51",
-    "original_price": 1224000,
-    "discounted_price": 856800,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Declasse Mamba": {
-    "type": "Discount",
-    "discount": "30% Off: Declasse Mamba",
-    "url": "https://gtacars.net/gta5/mamba",
-    "image_url": "https://gtacars.net/images/3f20a676700da328ea7632082f2beb8f",
-    "original_price": 995000,
-    "discounted_price": 696500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Lampadati Novak": {
-    "type": "Discount",
-    "discount": "30% Off: Lampadati Novak",
-    "url": "https://gtacars.net/gta5/novak",
-    "image_url": "https://gtacars.net/images/a064b718ebc51fe5f7409d8eab397227",
-    "original_price": 608000,
-    "discounted_price": 425600,
+    "discount": "30% Off: Albany Hermes",
+    "url": "https://gtacars.net/gta5/hermes",
+    "image_url": "https://gtacars.net/images/ce014a0f3cba011b5aa1403127fb1727",
+    "original_price": 535000,
+    "discounted_price": 374500,
     "discount_percent": 30,
     "is_free": false
   }

@@ -1,61 +1,58 @@
 {
-  "weekOf": "March 5th to March 12th (Not live until ~5am EDT on March 5th)",
-  "introMessages": [
-    "Wrap the Pfister X-treme in the new Premier Half Camo livery, now available from all Vehicle Workshops in GTA Online.",
-    "Take advantage of doubled Salvaging Speed to break down neglected vehicles and earn 2X Daily Income and Scrap Value at your Salvage Yard. Complete The Podium Robbery and The Gangbanger Robbery for the chance to claim two Personal Vehicles.",
-    "And brace yourself for a new event starting next week celebrating the very best Jobs in the Community Series and the Creators who make them."
-  ],
-  "podiumVehicle": "Pegassi Reaper",
-  "prizeRideVehicle": "Annis Remus",
-  "prizeRideChallenge": "Place Top 5 in the LS Car Meet Series 3 days in a row",
-  "timeTrial": "Coast to Coast",
-  "premiumRace": "Crossing Paths, locked to Sports Classic",
-  "hswTimeTrial": "Pacific Bluffs to Mount Gordo",
+  "weekOf": "March 12th to March 19th (Not live until ~5am EDT on March 12th)",
+  "introMessages": [],
+  "podiumVehicle": "Albany Brigham",
+  "prizeRideVehicle": "Grotti Visione",
+  "prizeRideChallenge": "Place Top 5 in the LS Car Meet Series for 4 days in a row",
+  "timeTrial": "Casino",
+  "premiumRace": "Business Trip, locked to Super",
+  "hswTimeTrial": "North Chumash to Palomino Highlands",
   "salvageYardRobberies": [
     {
+      "type": "The Duggan Robbery",
+      "vehicle": "Enus Paragon R"
+    },
+    {
+      "type": "The Cargo Ship Robbery",
+      "vehicle": "Vapid Dominator GTT"
+    },
+    {
       "type": "The Podium Robbery",
-      "vehicle": "Pfister Comet S2 Cabrio"
-    },
-    {
-      "type": "The Gangbanger Robbery",
-      "vehicle": "Lampadati Tigon"
-    },
-    {
-      "type": "The McTony Robbery",
-      "vehicle": "Obey Omnis e-GT"
+      "vehicle": "BF Weevil"
     }
   ],
-  "weeklyChallenge": "Complete two Salvage Yard Robberies to receive GTA$100,000",
+  "weeklyChallenge": "Win three Races to earn GTA$100,000",
   "bonuses": [
-    "2X GTA$ and RP - Hunting Pack (Remix)",
-    "2X GTA$ and RP - Community Race Series (4X for GTA+ Members)",
-    "2X GTA$ - Salvage Yard Daily Income (4X for GTA+ Members)",
-    "2X GTA$ - Tow Truck Service Salvage Value",
-    "2X GTA$ - Salvage Yard Vehicle Salvaging Speed"
+    "4X GTA$ and RP - Ron Contact Missions",
+    "2X GTA$ and RP - Vehicle Cargo Sell Missions (Import/Export)"
   ],
   "discounts": [
-    "40% Off: Salvage Yard Properties",
-    "40% Off: Salvage Yard Upgrades and Modifications",
-    "30% Off: Nagasaki Buzzard Attack Chopper",
-    "30% Off: Buckingham Miljet",
-    "30% Off: Pfister Astron",
-    "30% Off: Pegassi Tempesta",
-    "30% Off: JoBuilt Phantom Custom",
-    "30% Off: Dinka Sugoi",
-    "30% Off: Declasse Mamba",
-    "30% Off: Lampadati Novak"
+    "Free: LSIA Vehicle Warehouse",
+    "Free: BF Ramp Buggy",
+    "50% Off: Executive Offices",
+    "30% Off: Eclipse Blvd Garage",
+    "30% Off: Eclipse Blvd Garage Customizations",
+    "30% Off: Bravado Hotring Hellfire",
+    "30% Off: Dinka Veto Classic",
+    "30% Off: Ocelot R88",
+    "30% Off: Karin Sultan Classic",
+    "30% Off: Lampadati Komoda",
+    "30% Off: Karin Everon",
+    "30% Off: Dinka Kanjo SJ",
+    "30% Off: HVY Dump",
+    "30% Off: Albany Hermes"
   ],
   "gunVanDiscounts": [
-    "40% off: Railgun",
-    "30% off for GTA+ Members: Up-N-Atomizer"
+    "40% off: Tactical SMG",
+    "40% off for GTA+ Members: Railgun"
   ],
   "gunVanStock": [
-    "RPG (10%, 20%)",
-    "Heavy Sniper (10%, 20%)",
-    "Railgun (40%, 40%)",
-    "Up-n-Atomizer (10%, 30%)",
-    "Musket (10%, 20%)",
-    "Pipe Wrench (10%, 20%)",
+    "Tactical SMG (40%, 40%)",
+    "Railgun (10%, 40%)",
+    "Service Carbine (10%, 20%)",
+    "Marksman Rifle (10%, 20%)",
+    "SMG (10%, 20%)",
+    "Knife (10%, 20%)",
     "Grenade (10%, 20%)",
     "Pipe Bomb (10%, 20%)",
     "Sticky Bomb (10%, 20%)"
