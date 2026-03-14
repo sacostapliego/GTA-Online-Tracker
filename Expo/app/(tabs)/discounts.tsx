@@ -37,47 +37,51 @@ export default function DiscountsTab() {
   const [discounts, setDiscounts] = useState<DiscountItem[]>([]);
 
   useEffect(() => {
-    const data = require('@/assets/data/weekly-update.json');
-    const vehicleImages: VehicleImageData = require('@/assets/data/vehicle_images.json');
     const propertyImages: PropertyImageData = require('@/assets/data/property_images.json');
-    
-    setWeeklyData(data);
-    
-    // Counter to track image usage for properties
-    const propertyImageCounter: { [key: string]: number } = {};
 
-    // Parse discounts and match with images
-    const parsedDiscounts = data.discounts.map((discount: string) => {
-      const [percentage, name] = discount.split(': ');
+    const processData = (data: WeeklyData, vehicleImages: VehicleImageData) => {
+      setWeeklyData(data);
 
-      let imageUrl = null;
-      
-      // Check if this name matches any property key
-      const matchedProperty = Object.keys(propertyImages).find(propertyKey => 
-        name.includes(propertyKey)
-      );
-      
-      if (matchedProperty) {
-        // Increment counter for this property
-        propertyImageCounter[matchedProperty] = (propertyImageCounter[matchedProperty] || 0) + 1;
-        const imageKey = `image${propertyImageCounter[matchedProperty]}` as 'image1' | 'image2';
-        imageUrl = propertyImages[matchedProperty]?.[imageKey] || propertyImages[matchedProperty]?.image1 || null;
-      } else {
-        // Look up the vehicle in vehicle_images.json
-        const vehicleData = vehicleImages[name];
-        imageUrl = vehicleData?.image_url || null;
-      }
-      
-      return {
-        percentage,
-        name,
-        imageUrl,
-        originalPrice: vehicleImages[name]?.original_price || null,
-        discountedPrice: vehicleImages[name]?.discounted_price || null,
-      };
-    });
-    
-    setDiscounts(parsedDiscounts);
+      const propertyImageCounter: { [key: string]: number } = {};
+
+      const parsedDiscounts = data.discounts.map((discount: string) => {
+        const [percentage, name] = discount.split(': ');
+
+        let imageUrl = null;
+
+        const matchedProperty = Object.keys(propertyImages).find(propertyKey =>
+          name.includes(propertyKey)
+        );
+
+        if (matchedProperty) {
+          propertyImageCounter[matchedProperty] = (propertyImageCounter[matchedProperty] || 0) + 1;
+          const imageKey = `image${propertyImageCounter[matchedProperty]}` as 'image1' | 'image2';
+          imageUrl = propertyImages[matchedProperty]?.[imageKey] || propertyImages[matchedProperty]?.image1 || null;
+        } else {
+          const vehicleData = vehicleImages[name];
+          imageUrl = vehicleData?.image_url || null;
+        }
+
+        return {
+          percentage,
+          name,
+          imageUrl,
+          originalPrice: vehicleImages[name]?.original_price || null,
+          discountedPrice: vehicleImages[name]?.discounted_price || null,
+        };
+      });
+
+      setDiscounts(parsedDiscounts);
+    };
+
+    Promise.all([
+      fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/weekly-update.json').then(res => res.json()),
+      fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/vehicle_data.json').then(res => res.json()),
+    ])
+      .then(([data, vehicleImages]) => processData(data, vehicleImages))
+      .catch(() => {
+        processData(require('@/assets/data/fallback.json'), {});
+      });
   }, []);
 
   return (

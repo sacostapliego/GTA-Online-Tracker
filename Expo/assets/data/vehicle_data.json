@@ -1,52 +1,44 @@
 {
-  "Bravado Buffalo EVX": {
+  "Albany Brigham": {
     "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/buffalo5",
-    "image_url": "https://gtacars.net/images/c956cfa00fa033cd9fc792ee2cf89fb5",
-    "original_price": 2140000,
+    "url": "https://gtacars.net/gta5/brigham",
+    "image_url": "https://gtacars.net/images/81029c1e7e9a2cbf7c87bec78bb0035d",
+    "original_price": 1499000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Lampadati Corsita": {
+  "Grotti Visione": {
     "type": "Prize Ride Vehicle",
-    "url": "https://gtacars.net/gta5/corsita",
-    "image_url": "https://gtacars.net/images/1d4ec83f0958af6288ff16197aa627b5",
-    "original_price": 1795000,
+    "url": "https://gtacars.net/gta5/visione",
+    "image_url": "https://gtacars.net/images/0699d68a4b054d19386995135ac603a7",
+    "original_price": 2250000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Obey Omnis e-GT": {
-    "type": "The Duggan Robbery",
-    "url": "https://gtacars.net/gta5/omnisegt",
-    "image_url": "https://gtacars.net/images/7244b0fab15821a69b9bc926edc290c6",
-    "original_price": 1795000,
+  "BF Weevil": {
+    "type": "The Podium Robbery",
+    "url": "https://gtacars.net/gta5/weevil",
+    "image_url": "https://gtacars.net/images/551dc919cf92fab2374ec7cc5fcd3cbc",
+    "original_price": 870000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Pfister Comet Safari": {
-    "type": "The Cargo Ship Robbery",
-    "url": "https://gtacars.net/gta5/comet4",
-    "image_url": "https://gtacars.net/images/3327020704521d694ea57d70f35fcb35",
-    "original_price": 710000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Vapid Caracara 4x4": {
-    "type": "The Gangbanger Robbery",
-    "url": "https://gtacars.net/gta5/caracara2",
-    "image_url": "https://gtacars.net/images/6347430b71f6c3e042efb1eb11991e32",
-    "original_price": 875000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Karin Hotring Everon": {
+  "Lampadati Komoda": {
     "type": "Discount",
-    "discount": "30% Off: Karin Hotring Everon",
+    "discount": "30% Off: Lampadati Komoda",
+    "url": "https://gtacars.net/gta5/komoda",
+    "image_url": "https://gtacars.net/images/33e974c2d5d875139150d1f799b9724f",
+    "original_price": 1700000,
+    "discounted_price": 1190000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Karin Everon": {
+    "type": "Discount",
+    "discount": "30% Off: Karin Everon",
     "url": "https://gtacars.net/gta5/everon",
     "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
     "original_price": 1475000,
@@ -54,93 +46,23 @@
     "discount_percent": 30,
     "is_free": false
   },
-  "Declasse Tulip M-100": {
+  "HVY Dump": {
     "type": "Discount",
-    "discount": "30% Off: Declasse Tulip M-100",
-    "url": "https://gtacars.net/gta5/tulip2",
-    "image_url": "https://gtacars.net/images/580bc4f7dbb8607f1da077542e3fffeb",
-    "original_price": 1658000,
-    "discounted_price": 1160600,
+    "discount": "30% Off: HVY Dump",
+    "url": "https://gtacars.net/gta5/dump",
+    "image_url": "https://gtacars.net/images/a21b8d64f25f5a4e64446dafa07cfb91",
+    "original_price": 1000000,
+    "discounted_price": 700000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Dewbauchee Vagner": {
+  "Albany Hermes": {
     "type": "Discount",
-    "discount": "30% Off: Dewbauchee Vagner",
-    "url": "https://gtacars.net/gta5/vagner",
-    "image_url": "https://gtacars.net/images/4b6f726db6c90968c397d12eb569d586",
-    "original_price": 1535000,
-    "discounted_price": 1074500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Declasse Tahoma Coupe": {
-    "type": "Discount",
-    "discount": "30% Off: Declasse Tahoma Coupe",
-    "url": "https://gtacars.net/gta5/tahoma",
-    "image_url": "https://gtacars.net/images/bfabf01fb2c9bb92d0ee559147ba1a1b",
-    "original_price": 1500000,
-    "discounted_price": 1050000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Pfister Neon": {
-    "type": "Discount",
-    "discount": "30% Off: Pfister Neon",
-    "url": "https://gtacars.net/gta5/neon",
-    "image_url": "https://gtacars.net/images/5ee57ae85a2fccfa3b220993d77d050e",
-    "original_price": 1500000,
-    "discounted_price": 1050000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Coil Raiden": {
-    "type": "Discount",
-    "discount": "30% Off: Coil Raiden",
-    "url": "https://gtacars.net/gta5/raiden",
-    "image_url": "https://gtacars.net/images/d4f1c5892c55c68d9318259ea83614d8",
-    "original_price": 1375000,
-    "discounted_price": 962500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Jobuilt Velum 5-Seater": {
-    "type": "Discount",
-    "discount": "30% Off: Jobuilt Velum 5-Seater",
-    "url": "https://gtacars.net/gta5/velum2",
-    "image_url": "https://gtacars.net/images/38946ed60b0368f1a35b681f4813cebd",
-    "original_price": 1323350,
-    "discounted_price": 926345,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Declasse Yosemite 1500": {
-    "type": "Discount",
-    "discount": "30% Off: Declasse Yosemite 1500",
-    "url": "https://gtacars.net/gta5/yosemite1500",
-    "image_url": "https://gtacars.net/images/1fa40ea20342ec8df5c164ab7cfb4046",
-    "original_price": 1205000,
-    "discounted_price": 843500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Pegassi Torero": {
-    "type": "Discount",
-    "discount": "30% Off: Pegassi Torero",
-    "url": "https://gtacars.net/gta5/torero",
-    "image_url": "https://gtacars.net/images/82028c7e552b59b486a953377568db8a",
-    "original_price": 998000,
-    "discounted_price": 698600,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Grotti Cheetah Classic": {
-    "type": "Discount",
-    "discount": "30% Off: Grotti Cheetah Classic",
-    "url": "https://gtacars.net/gta5/cheetah2",
-    "image_url": "https://gtacars.net/images/ba4ba835632f6768a67a7726a620974b",
-    "original_price": 865000,
-    "discounted_price": 605500,
+    "discount": "30% Off: Albany Hermes",
+    "url": "https://gtacars.net/gta5/hermes",
+    "image_url": "https://gtacars.net/images/ce014a0f3cba011b5aa1403127fb1727",
+    "original_price": 535000,
+    "discounted_price": 374500,
     "discount_percent": 30,
     "is_free": false
   }

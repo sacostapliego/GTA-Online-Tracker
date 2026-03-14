@@ -35,10 +35,17 @@ export default function HomeScreen() {
   const [isIntroExpanded, setIsIntroExpanded] = useState(false);
 
   useEffect(() => {
-    const data = require('@/assets/data/weekly-update.json');
-    const images = require('@/assets/data/vehicle_images.json');
-    setWeeklyData(data);
-    setVehicleImages(images);
+    Promise.all([
+      fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/weekly-update.json').then(res => res.json()),
+      fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/vehicle_data.json').then(res => res.json()),
+    ])
+      .then(([data, images]) => {
+        setWeeklyData(data);
+        setVehicleImages(images);
+      })
+      .catch(() => {
+        setWeeklyData(require('@/assets/data/fallback.json'));
+      });
   }, []);
 
   const getVehicleImage = (vehicleName: string): string => {

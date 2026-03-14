@@ -32,47 +32,50 @@ export default function BonusesTab() {
   const [bonuses, setBonuses] = useState<BonusItem[]>([]);
 
   useEffect(() => {
-    const data = require('@/assets/data/weekly-update.json');
     const gtaImages: GTAImageData = require('@/assets/data/gta_images.json');
     const propertyImages: PropertyImageData = require('@/assets/data/property_images.json');
-    
-    setWeeklyData(data);
-    
-    // Counter to track image usage for properties
-    const propertyImageCounter: { [key: string]: number } = {};
 
-    // Parse bonuses and match with images
-    const parsedBonuses = data.bonuses.map((bonus: string) => {
-      let imageUrl = DEFAULT_IMAGE;
-      
-      // First, check gta_images.json for matches
-      const gtaImageMatch = Object.keys(gtaImages).find(key => 
-        bonus.toLowerCase().includes(key.toLowerCase())
-      );
-      
-      if (gtaImageMatch) {
-        imageUrl = gtaImages[gtaImageMatch].imageURL;
-      } else {
-        // If no match in gta_images, check property_images.json
-        const propertyMatch = Object.keys(propertyImages).find(propertyKey => 
-          bonus.toLowerCase().includes(propertyKey.toLowerCase())
+    const processData = (data: WeeklyData) => {
+      setWeeklyData(data);
+
+      const propertyImageCounter: { [key: string]: number } = {};
+
+      const parsedBonuses = data.bonuses.map((bonus: string) => {
+        let imageUrl = DEFAULT_IMAGE;
+
+        const gtaImageMatch = Object.keys(gtaImages).find(key =>
+          bonus.toLowerCase().includes(key.toLowerCase())
         );
-        
-        if (propertyMatch) {
-          // Increment counter for this property
-          propertyImageCounter[propertyMatch] = (propertyImageCounter[propertyMatch] || 0) + 1;
-          const imageKey = `image${propertyImageCounter[propertyMatch]}` as 'image1' | 'image2';
-          imageUrl = propertyImages[propertyMatch]?.[imageKey] || propertyImages[propertyMatch]?.image1 || DEFAULT_IMAGE;
+
+        if (gtaImageMatch) {
+          imageUrl = gtaImages[gtaImageMatch].imageURL;
+        } else {
+          const propertyMatch = Object.keys(propertyImages).find(propertyKey =>
+            bonus.toLowerCase().includes(propertyKey.toLowerCase())
+          );
+
+          if (propertyMatch) {
+            propertyImageCounter[propertyMatch] = (propertyImageCounter[propertyMatch] || 0) + 1;
+            const imageKey = `image${propertyImageCounter[propertyMatch]}` as 'image1' | 'image2';
+            imageUrl = propertyImages[propertyMatch]?.[imageKey] || propertyImages[propertyMatch]?.image1 || DEFAULT_IMAGE;
+          }
         }
-      }
-      
-      return {
-        text: bonus,
-        imageUrl,
-      };
-    });
-    
-    setBonuses(parsedBonuses);
+
+        return {
+          text: bonus,
+          imageUrl,
+        };
+      });
+
+      setBonuses(parsedBonuses);
+    };
+
+    fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/weekly-update.json')
+      .then(res => res.json())
+      .then(data => processData(data))
+      .catch(() => {
+        processData(require('@/assets/data/fallback.json'));
+      });
   }, []);
 
   return (
