@@ -17,6 +17,24 @@
     "discount_percent": null,
     "is_free": false
   },
+  "Enus Paragon R": {
+    "type": "The Duggan Robbery",
+    "url": "https://gtacars.net/gta5/paragon",
+    "image_url": "https://gtacars.net/images/433322ae88327066b1357575358ff783",
+    "original_price": 905000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "Vapid Dominator GTT": {
+    "type": "The Cargo Ship Robbery",
+    "url": "https://gtacars.net/gta5/dominator8",
+    "image_url": "https://gtacars.net/images/a5ad50c571d38a1d917f67ce5e4cbbb9",
+    "original_price": 1220000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
   "BF Weevil": {
     "type": "The Podium Robbery",
     "url": "https://gtacars.net/gta5/weevil",
@@ -24,6 +42,56 @@
     "original_price": 870000,
     "discounted_price": null,
     "discount_percent": null,
+    "is_free": false
+  },
+  "BF Ramp Buggy": {
+    "type": "Free",
+    "discount": "Free: BF Ramp Buggy",
+    "url": "https://gtacars.net/gta5/dune4",
+    "image_url": "https://gtacars.net/images/bcfadfed976394800efa908e9023c0bc",
+    "original_price": null,
+    "discounted_price": 0,
+    "discount_percent": 100,
+    "is_free": true
+  },
+  "Bravado Hotring Hellfire": {
+    "type": "Discount",
+    "discount": "30% Off: Bravado Hotring Hellfire",
+    "url": "https://gtacars.net/gta5/gauntlet6",
+    "image_url": "https://gtacars.net/images/19cf898d4caa13d8eb385f36eea30fd2",
+    "original_price": 1810000,
+    "discounted_price": 1267000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Dinka Veto Classic": {
+    "type": "Discount",
+    "discount": "30% Off: Dinka Veto Classic",
+    "url": "https://gtacars.net/gta5/veto",
+    "image_url": "https://gtacars.net/images/69b5a110de5256fefef24a7c64063cc1",
+    "original_price": 895000,
+    "discounted_price": 626500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Ocelot R88": {
+    "type": "Discount",
+    "discount": "30% Off: Ocelot R88",
+    "url": "https://gtacars.net/gta5/formula2",
+    "image_url": "https://gtacars.net/images/eccf9965ef99f31ab8f602a5c15c9d9b",
+    "original_price": 3115000,
+    "discounted_price": 2180500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Karin Sultan Classic": {
+    "type": "Discount",
+    "discount": "30% Off: Karin Sultan Classic",
+    "url": "https://gtacars.net/gta5/sultan2",
+    "image_url": "https://gtacars.net/images/979b441981dc7a783a766e3bd0cd3075",
+    "original_price": 1718000,
+    "discounted_price": 1202600,
+    "discount_percent": 30,
     "is_free": false
   },
   "Lampadati Komoda": {
@@ -43,6 +111,16 @@
     "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
     "original_price": 1475000,
     "discounted_price": 1032500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Dinka Kanjo SJ": {
+    "type": "Discount",
+    "discount": "30% Off: Dinka Kanjo SJ",
+    "url": "https://gtacars.net/gta5/kanjo",
+    "image_url": "https://gtacars.net/images/0e512a64cccb8adec297578b3e7feaa9",
+    "original_price": 580000,
+    "discounted_price": 406000,
     "discount_percent": 30,
     "is_free": false
   },

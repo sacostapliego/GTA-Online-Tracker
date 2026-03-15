@@ -29,4 +29,12 @@ SPECIAL_CASES = {
     "Nagasaki Buzzard Attack Chopper" : "buzzard",
     "JoBuilt Phantom Custom" : "phantom3",
     "Pfister Comet S2 Cabrio" : "comet7",
+    "Enus Paragon R": "paragon",
+    "Vapid Dominator GTT": "dominator8",
+    "BF Ramp Buggy": "dune4",
+    "Bravado Hotring Hellfire": "gauntlet6",
+    "Dinka Veto Classic": "veto",
+    "Ocelot R88": "formula2",
+    "Karin Sultan Classic": "sultan2",
+    "Dinka Kanjo SJ": "kanjo",
 }
