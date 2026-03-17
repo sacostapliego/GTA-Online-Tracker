@@ -2,6 +2,7 @@ venv/
 __pycache__/
 *.pyc
 .vscode/
-*.pbxproj
 *.xcuserstate
 xcuserdata/
+.DS_Store
+swift/build/

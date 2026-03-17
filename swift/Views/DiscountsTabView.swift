@@ -51,7 +51,7 @@ struct DiscountsTabView: View {
 
             Text(weekly.weekOf)
                 .font(.subheadline)
-                .foregroundStyle(Color.orange.opacity(0.9))
+                .foregroundStyle(Color.blue.opacity(0.9))
         }
     }
 
@@ -83,7 +83,7 @@ struct DiscountsTabView: View {
             .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
             .overlay(
                 RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .stroke(Color.orange.opacity(0.3), lineWidth: 1)
+                    .stroke(Color.blue.opacity(0.3), lineWidth: 1)
             )
 
             VStack(alignment: .leading, spacing: 6) {
@@ -93,7 +93,7 @@ struct DiscountsTabView: View {
 
                 Text(item.label)
                     .font(.caption)
-                    .foregroundStyle(.orange)
+                    .foregroundStyle(.blue)
 
                 if let vehicleData = item.vehicleData {
                     HStack(spacing: 8) {
@@ -105,7 +105,7 @@ struct DiscountsTabView: View {
                         }
                         Text("Now: \(vehicleData.formattedDiscountedPrice)")
                             .font(.caption.weight(.semibold))
-                            .foregroundStyle(.orange)
+                            .foregroundStyle(.blue)
                     }
                 }
             }
@@ -114,7 +114,7 @@ struct DiscountsTabView: View {
         .padding(16)
         .background(
             RoundedRectangle(cornerRadius: 14, style: .continuous)
-                .stroke(Color.orange.opacity(0.35), lineWidth: 1)
+                .stroke(Color.blue.opacity(0.35), lineWidth: 1)
                 .background(
                     RoundedRectangle(cornerRadius: 14, style: .continuous)
                         .fill(Color.black.opacity(0.3))
@@ -128,7 +128,7 @@ struct DiscountsTabView: View {
             .overlay {
                 Image(systemName: "tag.fill")
                     .font(.title2)
-                    .foregroundStyle(.orange.opacity(0.5))
+                    .foregroundStyle(.blue.opacity(0.5))
             }
     }
 }
