@@ -10,25 +10,33 @@ final class TrackerAPI {
     private let session: URLSession
     private let baseURL: URL?
 
-    init(baseURL: String = "", session: URLSession = .shared) {
+    /// Default base URL matches Expo's data source (GitHub raw content).
+    private static let defaultBaseURL = "https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data"
+
+    init(baseURL: String? = nil, session: URLSession = .shared) {
         self.session = session
-        if baseURL.isEmpty {
-            self.baseURL = nil
-        } else {
-            self.baseURL = URL(string: baseURL)
-        }
+        let urlString = (baseURL?.isEmpty == false) ? baseURL! : Self.defaultBaseURL
+        self.baseURL = URL(string: urlString)
     }
 
     func fetchWeeklyUpdate() async throws -> WeeklyUpdate {
         if let baseURL {
-            return try await fetchJSON(path: "weekly-update.json", from: baseURL)
+            do {
+                return try await fetchJSON(path: "weekly-update.json", from: baseURL)
+            } catch {
+                return try loadSampleJSON(named: "weekly-update.sample", type: WeeklyUpdate.self)
+            }
         }
         return try loadSampleJSON(named: "weekly-update.sample", type: WeeklyUpdate.self)
     }
 
     func fetchVehicleData() async throws -> VehicleDataResponse {
         if let baseURL {
-            return try await fetchJSON(path: "vehicle_data.json", from: baseURL)
+            do {
+                return try await fetchJSON(path: "vehicle_data.json", from: baseURL)
+            } catch {
+                return try loadSampleJSON(named: "vehicle-data.sample", type: VehicleDataResponse.self)
+            }
         }
         return try loadSampleJSON(named: "vehicle-data.sample", type: VehicleDataResponse.self)
     }
