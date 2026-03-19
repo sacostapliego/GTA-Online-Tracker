@@ -4,7 +4,7 @@ import SwiftUI
 struct GTAOnlineTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: DashboardViewModel())
+            MainTabView()
         }
     }
 }
