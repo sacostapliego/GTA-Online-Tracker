@@ -1,60 +1,53 @@
 {
-  "weekOf": "March 12th to March 19th (Not live until ~5am EDT on March 12th)",
-  "introMessages": [],
-  "podiumVehicle": "Albany Brigham",
-  "prizeRideVehicle": "Grotti Visione",
-  "prizeRideChallenge": "Place Top 5 in the LS Car Meet Series for 4 days in a row",
-  "timeTrial": "Casino",
-  "premiumRace": "Business Trip, locked to Super",
-  "hswTimeTrial": "North Chumash to Palomino Highlands",
+  "weekOf": "March 19th to March 26th (Not live until ~5am EDT on March 19th)",
+  "introMessages": [
+    "The Community Series Showcase continues in GTA Online, launching into an explosive second week of action with a Series focused on Combat modes. Test your reflexes in the rocket-propelled carnage of \\[G\\] Bowling Vs Rpg by gecko--87 in the Community Series, paying out 3X GTA$ and RP this week and next.",
+    "This week, get 2X GTA$ on Document Forgery Sell Missions, 2X Research Progress from Bunker Research Missions, and 3X GTA$ and RP on Gerald Contact Missions (including Gerald's Last Play). Plus, keep searching high and low for Lucky and Golden Clover balloons to collect special Outfits."
+  ],
+  "podiumVehicle": "Benefactor Schlagen GT",
+  "prizeRideVehicle": "Albany Cavalcade XL",
+  "prizeRideChallenge": "Win in the LS Car Meet Series",
+  "timeTrial": "Route 68",
+  "premiumRace": "A Sign of Things to Come, locked to Motorcycle",
+  "hswTimeTrial": "East Vinewood to Vespucci Beach",
   "salvageYardRobberies": [
     {
       "type": "The Duggan Robbery",
-      "vehicle": "Enus Paragon R"
+      "vehicle": "Annis S80RR"
     },
     {
-      "type": "The Cargo Ship Robbery",
-      "vehicle": "Vapid Dominator GTT"
+      "type": "The McTony Robbery",
+      "vehicle": "Karin Hotring Everon"
     },
     {
-      "type": "The Podium Robbery",
-      "vehicle": "BF Weevil"
+      "type": "The Gangbanger Robbery",
+      "vehicle": "Karin Boor"
     }
   ],
-  "weeklyChallenge": "Win three Races to earn GTA$100,000",
+  "weeklyChallenge": "Win three Deathmatches to receive GTA$100,000",
   "bonuses": [
-    "4X GTA$ and RP - Ron Contact Missions",
-    "2X GTA$ and RP - Vehicle Cargo Sell Missions (Import/Export)"
+    "See full post for details"
   ],
   "discounts": [
     "Free: LSIA Vehicle Warehouse",
-    "Free: BF Ramp Buggy",
+    "Free: Coil Rocket Voltic",
     "50% Off: Executive Offices",
-    "30% Off: Eclipse Blvd Garage",
-    "30% Off: Eclipse Blvd Garage Customizations",
-    "30% Off: Bravado Hotring Hellfire",
-    "30% Off: Dinka Veto Classic",
-    "30% Off: Ocelot R88",
-    "30% Off: Karin Sultan Classic",
-    "30% Off: Lampadati Komoda",
-    "30% Off: Karin Everon",
-    "30% Off: Dinka Kanjo SJ",
-    "30% Off: HVY Dump",
-    "30% Off: Albany Hermes"
+    "50% Off: All Ammo",
+    "40% Off: Document Forgery Offices + Upgrades",
+    "40% Off: Mk II Weapon Conversions",
+    "30% Off: Vapid Ratel",
+    "30% Off: Declasse Draugur",
+    "30% Off: Pfister Astron Custom",
+    "30% Off: Vapid Clique Wagon",
+    "30% Off: Western Company Besra",
+    "30% Off: Annis Savestra",
+    "30% Off: Enus Windsor Drop",
+    "30% Off: BF Raptor",
+    "30% Off: Declasse Bugstars Burrito"
   ],
   "gunVanDiscounts": [
-    "40% off: Tactical SMG",
-    "40% off for GTA+ Members: Railgun"
+    "40% off: All Weapons",
+    "50% off for GTA+ Members: All Weapons"
   ],
-  "gunVanStock": [
-    "Tactical SMG (40%, 40%)",
-    "Railgun (10%, 40%)",
-    "Service Carbine (10%, 20%)",
-    "Marksman Rifle (10%, 20%)",
-    "SMG (10%, 20%)",
-    "Knife (10%, 20%)",
-    "Grenade (10%, 20%)",
-    "Pipe Bomb (10%, 20%)",
-    "Sticky Bomb (10%, 20%)"
-  ]
+  "gunVanStock": []
 }

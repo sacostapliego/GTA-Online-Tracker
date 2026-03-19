@@ -1,14 +1,10 @@
 --- FAILED VEHICLES (Add to special_cases.py) ---
 The following vehicles failed to scrape. Add them to SPECIAL_CASES:
 
-    "Enus Paragon R": "correct-url-here",  # The Duggan Robbery - Attempted: r
-    "Vapid Dominator GTT": "correct-url-here",  # The Cargo Ship Robbery - Attempted: gtt
-    "LSIA Vehicle Warehouse": "correct-url-here",  # Free - Attempted: warehouse
-    "BF Ramp Buggy": "correct-url-here",  # Free - Attempted: buggy
-    "Eclipse Blvd Garage": "correct-url-here",  # Discount - Attempted: garage
-    "Eclipse Blvd Garage Customizations": "correct-url-here",  # Discount - Attempted: customizations
-    "Bravado Hotring Hellfire": "correct-url-here",  # Discount - Attempted: hellfire
-    "Dinka Veto Classic": "correct-url-here",  # Discount - Attempted: classic
-    "Ocelot R88": "correct-url-here",  # Discount - Attempted: r88
-    "Karin Sultan Classic": "correct-url-here",  # Discount - Attempted: classic
-    "Dinka Kanjo SJ": "correct-url-here",  # Discount - Attempted: sj
+    "Benefactor Schlagen GT": "correct-url-here",  # Podium Vehicle - Attempted: gt
+    "Annis S80RR": "correct-url-here",  # The Duggan Robbery - Attempted: s80rr
+    "All Ammo": "correct-url-here",  # Discount - Attempted: ammo
+    "Mk II Weapon Conversions": "correct-url-here",  # Discount - Attempted: conversions
+    "Pfister Astron Custom": "correct-url-here",  # Discount - Attempted: custom
+    "Vapid Clique Wagon": "correct-url-here",  # Discount - Attempted: wagon
+    "Enus Windsor Drop": "correct-url-here",  # Discount - Attempted: drop

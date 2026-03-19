@@ -1,146 +1,98 @@
 {
-  "Albany Brigham": {
-    "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/brigham",
-    "image_url": "https://gtacars.net/images/81029c1e7e9a2cbf7c87bec78bb0035d",
-    "original_price": 1499000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Grotti Visione": {
+  "Albany Cavalcade XL": {
     "type": "Prize Ride Vehicle",
-    "url": "https://gtacars.net/gta5/visione",
-    "image_url": "https://gtacars.net/images/0699d68a4b054d19386995135ac603a7",
-    "original_price": 2250000,
+    "url": "https://gtacars.net/gta5/cavalcade3",
+    "image_url": "https://gtacars.net/images/c69269f1585872b2530c8eb1a7b4ee22",
+    "original_price": 1665000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Enus Paragon R": {
-    "type": "The Duggan Robbery",
-    "url": "https://gtacars.net/gta5/paragon",
-    "image_url": "https://gtacars.net/images/433322ae88327066b1357575358ff783",
-    "original_price": 905000,
+  "Karin Hotring Everon": {
+    "type": "The McTony Robbery",
+    "url": "https://gtacars.net/gta5/everon",
+    "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
+    "original_price": 1475000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Vapid Dominator GTT": {
-    "type": "The Cargo Ship Robbery",
-    "url": "https://gtacars.net/gta5/dominator8",
-    "image_url": "https://gtacars.net/images/a5ad50c571d38a1d917f67ce5e4cbbb9",
-    "original_price": 1220000,
+  "Karin Boor": {
+    "type": "The Gangbanger Robbery",
+    "url": "https://gtacars.net/gta5/boor",
+    "image_url": "https://gtacars.net/images/0cdbb3b401c8eeb762b14e67d9fe9e4a",
+    "original_price": 1280000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "BF Weevil": {
-    "type": "The Podium Robbery",
-    "url": "https://gtacars.net/gta5/weevil",
-    "image_url": "https://gtacars.net/images/551dc919cf92fab2374ec7cc5fcd3cbc",
-    "original_price": 870000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "BF Ramp Buggy": {
+  "Coil Rocket Voltic": {
     "type": "Free",
-    "discount": "Free: BF Ramp Buggy",
-    "url": "https://gtacars.net/gta5/dune4",
-    "image_url": "https://gtacars.net/images/bcfadfed976394800efa908e9023c0bc",
-    "original_price": null,
+    "discount": "Free: Coil Rocket Voltic",
+    "url": "https://gtacars.net/gta5/voltic",
+    "image_url": "https://gtacars.net/images/11c98c09d5ecd5673d186451e264de6d",
+    "original_price": 150000,
     "discounted_price": 0,
     "discount_percent": 100,
     "is_free": true
   },
-  "Bravado Hotring Hellfire": {
+  "Vapid Ratel": {
     "type": "Discount",
-    "discount": "30% Off: Bravado Hotring Hellfire",
-    "url": "https://gtacars.net/gta5/gauntlet6",
-    "image_url": "https://gtacars.net/images/19cf898d4caa13d8eb385f36eea30fd2",
-    "original_price": 1810000,
-    "discounted_price": 1267000,
+    "discount": "30% Off: Vapid Ratel",
+    "url": "https://gtacars.net/gta5/ratel",
+    "image_url": "https://gtacars.net/images/20cf0c25df5a87288c5a82a643432b01",
+    "original_price": 1873000,
+    "discounted_price": 1311100,
     "discount_percent": 30,
     "is_free": false
   },
-  "Dinka Veto Classic": {
+  "Declasse Draugur": {
     "type": "Discount",
-    "discount": "30% Off: Dinka Veto Classic",
-    "url": "https://gtacars.net/gta5/veto",
-    "image_url": "https://gtacars.net/images/69b5a110de5256fefef24a7c64063cc1",
-    "original_price": 895000,
-    "discounted_price": 626500,
+    "discount": "30% Off: Declasse Draugur",
+    "url": "https://gtacars.net/gta5/draugur",
+    "image_url": "https://gtacars.net/images/a0ec86fa61a4e94938fa562d0fa7fbb6",
+    "original_price": 1870000,
+    "discounted_price": 1309000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Ocelot R88": {
+  "Western Company Besra": {
     "type": "Discount",
-    "discount": "30% Off: Ocelot R88",
-    "url": "https://gtacars.net/gta5/formula2",
-    "image_url": "https://gtacars.net/images/eccf9965ef99f31ab8f602a5c15c9d9b",
-    "original_price": 3115000,
-    "discounted_price": 2180500,
+    "discount": "30% Off: Western Company Besra",
+    "url": "https://gtacars.net/gta5/besra",
+    "image_url": "https://gtacars.net/images/6e734b56ada64b4dbfa9a7a8052069b8",
+    "original_price": 1150000,
+    "discounted_price": 805000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Karin Sultan Classic": {
+  "Annis Savestra": {
     "type": "Discount",
-    "discount": "30% Off: Karin Sultan Classic",
-    "url": "https://gtacars.net/gta5/sultan2",
-    "image_url": "https://gtacars.net/images/979b441981dc7a783a766e3bd0cd3075",
-    "original_price": 1718000,
-    "discounted_price": 1202600,
+    "discount": "30% Off: Annis Savestra",
+    "url": "https://gtacars.net/gta5/savestra",
+    "image_url": "https://gtacars.net/images/ef30e44906df118895548af408f8e76b",
+    "original_price": 990000,
+    "discounted_price": 693000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Lampadati Komoda": {
+  "BF Raptor": {
     "type": "Discount",
-    "discount": "30% Off: Lampadati Komoda",
-    "url": "https://gtacars.net/gta5/komoda",
-    "image_url": "https://gtacars.net/images/33e974c2d5d875139150d1f799b9724f",
-    "original_price": 1700000,
-    "discounted_price": 1190000,
+    "discount": "30% Off: BF Raptor",
+    "url": "https://gtacars.net/gta5/raptor",
+    "image_url": "https://gtacars.net/images/0390e7ff19424790f42efa5b756ac07d",
+    "original_price": 648000,
+    "discounted_price": 453600,
     "discount_percent": 30,
     "is_free": false
   },
-  "Karin Everon": {
+  "Declasse Bugstars Burrito": {
     "type": "Discount",
-    "discount": "30% Off: Karin Everon",
-    "url": "https://gtacars.net/gta5/everon",
-    "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
-    "original_price": 1475000,
-    "discounted_price": 1032500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Dinka Kanjo SJ": {
-    "type": "Discount",
-    "discount": "30% Off: Dinka Kanjo SJ",
-    "url": "https://gtacars.net/gta5/kanjo",
-    "image_url": "https://gtacars.net/images/0e512a64cccb8adec297578b3e7feaa9",
-    "original_price": 580000,
-    "discounted_price": 406000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "HVY Dump": {
-    "type": "Discount",
-    "discount": "30% Off: HVY Dump",
-    "url": "https://gtacars.net/gta5/dump",
-    "image_url": "https://gtacars.net/images/a21b8d64f25f5a4e64446dafa07cfb91",
-    "original_price": 1000000,
-    "discounted_price": 700000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Albany Hermes": {
-    "type": "Discount",
-    "discount": "30% Off: Albany Hermes",
-    "url": "https://gtacars.net/gta5/hermes",
-    "image_url": "https://gtacars.net/images/ce014a0f3cba011b5aa1403127fb1727",
-    "original_price": 535000,
-    "discounted_price": 374500,
+    "discount": "30% Off: Declasse Bugstars Burrito",
+    "url": "https://gtacars.net/gta5/burrito",
+    "image_url": "https://gtacars.net/images/db6f4daf3bf83346d2edc2a478626914",
+    "original_price": null,
+    "discounted_price": null,
     "discount_percent": 30,
     "is_free": false
   }
