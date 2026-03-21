@@ -1,52 +1,66 @@
 {
-  "weekOf": "February 26th to March 5th (Not live until ~5am EDT on February 26th)",
+  "weekOf": "March 19th to March 26th (Not live until ~5am EDT on March 19th)",
   "introMessages": [
-    "Drift to victory in the surprisingly powerful new Shitzu Keitora — now available from Southern San Andreas Super Autos and eligible for Drift Tuning alongside three existing vehicles.",
-    "During this week's Drift Event in GTA Online earn triple on Drift Races, 5X LS Car Meet Rep, get the Manga Classic livery for the Drift variant of the Annis Euros, a claimable Salvage Yard Robbery vehicle, and much more.",
-    "There’s also GTA$500,000 in Twitch Drops available to claim by watching a special Community Series featuring top racing tracks from Japanese creators — look out for more info on that tomorrow and check out the rest of this week's details below."
+    "The Community Series Showcase continues in GTA Online, launching into an explosive second week of action with a Series focused on Combat modes. Test your reflexes in the rocket-propelled carnage of \\[G\\] Bowling Vs Rpg by gecko--87 in the Community Series, paying out 3X GTA$ and RP this week and next.",
+    "This week, get 2X GTA$ on Document Forgery Sell Missions, 2X Research Progress from Bunker Research Missions, and 3X GTA$ and RP on Gerald Contact Missions (including Gerald's Last Play). Plus, keep searching high and low for Lucky and Golden Clover balloons to collect special Outfits."
   ],
-  "podiumVehicle": "Benefactor Stirling GT",
-  "prizeRideVehicle": "Fathom FR36",
-  "prizeRideChallenge": "Place Top 3 in the LS Car Meet Series for 4 days in a row",
-  "timeTrial": "Tongva Valley",
-  "premiumRace": "Cutting Coroners, locked to Super",
-  "hswTimeTrial": "Terminal to Chiliad Mountain State Wilderness",
+  "podiumVehicle": "Benefactor Schlagen GT",
+  "prizeRideVehicle": "Albany Cavalcade XL",
+  "prizeRideChallenge": "Win in the LS Car Meet Series",
+  "timeTrial": "Route 68",
+  "premiumRace": "A Sign of Things to Come, locked to Motorcycle",
+  "hswTimeTrial": "East Vinewood to Vespucci Beach",
   "salvageYardRobberies": [
     {
       "type": "The Duggan Robbery",
-      "vehicle": "Maibatsu Penumbra FF with LS Car Meet Vanity Plate CLAIMABLE"
+      "vehicle": "Annis S80RR"
     },
     {
       "type": "The McTony Robbery",
-      "vehicle": "Grotti GT500"
+      "vehicle": "Karin Hotring Everon"
     },
     {
-      "type": "The Cargo Ship Robbery",
-      "vehicle": "BF Weevil"
+      "type": "The Gangbanger Robbery",
+      "vehicle": "Karin Boor"
     }
   ],
-  "weeklyChallenge": "Participate in 3 Drift Races to earn the Bright Manor Racing Suit and GTA$100,000",
+  "weeklyChallenge": "Win three Deathmatches to receive GTA$100,000",
   "bonuses": [
-    "4X GTA$ and RP - Exotic Exports )(10 Cars From the Auto Shop List)",
-    "3X GTA$ and RP - Drift Races (6X for GTA+ Members)",
-    "2X GTA$ - Weed Sell Missions (Biker Weed Farms and Nightclub Organic Produce)",
-    "2X GTA$ and RP - Sumo (Remix)"
+    "3X GTA$ and RP - Community Series (6X for GTA+ Members)",
+    "3X GTA$ and RP - Gerald Contact Missions",
+    "2X GTA$ and RP - Document Forgery Sell Missions",
+    "2X - Research Progress from Bunker Research Missions"
   ],
   "discounts": [
-    "Free: Dinka Blista Kanjo",
-    "Free: Declasse Drift Walton L35",
-    "Free: LS Car Meet Membership",
-    "40% Off: Weed Farm Businesses",
-    "40% Off: Weed Farm Business Upgrades",
-    "30% Off: Drift Tuning Upgrades",
-    "30% Off: Dinka Jester RR",
-    "30% Off: Fathom FR36",
-    "30% Off: Dinka Chavos V6",
-    "30% Off: Declasse Drift Yosemite",
-    "30% Off: Buckingham Howard NX-25",
-    "30% Off: Zirconium Journey II",
-    "30% Off: Bravado Gauntlet Hellfire",
-    "30% Off: RUNE Cheburek",
-    "30% Off: Karin Futo"
+    "Free: LSIA Vehicle Warehouse",
+    "Free: Coil Rocket Voltic",
+    "50% Off: Executive Offices",
+    "50% Off: All Ammo",
+    "40% Off: Document Forgery Offices + Upgrades",
+    "40% Off: Mk II Weapon Conversions",
+    "30% Off: Vapid Ratel",
+    "30% Off: Declasse Draugur",
+    "30% Off: Pfister Astron Custom",
+    "30% Off: Vapid Clique Wagon",
+    "30% Off: Western Company Besra",
+    "30% Off: Annis Savestra",
+    "30% Off: Enus Windsor Drop",
+    "30% Off: BF Raptor",
+    "30% Off: Declasse Bugstars Burrito"
+  ],
+  "gunVanDiscounts": [
+    "40% off: All Weapons",
+    "50% off for GTA+ Members: All Weapons"
+  ],
+  "gunVanStock": [
+    "Battle Rifle (40%, 50%)",
+    "Tactical SMG (40%, 50%)",
+    "Heavy Rifle (40%, 50%)",
+    "El Strickler (40%, 50%)",
+    "Compact EMP Launcher (40%, 50%)",
+    "Precision Rifle (40%, 50%)",
+    "Pipe Bomb (40%, 50%)",
+    "Sticky Bomb (40%, 50%)",
+    "Proximity Mine (40%, 50%)"
   ]
 }

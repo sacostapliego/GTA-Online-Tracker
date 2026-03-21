@@ -166,15 +166,18 @@ def extract_bonuses(body):
             capturing = True
             continue
 
-        # Stop at next major section
-        if capturing and stripped.startswith('# '):
+        # Stop when we reach the Discounts section
+        if capturing and stripped.startswith('# Discounts'):
             break
+
+        # Ignore subsection headings inside the bonuses block
+        if capturing and stripped.startswith('#'):
+            continue
 
         # Capture multiplier headers (e.g., "4X GTA$ and RP", "2X GTA$", "3X RP")
         if capturing and stripped.startswith('**') and stripped.endswith('**'):
             # Check if it contains multiplier pattern (e.g., "2X", "3X", "4X")
-            multiplier_match = re.search(r'(\d+X\s+[^*]+)', stripped)
-            if multiplier_match:
+            if re.search(r'\b\d+X\b', stripped):
                 current_multiplier = clean_text(stripped)
             continue
 

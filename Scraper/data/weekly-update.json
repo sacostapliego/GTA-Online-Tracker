@@ -26,7 +26,10 @@
   ],
   "weeklyChallenge": "Win three Deathmatches to receive GTA$100,000",
   "bonuses": [
-    "See full post for details"
+    "3X GTA$ and RP - Community Series (6X for GTA+ Members)",
+    "3X GTA$ and RP - Gerald Contact Missions",
+    "2X GTA$ and RP - Document Forgery Sell Missions",
+    "2X - Research Progress from Bunker Research Missions"
   ],
   "discounts": [
     "Free: LSIA Vehicle Warehouse",
@@ -49,5 +52,15 @@
     "40% off: All Weapons",
     "50% off for GTA+ Members: All Weapons"
   ],
-  "gunVanStock": []
+  "gunVanStock": [
+    "Battle Rifle (40%, 50%)",
+    "Tactical SMG (40%, 50%)",
+    "Heavy Rifle (40%, 50%)",
+    "El Strickler (40%, 50%)",
+    "Compact EMP Launcher (40%, 50%)",
+    "Precision Rifle (40%, 50%)",
+    "Pipe Bomb (40%, 50%)",
+    "Sticky Bomb (40%, 50%)",
+    "Proximity Mine (40%, 50%)"
+  ]
 }
