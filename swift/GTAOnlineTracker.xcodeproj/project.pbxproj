@@ -19,6 +19,9 @@
 		A1000000000000000000000B /* BonusesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001A /* BonusesTabView.swift */; };
 		A1000000000000000000000C /* DiscountsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001B /* DiscountsTabView.swift */; };
 		A1000000000000000000000D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001C /* MainTabView.swift */; };
+		A1000000000000000000000E /* fallback.json in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001D /* fallback.json */; };
+		A1000000000000000000000F /* gta_images.json in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001E /* gta_images.json */; };
+		A10000000000000000000010 /* property_images.json in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001F /* property_images.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		A1000000000000000000001A /* BonusesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusesTabView.swift; sourceTree = "<group>"; };
 		A1000000000000000000001B /* DiscountsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsTabView.swift; sourceTree = "<group>"; };
 		A1000000000000000000001C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001D /* fallback.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fallback.json; sourceTree = "<group>"; };
+		A1000000000000000000001E /* gta_images.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gta_images.json; sourceTree = "<group>"; };
+		A1000000000000000000001F /* property_images.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = property_images.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 			children = (
 				A10000000000000000000017 /* weekly-update.sample.json */,
 				A10000000000000000000018 /* vehicle-data.sample.json */,
+				A1000000000000000000001D /* fallback.json */,
+				A1000000000000000000001E /* gta_images.json */,
+				A1000000000000000000001F /* property_images.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -183,6 +192,9 @@
 			files = (
 				A10000000000000000000007 /* weekly-update.sample.json in Resources */,
 				A10000000000000000000008 /* vehicle-data.sample.json in Resources */,
+				A1000000000000000000000E /* fallback.json in Resources */,
+				A1000000000000000000000F /* gta_images.json in Resources */,
+				A10000000000000000000010 /* property_images.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

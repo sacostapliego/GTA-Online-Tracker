@@ -1,0 +1,14 @@
+{
+  "weekOf": "Unable to load weekly data",
+  "introMessages": ["Could not connect to fetch the latest weekly update. Please check your internet connection and restart the app."],
+  "weeklyChallenge": "Unavailable",
+  "podiumVehicle": "",
+  "prizeRideVehicle": "",
+  "prizeRideChallenge": "",
+  "timeTrial": "Unavailable",
+  "premiumRace": "Unavailable",
+  "hswTimeTrial": "Unavailable",
+  "salvageYardRobberies": [],
+  "bonuses": [],
+  "discounts": []
+}

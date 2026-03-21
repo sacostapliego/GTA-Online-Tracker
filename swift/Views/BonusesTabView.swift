@@ -16,7 +16,7 @@ struct BonusesTabView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
                         header(weekly: weekly)
-                        bonusesList(items: weekly.bonuses)
+                        bonusesList(items: viewModel.bonusItems())
                     }
                     .padding(20)
                 }
@@ -55,30 +55,43 @@ struct BonusesTabView: View {
         }
     }
 
-    private func bonusesList(items: [String]) -> some View {
+    private func bonusesList(items: [BonusDisplayItem]) -> some View {
         VStack(spacing: 12) {
-            ForEach(Array(items.enumerated()), id: \.offset) { index, bonus in
-                bonusRow(text: bonus, index: index)
+            ForEach(Array(items.enumerated()), id: \.offset) { index, item in
+                bonusRow(item: item, index: index)
             }
         }
     }
 
-    private func bonusRow(text: String, index: Int) -> some View {
-        HStack(alignment: .top, spacing: 16) {
-            ZStack {
-                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .fill(Color.orange.opacity(0.2))
-                    .frame(width: 48, height: 48)
-
-                Text("\(index + 1)")
-                    .font(.headline.weight(.bold))
-                    .foregroundStyle(.orange)
+    private func bonusRow(item: BonusDisplayItem, index: Int) -> some View {
+        HStack(alignment: .top, spacing: 14) {
+            AsyncImage(url: URL(string: item.imageURL)) { phase in
+                switch phase {
+                case .empty:
+                    bonusPlaceholder
+                case .success(let image):
+                    image
+                        .resizable()
+                        .scaledToFill()
+                case .failure:
+                    bonusPlaceholder
+                @unknown default:
+                    bonusPlaceholder
+                }
             }
+            .frame(width: 120, height: 76)
+            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+            .overlay(
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .stroke(Color.orange.opacity(0.3), lineWidth: 1)
+            )
 
-            Text(text)
-                .font(.subheadline.weight(.medium))
-                .foregroundStyle(.white)
-                .frame(maxWidth: .infinity, alignment: .leading)
+            VStack(alignment: .leading, spacing: 8) {
+                Text(item.text)
+                    .font(.subheadline.weight(.medium))
+                    .foregroundStyle(.white)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
         }
         .padding(16)
         .background(
@@ -89,5 +102,15 @@ struct BonusesTabView: View {
                         .fill(Color.black.opacity(0.3))
                 )
         )
+    }
+
+    private var bonusPlaceholder: some View {
+        RoundedRectangle(cornerRadius: 10, style: .continuous)
+            .fill(Color.black.opacity(0.4))
+            .overlay {
+                Image(systemName: "star.fill")
+                    .font(.title2)
+                    .foregroundStyle(.orange.opacity(0.5))
+            }
     }
 }

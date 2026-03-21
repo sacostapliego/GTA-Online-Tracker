@@ -6,6 +6,17 @@ enum TrackerAPIError: Error {
     case missingSampleData
 }
 
+struct GTAImageEntry: Codable {
+    let imageURL: String
+
+    enum CodingKeys: String, CodingKey {
+        case imageURL
+    }
+}
+
+typealias GTAImageData = [String: GTAImageEntry]
+typealias PropertyImageData = [String: [String: String]]
+
 final class TrackerAPI {
     private let session: URLSession
     private let baseURL: URL?
@@ -24,8 +35,14 @@ final class TrackerAPI {
             do {
                 return try await fetchJSON(path: "weekly-update.json", from: baseURL)
             } catch {
+                if let fallback = try? loadSampleJSON(named: "fallback", type: WeeklyUpdate.self) {
+                    return fallback
+                }
                 return try loadSampleJSON(named: "weekly-update.sample", type: WeeklyUpdate.self)
             }
+        }
+        if let fallback = try? loadSampleJSON(named: "fallback", type: WeeklyUpdate.self) {
+            return fallback
         }
         return try loadSampleJSON(named: "weekly-update.sample", type: WeeklyUpdate.self)
     }
@@ -39,6 +56,14 @@ final class TrackerAPI {
             }
         }
         return try loadSampleJSON(named: "vehicle-data.sample", type: VehicleDataResponse.self)
+    }
+
+    func fetchGTAImageData() async throws -> GTAImageData {
+        return try loadSampleJSON(named: "gta_images", type: GTAImageData.self)
+    }
+
+    func fetchPropertyImageData() async throws -> PropertyImageData {
+        return try loadSampleJSON(named: "property_images", type: PropertyImageData.self)
     }
 
     private func fetchJSON<T: Decodable>(path: String, from baseURL: URL) async throws -> T {

@@ -51,5 +51,12 @@ struct DiscountDisplayItem: Identifiable {
     let id = UUID()
     let label: String
     let vehicleName: String
+    let imageURL: String
     let vehicleData: VehicleData?
+}
+
+struct BonusDisplayItem: Identifiable {
+    let id = UUID()
+    let text: String
+    let imageURL: String
 }

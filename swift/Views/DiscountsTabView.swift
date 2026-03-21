@@ -65,7 +65,7 @@ struct DiscountsTabView: View {
 
     private func discountRow(item: DiscountDisplayItem) -> some View {
         HStack(alignment: .top, spacing: 16) {
-            AsyncImage(url: viewModel.imageURL(for: item.vehicleName)) { phase in
+            AsyncImage(url: URL(string: item.imageURL)) { phase in
                 switch phase {
                 case .empty:
                     discountPlaceholder
