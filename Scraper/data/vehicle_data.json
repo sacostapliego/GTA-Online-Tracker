@@ -1,9 +1,27 @@
 {
+  "Benefactor Schlagen GT": {
+    "type": "Podium Vehicle",
+    "url": "https://gtacars.net/gta5/schlagen",
+    "image_url": "https://gtacars.net/images/0d37801b299c7f11e8e210371c00cd24",
+    "original_price": 1300000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
   "Albany Cavalcade XL": {
     "type": "Prize Ride Vehicle",
     "url": "https://gtacars.net/gta5/cavalcade3",
     "image_url": "https://gtacars.net/images/c69269f1585872b2530c8eb1a7b4ee22",
     "original_price": 1665000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "Annis S80RR": {
+    "type": "The Duggan Robbery",
+    "url": "https://gtacars.net/gta5/s80",
+    "image_url": "https://gtacars.net/images/f29bd57d82339b333a11cacb1175700d",
+    "original_price": 2575000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
@@ -53,6 +71,26 @@
     "image_url": "https://gtacars.net/images/a0ec86fa61a4e94938fa562d0fa7fbb6",
     "original_price": 1870000,
     "discounted_price": 1309000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Pfister Astron Custom": {
+    "type": "Discount",
+    "discount": "30% Off: Pfister Astron Custom",
+    "url": "https://gtacars.net/gta5/astron2",
+    "image_url": "https://gtacars.net/images/8d1eefc7c56a31a1ebb0b1481fec40cb",
+    "original_price": 1720000,
+    "discounted_price": 1204000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Vapid Clique Wagon": {
+    "type": "Discount",
+    "discount": "30% Off: Vapid Clique Wagon",
+    "url": "https://gtacars.net/gta5/clique2",
+    "image_url": "https://gtacars.net/images/63bae8969e9380dd1d716c1919ee218c",
+    "original_price": 1205000,
+    "discounted_price": 843500,
     "discount_percent": 30,
     "is_free": false
   },

@@ -191,31 +191,64 @@ struct HomeTabView: View {
                 .font(.headline)
                 .foregroundStyle(.orange)
 
-            ForEach(items) { item in
-                HStack {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(item.type)
-                            .font(.subheadline.weight(.semibold))
-                            .foregroundStyle(.white)
-                        Text(item.vehicle)
-                            .font(.footnote)
-                            .foregroundStyle(.white.opacity(0.85))
-                    }
-                    Spacer()
-                    Image(systemName: "chevron.right")
-                        .font(.caption)
-                        .foregroundStyle(.orange.opacity(0.6))
-                }
-                .padding(14)
-                .background(
-                    RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .stroke(Color.orange.opacity(0.25), lineWidth: 1)
-                        .background(
-                            RoundedRectangle(cornerRadius: 12, style: .continuous)
-                                .fill(Color.black.opacity(0.25))
+            ScrollView(.horizontal, showsIndicators: false) {
+                LazyHStack(spacing: 14) {
+                    ForEach(items) { item in
+                        AsyncImage(url: viewModel.imageURL(for: item.vehicle)) { phase in
+                            switch phase {
+                            case .empty:
+                                salvagePlaceholder
+                            case .success(let image):
+                                image
+                                    .resizable()
+                                    .scaledToFill()
+                            case .failure:
+                                salvagePlaceholder
+                            @unknown default:
+                                salvagePlaceholder
+                            }
+                        }
+                        .frame(width: 290, height: 180)
+                        .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+                        .overlay(alignment: .bottomLeading) {
+                            LinearGradient(
+                                colors: [.clear, .black.opacity(0.72)],
+                                startPoint: .top,
+                                endPoint: .bottom
+                            )
+                            .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+                            .overlay(alignment: .bottomLeading) {
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(item.type)
+                                        .font(.subheadline.weight(.semibold))
+                                        .foregroundStyle(.white)
+                                    Text(item.vehicle)
+                                        .font(.footnote)
+                                        .foregroundStyle(.white.opacity(0.9))
+                                }
+                                .padding(12)
+                            }
+                        }
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                .stroke(Color.orange.opacity(0.25), lineWidth: 1)
                         )
-                )
+                    }
+                }
+                .padding(.horizontal, 1)
             }
+            .frame(height: 180)
+            .scrollClipDisabled()
         }
+    }
+
+    private var salvagePlaceholder: some View {
+        Rectangle()
+            .fill(Color.black.opacity(0.4))
+            .overlay {
+                Image(systemName: "car.rear.and.tire.marks")
+                    .font(.title2)
+                    .foregroundStyle(.orange.opacity(0.6))
+            }
     }
 }

@@ -10,5 +10,9 @@
   "Cocaine": {
     "image2": "https://cdn.shopify.com/s/files/1/0556/5795/5430/articles/gta-online-cocaine-lockup.jpg?v=1713012085",
     "image1": "https://images.ctfassets.net/vyqo670uc2zh/5LiWLLafrqM2EEmmQqqyem/2273b256dda1f8dcca6219b86be0f391/cocaine-lockup-elysian-island.jpg?w=330&h=186&q=90&fit=fill"
+  },
+  "Bunker": {
+    "image1": "https://static.wikia.nocookie.net/gtawiki/images/f/f9/Gunrunning-GTAO-OfficialScreen-Bunker.jpg/revision/latest?cb=20170525211235",
+    "image2": "https://static.wikia.nocookie.net/gtawiki/images/9/94/Bunker-GTAO-BunkerStyle1.png/revision/latest?cb=20170807150753"
   }
 }

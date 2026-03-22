@@ -37,4 +37,9 @@ SPECIAL_CASES = {
     "Ocelot R88": "formula2",
     "Karin Sultan Classic": "sultan2",
     "Dinka Kanjo SJ": "kanjo",
+    "Pfister Astron Custom": "astron2",
+    "Vapid Clique Wagon": "clique2",
+    "Enus Windsor Drop": "windsor2",
+    "Benefactor Schlagen GT" : "schlagen",
+    "Annis S80RR" : "s80",
 }
