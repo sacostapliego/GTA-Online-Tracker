@@ -1,66 +1,58 @@
 {
-  "weekOf": "March 19th to March 26th (Not live until ~5am EDT on March 19th)",
+  "weekOf": "March 26th to April 2nd (Not live until ~5am EDT on March 26th)",
   "introMessages": [
-    "The Community Series Showcase continues in GTA Online, launching into an explosive second week of action with a Series focused on Combat modes. Test your reflexes in the rocket-propelled carnage of \\[G\\] Bowling Vs Rpg by gecko--87 in the Community Series, paying out 3X GTA$ and RP this week and next.",
-    "This week, get 2X GTA$ on Document Forgery Sell Missions, 2X Research Progress from Bunker Research Missions, and 3X GTA$ and RP on Gerald Contact Missions (including Gerald's Last Play). Plus, keep searching high and low for Lucky and Golden Clover balloons to collect special Outfits."
+    "This final week of the Community Series Showcase features top-class Races that run the gamut from ambitious stunts to chaotic face-to-face tracks pitting transforming vehicles against each other at breakneck speeds.",
+    "If you completed the past two Weekly Challenges, make sure you return to complete this week’s to receive the Community Collection consisting of the Homies Sharp Tee and more.",
+    "Elsewhere in Los Santos, earn Triple Rewards on Special Vehicle Work and Money Laundering Missions from all Money Fronts businesses through April 1.",
+    "Speaking of Special Vehicles, head to Warstock to claim your free Phantom Wedge this week. The Grass Roots livery is also available for the Annis Hardy from all Vehicle Workshops or pre-wrapped at the Luxury Autos window display."
   ],
-  "podiumVehicle": "Benefactor Schlagen GT",
-  "prizeRideVehicle": "Albany Cavalcade XL",
-  "prizeRideChallenge": "Win in the LS Car Meet Series",
-  "timeTrial": "Route 68",
-  "premiumRace": "A Sign of Things to Come, locked to Motorcycle",
-  "hswTimeTrial": "East Vinewood to Vespucci Beach",
+  "podiumVehicle": "Grotti Stinger TT",
+  "prizeRideVehicle": "Enus Paragon S",
+  "prizeRideChallenge": "Place Top 3 in the LS Car Meet Series",
+  "timeTrial": "LSIA",
+  "premiumRace": "Taking Off, locked to Super",
+  "hswTimeTrial": "Del Perro Beach to Murietta Heights",
   "salvageYardRobberies": [
     {
-      "type": "The Duggan Robbery",
-      "vehicle": "Annis S80RR"
+      "type": "The McTony Robbery",
+      "vehicle": "Överflöd Entity MT"
     },
     {
-      "type": "The McTony Robbery",
-      "vehicle": "Karin Hotring Everon"
+      "type": "The Podium Robbery",
+      "vehicle": "Karin Everon"
     },
     {
       "type": "The Gangbanger Robbery",
-      "vehicle": "Karin Boor"
+      "vehicle": "Weeny Issi Rally"
     }
   ],
-  "weeklyChallenge": "Win three Deathmatches to receive GTA$100,000",
+  "weeklyChallenge": "Win three Races to receive GTA$100,000",
   "bonuses": [
     "3X GTA$ and RP - Community Series (6X for GTA+ Members)",
-    "3X GTA$ and RP - Gerald Contact Missions",
-    "2X GTA$ and RP - Document Forgery Sell Missions",
-    "2X - Research Progress from Bunker Research Missions"
+    "3X GTA$ and RP - Special Vehicle Work",
+    "3X GTA$ and RP - Money Laundering Missions for Hands On Car Wash, Higgins Helitours, and Smoke on the Water",
+    "2X GTA$ and RP - Mr. Faber Work (4X for GTA+ Members)",
+    "2X GTA$ - Hands On Car Wash Safe Income"
   ],
   "discounts": [
     "Free: LSIA Vehicle Warehouse",
-    "Free: Coil Rocket Voltic",
+    "Free: Jobuilt Phantom Wedge",
     "50% Off: Executive Offices",
-    "50% Off: All Ammo",
-    "40% Off: Document Forgery Offices + Upgrades",
-    "40% Off: Mk II Weapon Conversions",
-    "30% Off: Vapid Ratel",
-    "30% Off: Declasse Draugur",
-    "30% Off: Pfister Astron Custom",
-    "30% Off: Vapid Clique Wagon",
-    "30% Off: Western Company Besra",
-    "30% Off: Annis Savestra",
-    "30% Off: Enus Windsor Drop",
-    "30% Off: BF Raptor",
-    "30% Off: Declasse Bugstars Burrito"
+    "40% Off: Hands On Car Wash Property",
+    "30% Off: Överflöd Suzume",
+    "30% Off: HVY Nightshark",
+    "30% Off: Annis Euros",
+    "30% Off: Nagasaki Blazer Aqua",
+    "30% Off: Karin Everon RS",
+    "30% Off: Karin Previon",
+    "30% Off: Übermacht Rebla GTS",
+    "30% Off: Principe Lectro",
+    "30% Off: Dinka Vindicator",
+    "30% Off: Mammoth Patriot Stretch"
   ],
   "gunVanDiscounts": [
-    "40% off: All Weapons",
-    "50% off for GTA+ Members: All Weapons"
+    "40% off: Railgun",
+    "40% off for GTA+ Members: Military Rifle"
   ],
-  "gunVanStock": [
-    "Battle Rifle (40%, 50%)",
-    "Tactical SMG (40%, 50%)",
-    "Heavy Rifle (40%, 50%)",
-    "El Strickler (40%, 50%)",
-    "Compact EMP Launcher (40%, 50%)",
-    "Precision Rifle (40%, 50%)",
-    "Pipe Bomb (40%, 50%)",
-    "Sticky Bomb (40%, 50%)",
-    "Proximity Mine (40%, 50%)"
-  ]
+  "gunVanStock": []
 }

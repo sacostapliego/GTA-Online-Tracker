@@ -1,33 +1,15 @@
 {
-  "Benefactor Schlagen GT": {
+  "Grotti Stinger TT": {
     "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/schlagen",
-    "image_url": "https://gtacars.net/images/0d37801b299c7f11e8e210371c00cd24",
-    "original_price": 1300000,
+    "url": "https://gtacars.net/gta5/stingertt",
+    "image_url": "https://gtacars.net/images/7acdca8b9c29b91b9bae13c1dd79c6fb",
+    "original_price": 2380000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Albany Cavalcade XL": {
-    "type": "Prize Ride Vehicle",
-    "url": "https://gtacars.net/gta5/cavalcade3",
-    "image_url": "https://gtacars.net/images/c69269f1585872b2530c8eb1a7b4ee22",
-    "original_price": 1665000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Annis S80RR": {
-    "type": "The Duggan Robbery",
-    "url": "https://gtacars.net/gta5/s80",
-    "image_url": "https://gtacars.net/images/f29bd57d82339b333a11cacb1175700d",
-    "original_price": 2575000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Karin Hotring Everon": {
-    "type": "The McTony Robbery",
+  "Karin Everon": {
+    "type": "The Podium Robbery",
     "url": "https://gtacars.net/gta5/everon",
     "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
     "original_price": 1475000,
@@ -35,102 +17,73 @@
     "discount_percent": null,
     "is_free": false
   },
-  "Karin Boor": {
-    "type": "The Gangbanger Robbery",
-    "url": "https://gtacars.net/gta5/boor",
-    "image_url": "https://gtacars.net/images/0cdbb3b401c8eeb762b14e67d9fe9e4a",
-    "original_price": 1280000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Coil Rocket Voltic": {
-    "type": "Free",
-    "discount": "Free: Coil Rocket Voltic",
-    "url": "https://gtacars.net/gta5/voltic",
-    "image_url": "https://gtacars.net/images/11c98c09d5ecd5673d186451e264de6d",
-    "original_price": 150000,
-    "discounted_price": 0,
-    "discount_percent": 100,
-    "is_free": true
-  },
-  "Vapid Ratel": {
+  "\u00d6verfl\u00f6d Suzume": {
     "type": "Discount",
-    "discount": "30% Off: Vapid Ratel",
-    "url": "https://gtacars.net/gta5/ratel",
-    "image_url": "https://gtacars.net/images/20cf0c25df5a87288c5a82a643432b01",
-    "original_price": 1873000,
-    "discounted_price": 1311100,
+    "discount": "30% Off: \u00d6verfl\u00f6d Suzume",
+    "url": "https://gtacars.net/gta5/suzume",
+    "image_url": "https://gtacars.net/images/4fc7db072180cca03c200990c3ac5116",
+    "original_price": 3074500,
+    "discounted_price": 2152150,
     "discount_percent": 30,
     "is_free": false
   },
-  "Declasse Draugur": {
+  "HVY Nightshark": {
     "type": "Discount",
-    "discount": "30% Off: Declasse Draugur",
-    "url": "https://gtacars.net/gta5/draugur",
-    "image_url": "https://gtacars.net/images/a0ec86fa61a4e94938fa562d0fa7fbb6",
-    "original_price": 1870000,
-    "discounted_price": 1309000,
+    "discount": "30% Off: HVY Nightshark",
+    "url": "https://gtacars.net/gta5/nightshark",
+    "image_url": "https://gtacars.net/images/9ade7ef45e6d761b842386a337f38cfb",
+    "original_price": 1245000,
+    "discounted_price": 871500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Pfister Astron Custom": {
+  "Annis Euros": {
     "type": "Discount",
-    "discount": "30% Off: Pfister Astron Custom",
-    "url": "https://gtacars.net/gta5/astron2",
-    "image_url": "https://gtacars.net/images/8d1eefc7c56a31a1ebb0b1481fec40cb",
-    "original_price": 1720000,
-    "discounted_price": 1204000,
+    "discount": "30% Off: Annis Euros",
+    "url": "https://gtacars.net/gta5/euros",
+    "image_url": "https://gtacars.net/images/71705592df5c0d18855809f0d074ab7c",
+    "original_price": 1800000,
+    "discounted_price": 1260000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Vapid Clique Wagon": {
+  "Karin Previon": {
     "type": "Discount",
-    "discount": "30% Off: Vapid Clique Wagon",
-    "url": "https://gtacars.net/gta5/clique2",
-    "image_url": "https://gtacars.net/images/63bae8969e9380dd1d716c1919ee218c",
-    "original_price": 1205000,
-    "discounted_price": 843500,
+    "discount": "30% Off: Karin Previon",
+    "url": "https://gtacars.net/gta5/previon",
+    "image_url": "https://gtacars.net/images/2eec606a03e074270980266a7ff6c946",
+    "original_price": 1490000,
+    "discounted_price": 1043000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Western Company Besra": {
+  "Principe Lectro": {
     "type": "Discount",
-    "discount": "30% Off: Western Company Besra",
-    "url": "https://gtacars.net/gta5/besra",
-    "image_url": "https://gtacars.net/images/6e734b56ada64b4dbfa9a7a8052069b8",
-    "original_price": 1150000,
-    "discounted_price": 805000,
+    "discount": "30% Off: Principe Lectro",
+    "url": "https://gtacars.net/gta5/lectro",
+    "image_url": "https://gtacars.net/images/c56b558fbbe7e269fff2a8138b9e44b0",
+    "original_price": 997500,
+    "discounted_price": 698250,
     "discount_percent": 30,
     "is_free": false
   },
-  "Annis Savestra": {
+  "Dinka Vindicator": {
     "type": "Discount",
-    "discount": "30% Off: Annis Savestra",
-    "url": "https://gtacars.net/gta5/savestra",
-    "image_url": "https://gtacars.net/images/ef30e44906df118895548af408f8e76b",
-    "original_price": 990000,
-    "discounted_price": 693000,
+    "discount": "30% Off: Dinka Vindicator",
+    "url": "https://gtacars.net/gta5/vindicator",
+    "image_url": "https://gtacars.net/images/0d0dbae42df527680895e2792e31dc99",
+    "original_price": 630000,
+    "discounted_price": 441000,
     "discount_percent": 30,
     "is_free": false
   },
-  "BF Raptor": {
+  "Mammoth Patriot Stretch": {
     "type": "Discount",
-    "discount": "30% Off: BF Raptor",
-    "url": "https://gtacars.net/gta5/raptor",
-    "image_url": "https://gtacars.net/images/0390e7ff19424790f42efa5b756ac07d",
-    "original_price": 648000,
-    "discounted_price": 453600,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Declasse Bugstars Burrito": {
-    "type": "Discount",
-    "discount": "30% Off: Declasse Bugstars Burrito",
-    "url": "https://gtacars.net/gta5/burrito",
-    "image_url": "https://gtacars.net/images/db6f4daf3bf83346d2edc2a478626914",
-    "original_price": null,
-    "discounted_price": null,
+    "discount": "30% Off: Mammoth Patriot Stretch",
+    "url": "https://gtacars.net/gta5/stretch",
+    "image_url": "https://gtacars.net/images/eaaefd38338e7a91bc93f368a5d804f6",
+    "original_price": 30000,
+    "discounted_price": 21000,
     "discount_percent": 30,
     "is_free": false
   }
