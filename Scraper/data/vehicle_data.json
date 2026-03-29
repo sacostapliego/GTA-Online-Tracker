@@ -8,6 +8,24 @@
     "discount_percent": null,
     "is_free": false
   },
+  "Enus Paragon S": {
+    "type": "Prize Ride Vehicle",
+    "url": "https://gtacars.net/gta5/paragon3",
+    "image_url": "https://gtacars.net/images/2e129626efb9268d6f555c813379c1ef",
+    "original_price": 2010000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "\u00d6verfl\u00f6d Entity MT": {
+    "type": "The McTony Robbery",
+    "url": "https://gtacars.net/gta5/entity3",
+    "image_url": "https://gtacars.net/images/032eef3c73441b795f58763333a539dd",
+    "original_price": 2355000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
   "Karin Everon": {
     "type": "The Podium Robbery",
     "url": "https://gtacars.net/gta5/everon",
@@ -16,6 +34,25 @@
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
+  },
+  "Weeny Issi Rally": {
+    "type": "The Gangbanger Robbery",
+    "url": "https://gtacars.net/gta5/issi8",
+    "image_url": "https://gtacars.net/images/5d19681e65cd59fdb880db5695023310",
+    "original_price": 1835000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "Jobuilt Phantom Wedge": {
+    "type": "Free",
+    "discount": "Free: Jobuilt Phantom Wedge",
+    "url": "https://gtacars.net/gta5/phantom2",
+    "image_url": "https://gtacars.net/images/7e808dc60bd59891e5bf8e344597e01a",
+    "original_price": 2553600,
+    "discounted_price": 0,
+    "discount_percent": 100,
+    "is_free": true
   },
   "\u00d6verfl\u00f6d Suzume": {
     "type": "Discount",
@@ -47,6 +84,26 @@
     "discount_percent": 30,
     "is_free": false
   },
+  "Nagasaki Blazer Aqua": {
+    "type": "Discount",
+    "discount": "30% Off: Nagasaki Blazer Aqua",
+    "url": "https://gtacars.net/gta5/blazer5",
+    "image_url": "https://gtacars.net/images/899213b08f194e8a4025955dffbe2a2d",
+    "original_price": 1755600,
+    "discounted_price": 1228920,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Karin Everon RS": {
+    "type": "Discount",
+    "discount": "30% Off: Karin Everon RS",
+    "url": "https://gtacars.net/gta5/everon3",
+    "image_url": "https://gtacars.net/images/2dddeb11e137ce1a1284cdde78e66a6d",
+    "original_price": 1665000,
+    "discounted_price": 1165500,
+    "discount_percent": 30,
+    "is_free": false
+  },
   "Karin Previon": {
     "type": "Discount",
     "discount": "30% Off: Karin Previon",
@@ -54,6 +111,16 @@
     "image_url": "https://gtacars.net/images/2eec606a03e074270980266a7ff6c946",
     "original_price": 1490000,
     "discounted_price": 1043000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "\u00dcbermacht Rebla GTS": {
+    "type": "Discount",
+    "discount": "30% Off: \u00dcbermacht Rebla GTS",
+    "url": "https://gtacars.net/gta5/rebla",
+    "image_url": "https://gtacars.net/images/dc41ca615ecd92d8700dccb69759d2a9",
+    "original_price": 1175000,
+    "discounted_price": 822500,
     "discount_percent": 30,
     "is_free": false
   },

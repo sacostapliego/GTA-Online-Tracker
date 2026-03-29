@@ -42,4 +42,11 @@ SPECIAL_CASES = {
     "Enus Windsor Drop": "windsor2",
     "Benefactor Schlagen GT" : "schlagen",
     "Annis S80RR" : "s80",
+    "Enus Paragon S" : "paragon3",
+    "Överflöd Entity MT" : "entity3",
+    "Weeny Issi Rally" : "issi8",
+    "Jobuilt Phantom Wedge" : "phantom2",
+    "Nagasaki Blazer Aqua" : "blazer5",
+    "Karin Everon RS" : "everon3",
+    "Übermacht Rebla GTS" : "rebla",
 }

@@ -1,11 +1,2 @@
 --- FAILED VEHICLES (Add to special_cases.py) ---
 The following vehicles failed to scrape. Add them to SPECIAL_CASES:
-
-    "Enus Paragon S": "correct-url-here",  # Prize Ride Vehicle - Attempted: s
-    "Överflöd Entity MT": "correct-url-here",  # The McTony Robbery - Attempted: mt
-    "Weeny Issi Rally": "correct-url-here",  # The Gangbanger Robbery - Attempted: rally
-    "Jobuilt Phantom Wedge": "correct-url-here",  # Free - Attempted: wedge
-    "Hands On Car Wash Property": "correct-url-here",  # Discount - Attempted: property
-    "Nagasaki Blazer Aqua": "correct-url-here",  # Discount - Attempted: aqua
-    "Karin Everon RS": "correct-url-here",  # Discount - Attempted: rs
-    "Übermacht Rebla GTS": "correct-url-here",  # Discount - Attempted: gts
