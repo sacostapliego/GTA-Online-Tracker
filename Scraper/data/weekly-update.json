@@ -1,58 +1,73 @@
 {
-  "weekOf": "March 26th to April 2nd (Not live until ~5am EDT on March 26th)",
+  "weekOf": "April 2nd to April 9th(Not live until ~5am EDT on April 2nd)",
   "introMessages": [
-    "This final week of the Community Series Showcase features top-class Races that run the gamut from ambitious stunts to chaotic face-to-face tracks pitting transforming vehicles against each other at breakneck speeds.",
-    "If you completed the past two Weekly Challenges, make sure you return to complete this week’s to receive the Community Collection consisting of the Homies Sharp Tee and more.",
-    "Elsewhere in Los Santos, earn Triple Rewards on Special Vehicle Work and Money Laundering Missions from all Money Fronts businesses through April 1.",
-    "Speaking of Special Vehicles, head to Warstock to claim your free Phantom Wedge this week. The Grass Roots livery is also available for the Annis Hardy from all Vehicle Workshops or pre-wrapped at the Luxury Autos window display."
+    "This week kicks off a new Neighborhood Watch Event in GTA Online.",
+    "Join Los Santos’ defense force driving new decommissioned police vehicles from Bravado, assist Vincent on two new Dispatch Work assignments, and earn bonuses in Wildlife Photography, as a Firefighter, and more.",
+    "Wear the badge with new LSPD and Park Ranger Outfits available as rewards over the next two weeks. Details below with more info to come in tomorrow’s Newswire."
   ],
-  "podiumVehicle": "Grotti Stinger TT",
-  "prizeRideVehicle": "Enus Paragon S",
-  "prizeRideChallenge": "Place Top 3 in the LS Car Meet Series",
-  "timeTrial": "LSIA",
-  "premiumRace": "Taking Off, locked to Super",
-  "hswTimeTrial": "Del Perro Beach to Murietta Heights",
+  "podiumVehicle": "Maibatsu MonstroCiti",
+  "prizeRideVehicle": "Ocelot Swinger",
+  "prizeRideChallenge": "Place Top 2 in the LS Car Meet Series 4 days in a row",
+  "timeTrial": "Calafia Way",
+  "premiumRace": "Boots on the Ground, locked to Motorcycle",
+  "hswTimeTrial": "Sandy Shores to La Puerta",
   "salvageYardRobberies": [
     {
-      "type": "The McTony Robbery",
-      "vehicle": "Överflöd Entity MT"
-    },
-    {
-      "type": "The Podium Robbery",
-      "vehicle": "Karin Everon"
-    },
-    {
       "type": "The Gangbanger Robbery",
-      "vehicle": "Weeny Issi Rally"
+      "vehicle": "Albany Hermes"
+    },
+    {
+      "type": "The McTony Robbery",
+      "vehicle": "Hijak Ruston"
+    },
+    {
+      "type": "The Cargo Ship Robbery",
+      "vehicle": "Enus Paragon R"
     }
   ],
-  "weeklyChallenge": "Win three Races to receive GTA$100,000",
+  "weeklyChallenge": "tba",
   "bonuses": [
-    "3X GTA$ and RP - Community Series (6X for GTA+ Members)",
-    "3X GTA$ and RP - Special Vehicle Work",
-    "3X GTA$ and RP - Money Laundering Missions for Hands On Car Wash, Higgins Helitours, and Smoke on the Water",
-    "2X GTA$ and RP - Mr. Faber Work (4X for GTA+ Members)",
-    "2X GTA$ - Hands On Car Wash Safe Income"
+    "2X GTA$ and RP - Dispatch Work (3X for GTA+ Members)",
+    "2X GTA$ and RP - Wildlife Photography (4X for GTA+ Members)",
+    "2X GTA$ and RP - Firefighter",
+    "2X GTA$ and RP - The Vespucci Job",
+    "2X GTA$ and RP - ommunity Race Series",
+    "2X GTA$ and RP - Western Police Bike",
+    "2X GTA$ and RP - Invetero Coquette D10 Pursuit",
+    "2X GTA$ and RP - Vapid Caracara Pursuit",
+    "2X GTA$ and RP - Canis Terminus Patrol",
+    "2X GTA$ and RP - Willard Outreach Faction",
+    "2X GTA$ and RP - Vapid Dominator FX Interceptor",
+    "2X GTA$ and RP - Bravado Greenwood Cruiser",
+    "2X GTA$ and RP - Bravado Dorado Cruiser",
+    "2X GTA$ and RP - Declasse Impaler LX Cruiser",
+    "2X GTA$ and RP - Declasse Impaler SZ Cruiser",
+    "2X GTA$ and RP - Vapid Stanier LE Cruiser",
+    "2X GTA$ and RP - Bravado Gauntlet Interceptor",
+    "2X GTA$ and RP - Vapid Unmarked Cruiser",
+    "2X GTA$ and RP - Declasse Park Ranger"
   ],
   "discounts": [
-    "Free: LSIA Vehicle Warehouse",
-    "Free: Jobuilt Phantom Wedge",
-    "50% Off: Executive Offices",
-    "40% Off: Hands On Car Wash Property",
-    "30% Off: Överflöd Suzume",
-    "30% Off: HVY Nightshark",
-    "30% Off: Annis Euros",
-    "30% Off: Nagasaki Blazer Aqua",
-    "30% Off: Karin Everon RS",
-    "30% Off: Karin Previon",
-    "30% Off: Übermacht Rebla GTS",
-    "30% Off: Principe Lectro",
-    "30% Off: Dinka Vindicator",
-    "30% Off: Mammoth Patriot Stretch"
+    "30% Off: Grotti Cheetah Classic",
+    "30% Off: Vapid Ellie",
+    "30% Off: Bravado Greenwood",
+    "30% Off: Albany V–STR",
+    "30% Off: Rhino Tank",
+    "30% Off: Bravado Dorado",
+    "30% Off: Ocelot Ardent",
+    "30% Off: Western Company Duster 300–H",
+    "30% Off: Lampadati Viseris",
+    "30% Off: Lampadati Tropos Rallye",
+    "30% Off: Lampadati Casco",
+    "30% Off: Vapid Taxi"
   ],
   "gunVanDiscounts": [
-    "40% off: Railgun",
-    "40% off for GTA+ Members: Military Rifle"
+    "Free: Nightstick",
+    "Free: Baseball Bat",
+    "Free for GTA+ Memebers: Stun Gun",
+    "50% off: Heavy Rifle",
+    "70% off for GTA+ Members: Body Armor",
+    "40% off for GTA+ Members: Compact EMP Launcher"
   ],
   "gunVanStock": []
 }
