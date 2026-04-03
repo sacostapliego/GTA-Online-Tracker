@@ -6,6 +6,17 @@ import re
 import requests
 
 
+def _is_discount_header(text):
+    """Return True for markdown headers like '**35% off**', '**Free**', etc."""
+    cleaned = clean_text(text).lower()
+    return (
+        "% off" in cleaned
+        or cleaned == "free"
+        or cleaned.startswith("free for gta+")
+        or "off for gta+" in cleaned
+    )
+
+
 def fetch_reddit_post(search_url):
     """Fetch the latest weekly bonuses post from Reddit."""
     headers = {'User-Agent': 'GTAWeeklyTrack/1.0'}
@@ -166,8 +177,12 @@ def extract_bonuses(body):
             capturing = True
             continue
 
-        # Stop when we reach the Discounts section
-        if capturing and stripped.startswith('# Discounts'):
+        # Stop when we reach any discount section header
+        if capturing and stripped.startswith('#') and 'discount' in clean_text(stripped).lower():
+            break
+
+        # Stop if a discount-rate subheader appears (e.g., "**35% off**", "**Free**")
+        if capturing and stripped.startswith('**') and stripped.endswith('**') and _is_discount_header(stripped):
             break
 
         # Ignore subsection headings inside the bonuses block
@@ -184,6 +199,9 @@ def extract_bonuses(body):
         # Capture bonus items and prepend the multiplier
         if capturing and stripped.startswith('*') and current_multiplier:
             item = clean_text(stripped[1:])  # Remove the bullet point
+            # Occasional source typo in weekly post body.
+            if item.lower().startswith('ommunity '):
+                item = f"C{item}"
             if item:
                 bonuses.append(f"{current_multiplier} - {item}")
 
@@ -227,8 +245,46 @@ def _extract_discount_section(body, section_header):
 
 
 def extract_discounts(body):
-    """Extract vehicle/property discount items"""
-    discounts = _extract_discount_section(body, "# Discounts")
+    """Extract all non-Gun Van discount items (regular + special discount blocks)."""
+    lines = body.split('\n')
+    discounts = []
+    capturing = False
+    current_discount = None
+
+    for line in lines:
+        stripped = line.strip()
+
+        if stripped.startswith('#'):
+            header = clean_text(stripped).lower()
+
+            # Ignore Gun Van discounts; those are handled by extract_gun_van_discounts.
+            if 'gun van discounts' in header:
+                if capturing:
+                    break
+                continue
+
+            # Start or continue capture for any other discount section.
+            if 'discount' in header:
+                capturing = True
+                current_discount = None
+                continue
+
+            # End capture on first non-discount header after discount sections.
+            if capturing:
+                break
+
+        if not capturing:
+            continue
+
+        if stripped.startswith('**') and stripped.endswith('**') and _is_discount_header(stripped):
+            current_discount = clean_text(stripped)
+            continue
+
+        if stripped.startswith('*') and current_discount:
+            item = clean_text(stripped[1:])
+            if item:
+                discounts.append(f"{current_discount}: {item}")
+
     return discounts if discounts else ["See full post for details"]
 
 
