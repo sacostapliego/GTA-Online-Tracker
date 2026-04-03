@@ -1,156 +1,136 @@
 {
-  "Grotti Stinger TT": {
+  "Maibatsu MonstroCiti": {
     "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/stingertt",
-    "image_url": "https://gtacars.net/images/7acdca8b9c29b91b9bae13c1dd79c6fb",
-    "original_price": 2380000,
+    "url": "https://gtacars.net/gta5/monstrociti",
+    "image_url": "https://gtacars.net/images/ca165a7459bba0af1b70f246b378c146",
+    "original_price": 1485000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Enus Paragon S": {
+  "Ocelot Swinger": {
     "type": "Prize Ride Vehicle",
-    "url": "https://gtacars.net/gta5/paragon3",
-    "image_url": "https://gtacars.net/images/2e129626efb9268d6f555c813379c1ef",
-    "original_price": 2010000,
+    "url": "https://gtacars.net/gta5/swinger",
+    "image_url": "https://gtacars.net/images/2edbe62476081a6748ce398854d0504b",
+    "original_price": 909000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "\u00d6verfl\u00f6d Entity MT": {
-    "type": "The McTony Robbery",
-    "url": "https://gtacars.net/gta5/entity3",
-    "image_url": "https://gtacars.net/images/032eef3c73441b795f58763333a539dd",
-    "original_price": 2355000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Karin Everon": {
-    "type": "The Podium Robbery",
-    "url": "https://gtacars.net/gta5/everon",
-    "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
-    "original_price": 1475000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Weeny Issi Rally": {
+  "Albany Hermes": {
     "type": "The Gangbanger Robbery",
-    "url": "https://gtacars.net/gta5/issi8",
-    "image_url": "https://gtacars.net/images/5d19681e65cd59fdb880db5695023310",
-    "original_price": 1835000,
+    "url": "https://gtacars.net/gta5/hermes",
+    "image_url": "https://gtacars.net/images/ce014a0f3cba011b5aa1403127fb1727",
+    "original_price": 535000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Jobuilt Phantom Wedge": {
-    "type": "Free",
-    "discount": "Free: Jobuilt Phantom Wedge",
-    "url": "https://gtacars.net/gta5/phantom2",
-    "image_url": "https://gtacars.net/images/7e808dc60bd59891e5bf8e344597e01a",
-    "original_price": 2553600,
-    "discounted_price": 0,
-    "discount_percent": 100,
-    "is_free": true
+  "Hijak Ruston": {
+    "type": "The McTony Robbery",
+    "url": "https://gtacars.net/gta5/ruston",
+    "image_url": "https://gtacars.net/images/73bcd273c414f901237b2a11ac89ff40",
+    "original_price": 430000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
   },
-  "\u00d6verfl\u00f6d Suzume": {
+  "Enus Paragon R": {
+    "type": "The Cargo Ship Robbery",
+    "url": "https://gtacars.net/gta5/paragon",
+    "image_url": "https://gtacars.net/images/433322ae88327066b1357575358ff783",
+    "original_price": 905000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "Grotti Cheetah Classic": {
     "type": "Discount",
-    "discount": "30% Off: \u00d6verfl\u00f6d Suzume",
-    "url": "https://gtacars.net/gta5/suzume",
-    "image_url": "https://gtacars.net/images/4fc7db072180cca03c200990c3ac5116",
-    "original_price": 3074500,
-    "discounted_price": 2152150,
+    "discount": "30% Off: Grotti Cheetah Classic",
+    "url": "https://gtacars.net/gta5/cheetah2",
+    "image_url": "https://gtacars.net/images/ba4ba835632f6768a67a7726a620974b",
+    "original_price": 865000,
+    "discounted_price": 605500,
     "discount_percent": 30,
     "is_free": false
   },
-  "HVY Nightshark": {
+  "Vapid Ellie": {
     "type": "Discount",
-    "discount": "30% Off: HVY Nightshark",
-    "url": "https://gtacars.net/gta5/nightshark",
-    "image_url": "https://gtacars.net/images/9ade7ef45e6d761b842386a337f38cfb",
-    "original_price": 1245000,
-    "discounted_price": 871500,
+    "discount": "30% Off: Vapid Ellie",
+    "url": "https://gtacars.net/gta5/ellie",
+    "image_url": "https://gtacars.net/images/946b18f32360e987433c4ef21bb6a3e2",
+    "original_price": 565000,
+    "discounted_price": 395500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Annis Euros": {
+  "Bravado Greenwood": {
     "type": "Discount",
-    "discount": "30% Off: Annis Euros",
-    "url": "https://gtacars.net/gta5/euros",
-    "image_url": "https://gtacars.net/images/71705592df5c0d18855809f0d074ab7c",
-    "original_price": 1800000,
-    "discounted_price": 1260000,
+    "discount": "30% Off: Bravado Greenwood",
+    "url": "https://gtacars.net/gta5/greenwood",
+    "image_url": "https://gtacars.net/images/b12cab5048c264e7193a3f1ea2663928",
+    "original_price": 1465000,
+    "discounted_price": 1025500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Nagasaki Blazer Aqua": {
+  "Rhino Tank": {
     "type": "Discount",
-    "discount": "30% Off: Nagasaki Blazer Aqua",
-    "url": "https://gtacars.net/gta5/blazer5",
-    "image_url": "https://gtacars.net/images/899213b08f194e8a4025955dffbe2a2d",
-    "original_price": 1755600,
-    "discounted_price": 1228920,
+    "discount": "30% Off: Rhino Tank",
+    "url": "https://gtacars.net/gta5/rhino",
+    "image_url": "https://gtacars.net/images/740d32387ae269d227efa28a15cf237b",
+    "original_price": 1500000,
+    "discounted_price": 1050000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Karin Everon RS": {
+  "Bravado Dorado": {
     "type": "Discount",
-    "discount": "30% Off: Karin Everon RS",
-    "url": "https://gtacars.net/gta5/everon3",
-    "image_url": "https://gtacars.net/images/2dddeb11e137ce1a1284cdde78e66a6d",
-    "original_price": 1665000,
-    "discounted_price": 1165500,
+    "discount": "30% Off: Bravado Dorado",
+    "url": "https://gtacars.net/gta5/dorado",
+    "image_url": "https://gtacars.net/images/dba533a6e2fb26e60d7031b694eef5bb",
+    "original_price": 1375000,
+    "discounted_price": 962500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Karin Previon": {
+  "Ocelot Ardent": {
     "type": "Discount",
-    "discount": "30% Off: Karin Previon",
-    "url": "https://gtacars.net/gta5/previon",
-    "image_url": "https://gtacars.net/images/2eec606a03e074270980266a7ff6c946",
-    "original_price": 1490000,
-    "discounted_price": 1043000,
+    "discount": "30% Off: Ocelot Ardent",
+    "url": "https://gtacars.net/gta5/ardent",
+    "image_url": "https://gtacars.net/images/fa33bdf21afb3b2e625847474143978c",
+    "original_price": 1150000,
+    "discounted_price": 805000,
     "discount_percent": 30,
     "is_free": false
   },
-  "\u00dcbermacht Rebla GTS": {
+  "Lampadati Viseris": {
     "type": "Discount",
-    "discount": "30% Off: \u00dcbermacht Rebla GTS",
-    "url": "https://gtacars.net/gta5/rebla",
-    "image_url": "https://gtacars.net/images/dc41ca615ecd92d8700dccb69759d2a9",
-    "original_price": 1175000,
-    "discounted_price": 822500,
+    "discount": "30% Off: Lampadati Viseris",
+    "url": "https://gtacars.net/gta5/viseris",
+    "image_url": "https://gtacars.net/images/58b643ca12764427411342363738fc11",
+    "original_price": 875000,
+    "discounted_price": 612500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Principe Lectro": {
+  "Lampadati Casco": {
     "type": "Discount",
-    "discount": "30% Off: Principe Lectro",
-    "url": "https://gtacars.net/gta5/lectro",
-    "image_url": "https://gtacars.net/images/c56b558fbbe7e269fff2a8138b9e44b0",
-    "original_price": 997500,
-    "discounted_price": 698250,
+    "discount": "30% Off: Lampadati Casco",
+    "url": "https://gtacars.net/gta5/casco",
+    "image_url": "https://gtacars.net/images/cffbfa1e7ebbd8158548852444d3155f",
+    "original_price": 904400,
+    "discounted_price": 633080,
     "discount_percent": 30,
     "is_free": false
   },
-  "Dinka Vindicator": {
+  "Vapid Taxi": {
     "type": "Discount",
-    "discount": "30% Off: Dinka Vindicator",
-    "url": "https://gtacars.net/gta5/vindicator",
-    "image_url": "https://gtacars.net/images/0d0dbae42df527680895e2792e31dc99",
-    "original_price": 630000,
-    "discounted_price": 441000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Mammoth Patriot Stretch": {
-    "type": "Discount",
-    "discount": "30% Off: Mammoth Patriot Stretch",
-    "url": "https://gtacars.net/gta5/stretch",
-    "image_url": "https://gtacars.net/images/eaaefd38338e7a91bc93f368a5d804f6",
-    "original_price": 30000,
-    "discounted_price": 21000,
+    "discount": "30% Off: Vapid Taxi",
+    "url": "https://gtacars.net/gta5/taxi",
+    "image_url": "https://gtacars.net/images/1747e82fbec763ae5610cbe571ead88a",
+    "original_price": 650000,
+    "discounted_price": 455000,
     "discount_percent": 30,
     "is_free": false
   }
