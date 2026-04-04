@@ -6,3 +6,4 @@ __pycache__/
 xcuserdata/
 .DS_Store
 swift/build/
+.derivedData/

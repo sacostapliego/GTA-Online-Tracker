@@ -18,7 +18,9 @@ struct DiscountsTabView: View {
                         header(weekly: weekly)
                         discountsList(items: viewModel.discountItems())
                     }
+                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     .padding(20)
+                    .padding(.bottom, 56)
                 }
             } else {
                 Text(viewModel.errorMessage ?? "No data available.")
@@ -48,11 +50,18 @@ struct DiscountsTabView: View {
             Text("Weekly Discounts")
                 .font(.system(size: 34, weight: .bold, design: .rounded))
                 .foregroundStyle(.white)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .minimumScaleFactor(0.85)
+                .lineLimit(2)
 
             Text(weekly.weekOf)
                 .font(.subheadline)
                 .foregroundStyle(Color.blue.opacity(0.9))
+                .multilineTextAlignment(.leading)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .fixedSize(horizontal: false, vertical: true)
         }
+        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
     }
 
     private func discountsList(items: [DiscountDisplayItem]) -> some View {
@@ -111,6 +120,7 @@ struct DiscountsTabView: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
         .padding(16)
         .background(
             RoundedRectangle(cornerRadius: 14, style: .continuous)

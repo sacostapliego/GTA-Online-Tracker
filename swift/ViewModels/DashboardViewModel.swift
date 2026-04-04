@@ -78,12 +78,31 @@ final class DashboardViewModel: ObservableObject {
 
         var propertyImageCounter: [String: Int] = [:]
 
-        return weeklyUpdate.bonuses.map { line in
-            BonusDisplayItem(
-                text: line,
-                imageURL: resolveImageURL(for: line, propertyCounter: &propertyImageCounter)
+        return weeklyUpdate.bonuses.enumerated().map { index, line in
+            let parsed = Self.parseBonusLine(line)
+            let imageURL = resolveImageURL(for: parsed.activityName, propertyCounter: &propertyImageCounter)
+            return BonusDisplayItem(
+                id: "\(index)-\(line)",
+                activityName: parsed.activityName,
+                rewardBadge: parsed.rewardBadge,
+                imageURL: imageURL
             )
         }
+    }
+
+    /// Weekly bonus strings are shaped like `"2X GTA$ and RP - Activity name"` from the scraper.
+    private static func parseBonusLine(_ line: String) -> (rewardBadge: String, activityName: String) {
+        let separator = " - "
+        guard let range = line.range(of: separator) else {
+            return ("", line)
+        }
+        let badge = String(line[..<range.lowerBound]).trimmingCharacters(in: .whitespacesAndNewlines)
+        let activity = String(line[range.upperBound...]).trimmingCharacters(in: .whitespacesAndNewlines)
+        let hasMultiplier = badge.range(of: #"\d+X"#, options: .regularExpression) != nil
+        if hasMultiplier, !activity.isEmpty {
+            return (badge, activity)
+        }
+        return ("", line)
     }
 
     private func resolveImageURL(for text: String, propertyCounter: inout [String: Int]) -> String {

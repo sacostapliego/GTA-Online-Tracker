@@ -56,7 +56,8 @@ struct DiscountDisplayItem: Identifiable {
 }
 
 struct BonusDisplayItem: Identifiable {
-    let id = UUID()
-    let text: String
+    let id: String
+    let activityName: String
+    let rewardBadge: String
     let imageURL: String
 }

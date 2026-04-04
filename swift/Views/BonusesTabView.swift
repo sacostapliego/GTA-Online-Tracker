@@ -18,7 +18,9 @@ struct BonusesTabView: View {
                         header(weekly: weekly)
                         bonusesList(items: viewModel.bonusItems())
                     }
+                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     .padding(20)
+                    .padding(.bottom, 56)
                 }
             } else {
                 Text(viewModel.errorMessage ?? "No data available.")
@@ -48,69 +50,112 @@ struct BonusesTabView: View {
             Text("Weekly Bonuses")
                 .font(.system(size: 34, weight: .bold, design: .rounded))
                 .foregroundStyle(.white)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .minimumScaleFactor(0.85)
+                .lineLimit(2)
 
             Text(weekly.weekOf)
                 .font(.subheadline)
                 .foregroundStyle(Color.orange.opacity(0.9))
+                .multilineTextAlignment(.leading)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .fixedSize(horizontal: false, vertical: true)
         }
+        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
     }
 
     private func bonusesList(items: [BonusDisplayItem]) -> some View {
-        VStack(spacing: 12) {
-            ForEach(Array(items.enumerated()), id: \.offset) { index, item in
-                bonusRow(item: item, index: index)
+        VStack(spacing: 16) {
+            ForEach(items) { item in
+                bonusCard(item: item)
             }
         }
+        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
     }
 
-    private func bonusRow(item: BonusDisplayItem, index: Int) -> some View {
-        HStack(alignment: .top, spacing: 14) {
-            AsyncImage(url: URL(string: item.imageURL)) { phase in
-                switch phase {
-                case .empty:
-                    bonusPlaceholder
-                case .success(let image):
-                    image
-                        .resizable()
-                        .scaledToFill()
-                case .failure:
-                    bonusPlaceholder
-                @unknown default:
-                    bonusPlaceholder
+    private func bonusCard(item: BonusDisplayItem) -> some View {
+        VStack(alignment: .leading, spacing: 0) {
+            Rectangle()
+                .fill(Color.orange)
+                .frame(height: 3)
+                .frame(maxWidth: .infinity)
+
+            // REVERT NOTE: Hero is intentionally *outside* horizontal padding so the image
+            // spans the same width as the orange accent bar (full card width). If you prefer
+            // inset images again, wrap `bonusHeroImage` + `Text` in a single `VStack { }.padding(12)`.
+            bonusHeroImage(imageURL: item.imageURL, rewardBadge: item.rewardBadge)
+
+            Text(item.activityName)
+                .font(.system(size: 15, weight: .bold))
+                .foregroundStyle(.white)
+                .multilineTextAlignment(.leading)
+                .textCase(.uppercase)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .fixedSize(horizontal: false, vertical: true)
+                .padding(.horizontal, 12)
+                .padding(.top, 12)
+                .padding(.bottom, 12)
+        }
+        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+        .background(bonusCardBackground)
+    }
+
+    private var bonusCardBackground: some View {
+        Color(red: 0.12, green: 0.12, blue: 0.12)
+    }
+
+    private func bonusHeroImage(imageURL: String, rewardBadge: String) -> some View {
+        // REVERT NOTE: This uses a plain ZStack + aspectRatio instead of Color.clear.overlay.
+        // That combo was sometimes mis-sized in ScrollView, which looked like a narrow image
+        // with side gutters and clipped the bottom-leading badge. `minWidth: 0` keeps the
+        // hero from overflowing the card width on small devices.
+        ZStack(alignment: .bottomLeading) {
+            Group {
+                AsyncImage(url: URL(string: imageURL)) { phase in
+                    switch phase {
+                    case .empty:
+                        bonusPlaceholderFill
+                    case .success(let image):
+                        image
+                            .resizable()
+                            .scaledToFill()
+                    case .failure:
+                        bonusPlaceholderFill
+                    @unknown default:
+                        bonusPlaceholderFill
+                    }
                 }
             }
-            .frame(width: 120, height: 76)
-            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-            .overlay(
-                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .stroke(Color.orange.opacity(0.3), lineWidth: 1)
-            )
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .clipped()
 
-            VStack(alignment: .leading, spacing: 8) {
-                Text(item.text)
-                    .font(.subheadline.weight(.medium))
-                    .foregroundStyle(.white)
-                    .frame(maxWidth: .infinity, alignment: .leading)
+            // REVERT NOTE: Small inset so the badge sits fully inside the clipped 16:9 rect
+            // (avoids the first character looking cut off on the left edge).
+            if !rewardBadge.isEmpty {
+                Text(rewardBadge)
+                    .font(.system(size: 12, weight: .heavy))
+                    .foregroundStyle(.black)
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(3)
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 6)
+                    .background(Color.orange)
+                    .padding(.leading, 8)
+                    .padding(.bottom, 8)
             }
         }
-        .padding(16)
-        .background(
-            RoundedRectangle(cornerRadius: 14, style: .continuous)
-                .stroke(Color.orange.opacity(0.35), lineWidth: 1)
-                .background(
-                    RoundedRectangle(cornerRadius: 14, style: .continuous)
-                        .fill(Color.black.opacity(0.3))
-                )
-        )
+        .frame(minWidth: 0, maxWidth: .infinity)
+        .aspectRatio(16 / 9, contentMode: .fit)
+        .clipped()
     }
 
-    private var bonusPlaceholder: some View {
-        RoundedRectangle(cornerRadius: 10, style: .continuous)
-            .fill(Color.black.opacity(0.4))
-            .overlay {
-                Image(systemName: "star.fill")
-                    .font(.title2)
-                    .foregroundStyle(.orange.opacity(0.5))
-            }
+    private var bonusPlaceholderFill: some View {
+        ZStack {
+            Color.black.opacity(0.45)
+            Image(systemName: "star.fill")
+                .font(.title2)
+                .foregroundStyle(.orange.opacity(0.55))
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
