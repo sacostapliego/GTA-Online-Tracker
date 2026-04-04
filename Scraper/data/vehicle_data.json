@@ -47,10 +47,10 @@
   "Western Police Bike": {
     "type": "Discount",
     "discount": "35% off: Western Police Bike",
-    "url": "https://gtacars.net/gta5/policeb",
-    "image_url": "https://gtacars.net/images/32e05904db1e14be63e820b273cf3838",
-    "original_price": null,
-    "discounted_price": null,
+    "url": "https://gtacars.net/gta5/policeb2",
+    "image_url": "https://gtacars.net/images/e46f7e3b374b7a5fd7aba4d2d8485ac3",
+    "original_price": 4960000,
+    "discounted_price": 3224000,
     "discount_percent": 35,
     "is_free": false
   },

@@ -49,7 +49,7 @@ SPECIAL_CASES = {
     "Nagasaki Blazer Aqua" : "blazer5",
     "Karin Everon RS" : "everon3",
     "Übermacht Rebla GTS" : "rebla",
-    "Western Police Bike" : "policeb",
+    "Western Police Bike" : "policeb2",
     "Invetero Coquette D10 Pursuit" : "polcoquette4",
     "Vapid Dominator FX Interceptor" : "poldominator10",
     "Declasse Impaler LX Cruiser" : "polimpaler6",
