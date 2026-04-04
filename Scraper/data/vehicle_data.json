@@ -44,6 +44,146 @@
     "discount_percent": null,
     "is_free": false
   },
+  "Western Police Bike": {
+    "type": "Discount",
+    "discount": "35% off: Western Police Bike",
+    "url": "https://gtacars.net/gta5/policeb",
+    "image_url": "https://gtacars.net/images/32e05904db1e14be63e820b273cf3838",
+    "original_price": null,
+    "discounted_price": null,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Invetero Coquette D10 Pursuit": {
+    "type": "Discount",
+    "discount": "35% off: Invetero Coquette D10 Pursuit",
+    "url": "https://gtacars.net/gta5/polcoquette4",
+    "image_url": "https://gtacars.net/images/0a0eae55e14268685207adbef67bffc7",
+    "original_price": 5620000,
+    "discounted_price": 3653000,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Vapid Caracara Pursuit": {
+    "type": "Discount",
+    "discount": "35% off: Vapid Caracara Pursuit",
+    "url": "https://gtacars.net/gta5/polcaracara",
+    "image_url": "https://gtacars.net/images/ff7beb5b89c83bf4507eebdc10bcb90b",
+    "original_price": 5335000,
+    "discounted_price": 3467750,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Canis Terminus Patrol": {
+    "type": "Discount",
+    "discount": "35% off: Canis Terminus Patrol",
+    "url": "https://gtacars.net/gta5/polterminus",
+    "image_url": "https://gtacars.net/images/22b313c7b1ed548f313e02b1b5a58f3a",
+    "original_price": 5125000,
+    "discounted_price": 3331250,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Willard Outreach Faction": {
+    "type": "Discount",
+    "discount": "35% off: Willard Outreach Faction",
+    "url": "https://gtacars.net/gta5/polfaction2",
+    "image_url": "https://gtacars.net/images/554a3eeebb80822e860a86b9c33dfa94",
+    "original_price": 4150000,
+    "discounted_price": 2697500,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Vapid Dominator FX Interceptor": {
+    "type": "Discount",
+    "discount": "35% off: Vapid Dominator FX Interceptor",
+    "url": "https://gtacars.net/gta5/poldominator10",
+    "image_url": "https://gtacars.net/images/3e797bb2faf1d2a24008019e400525a8",
+    "original_price": 4950000,
+    "discounted_price": 3217500,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Bravado Greenwood Cruiser": {
+    "type": "Discount",
+    "discount": "35% off: Bravado Greenwood Cruiser",
+    "url": "https://gtacars.net/gta5/polgreenwood",
+    "image_url": "https://gtacars.net/images/6f69fd9cc8586140a62e29e205b810c8",
+    "original_price": 4910000,
+    "discounted_price": 3191500,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Bravado Dorado Cruiser": {
+    "type": "Discount",
+    "discount": "35% off: Bravado Dorado Cruiser",
+    "url": "https://gtacars.net/gta5/poldorado",
+    "image_url": "https://gtacars.net/images/74e54fec0e69a5b3e20f969226d84ef5",
+    "original_price": 5005000,
+    "discounted_price": 3253250,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Declasse Impaler LX Cruiser": {
+    "type": "Discount",
+    "discount": "35% off: Declasse Impaler LX Cruiser",
+    "url": "https://gtacars.net/gta5/polimpaler6",
+    "image_url": "https://gtacars.net/images/89bc25acadbfc3161f4648c80ed2d3a2",
+    "original_price": 4800000,
+    "discounted_price": 3120000,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Declasse Impaler SZ Cruiser": {
+    "type": "Discount",
+    "discount": "35% off: Declasse Impaler SZ Cruiser",
+    "url": "https://gtacars.net/gta5/polimpaler5",
+    "image_url": "https://gtacars.net/images/b58a0fbf8253c57efcb50159ee2d29a9",
+    "original_price": 4720000,
+    "discounted_price": 3068000,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Vapid Stanier LE Cruiser": {
+    "type": "Discount",
+    "discount": "35% off: Vapid Stanier LE Cruiser",
+    "url": "https://gtacars.net/gta5/police5",
+    "image_url": "https://gtacars.net/images/a12e83adcbc1915d7109dbb485bce5e6",
+    "original_price": 4690000,
+    "discounted_price": 3048500,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Bravado Gauntlet Interceptor": {
+    "type": "Discount",
+    "discount": "35% off: Bravado Gauntlet Interceptor",
+    "url": "https://gtacars.net/gta5/polgauntlet",
+    "image_url": "https://gtacars.net/images/4e1d27652d5df053e97095ac92401dee",
+    "original_price": 5420000,
+    "discounted_price": 3523000,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Vapid Unmarked Cruiser": {
+    "type": "Discount",
+    "discount": "35% off: Vapid Unmarked Cruiser",
+    "url": "https://gtacars.net/gta5/police4",
+    "image_url": "https://gtacars.net/images/fda8193d8feec0a7aafe7c4eba195a17",
+    "original_price": 3950000,
+    "discounted_price": 2567500,
+    "discount_percent": 35,
+    "is_free": false
+  },
+  "Declasse Park Ranger": {
+    "type": "Discount",
+    "discount": "35% off: Declasse Park Ranger",
+    "url": "https://gtacars.net/gta5/pranger",
+    "image_url": "https://gtacars.net/images/1ac1eae6610f7c4da7a3e6e386f68a5a",
+    "original_price": 2980000,
+    "discounted_price": 1937000,
+    "discount_percent": 35,
+    "is_free": false
+  },
   "Grotti Cheetah Classic": {
     "type": "Discount",
     "discount": "30% Off: Grotti Cheetah Classic",
@@ -71,6 +211,16 @@
     "image_url": "https://gtacars.net/images/b12cab5048c264e7193a3f1ea2663928",
     "original_price": 1465000,
     "discounted_price": 1025500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Albany V\u2013STR": {
+    "type": "Discount",
+    "discount": "30% Off: Albany V\u2013STR",
+    "url": "https://gtacars.net/gta5/vstr",
+    "image_url": "https://gtacars.net/images/6e771e45f10cb45e07d19c090d753ce4",
+    "original_price": 1285000,
+    "discounted_price": 899500,
     "discount_percent": 30,
     "is_free": false
   },
@@ -104,6 +254,16 @@
     "discount_percent": 30,
     "is_free": false
   },
+  "Western Company Duster 300\u2013H": {
+    "type": "Discount",
+    "discount": "30% Off: Western Company Duster 300\u2013H",
+    "url": "https://gtacars.net/gta5/duster2",
+    "image_url": "https://gtacars.net/images/0ef6e26844402bd0cd629bf78119ae9e",
+    "original_price": 1020000,
+    "discounted_price": 714000,
+    "discount_percent": 30,
+    "is_free": false
+  },
   "Lampadati Viseris": {
     "type": "Discount",
     "discount": "30% Off: Lampadati Viseris",
@@ -111,6 +271,16 @@
     "image_url": "https://gtacars.net/images/58b643ca12764427411342363738fc11",
     "original_price": 875000,
     "discounted_price": 612500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Lampadati Tropos Rallye": {
+    "type": "Discount",
+    "discount": "30% Off: Lampadati Tropos Rallye",
+    "url": "https://gtacars.net/gta5/tropos",
+    "image_url": "https://gtacars.net/images/479009d562ea90391ac44129bc03c96f",
+    "original_price": 816000,
+    "discounted_price": 571200,
     "discount_percent": 30,
     "is_free": false
   },

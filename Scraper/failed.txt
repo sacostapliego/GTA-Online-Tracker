@@ -1,2 +1,1 @@
---- FAILED VEHICLES (Add to special_cases.py) ---
-The following vehicles failed to scrape. Add them to SPECIAL_CASES:
+No failed vehicles.

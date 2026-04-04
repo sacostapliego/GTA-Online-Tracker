@@ -13,6 +13,7 @@ import time
 # Base URL for the vehicle pages
 BASE_URL = "https://gtacars.net/gta5/"
 OUTPUT_FILE = "data/vehicle_data.json"
+FAILED_OUTPUT_FILE = "failed.txt"
 
 # Special cases where the vehicle name doesn't match the URL format
 def normalize_vehicle_name(vehicle_name):
@@ -24,14 +25,26 @@ def normalize_vehicle_name(vehicle_name):
     if vehicle_name in SPECIAL_CASES:
         return SPECIAL_CASES[vehicle_name]
     
-    # Remove percentage and "Off:" text if present
-    vehicle_name = re.sub(r'\d+%\s+Off:\s+', '', vehicle_name)
-    
-    # Split by space and take the last word (model name)
+    # Remove percentage and "off:" text if present.
+    vehicle_name = re.sub(r'\d+%\s+off:\s+', '', vehicle_name, flags=re.IGNORECASE)
+
     parts = vehicle_name.strip().split()
-    if len(parts) >= 2:
-        return parts[-1].lower()
-    return vehicle_name.lower()
+    if not parts:
+        return ""
+
+    # Remove role suffixes so names like "... Interceptor" don't normalize to "interceptor".
+    role_suffixes = {"interceptor", "cruiser", "pursuit", "patrol"}
+    while len(parts) > 1 and parts[-1].lower() in role_suffixes:
+        parts.pop()
+
+    # Build model tokens without manufacturer prefix when available.
+    model_tokens = parts[1:] if len(parts) > 1 else parts
+
+    # Handle trim suffixes (e.g. D10, FX, LE, LX, SZ) by combining last two tokens.
+    if len(model_tokens) >= 2 and re.fullmatch(r'[A-Za-z0-9]{1,3}', model_tokens[-1]):
+        return f"{model_tokens[-2]}{model_tokens[-1]}".lower()
+
+    return model_tokens[-1].lower()
 
 def extract_price(driver):
     """
@@ -195,7 +208,7 @@ def process_weekly_update(json_file_path):
                     discount_percent = None
                 else:
                     # Extract discount percentage
-                    discount_match = re.match(r'(\d+)%\s+Off:\s+(.+)', discount)
+                    discount_match = re.match(r'(\d+)%\s+off:\s+(.+)', discount, re.IGNORECASE)
                     if not discount_match:
                         continue
                     
@@ -251,12 +264,16 @@ if __name__ == "__main__":
             print(f"  Discounted Price: ${info['discounted_price']:,}")
             print(f"  Discount: {info['discount_percent']}%")
             
-    # Print failed vehicles
-    if failed_vehicles:
-        print("\n\n--- FAILED VEHICLES (Add to special_cases.py) ---")
-        print("The following vehicles failed to scrape. Add them to SPECIAL_CASES:\n")
-        for vehicle_name, attempted_url, vehicle_type in failed_vehicles:
-            print(f'    "{vehicle_name}": "correct-url-here",  # {vehicle_type} - Attempted: {attempted_url}')
+    # Write failed vehicles to failed.txt for easy copy/paste into SPECIAL_CASES
+    with open(FAILED_OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        if failed_vehicles:
+            f.write("--- FAILED VEHICLES (Add to special_cases.py) ---\n")
+            f.write("The following vehicles failed to scrape. Add them to SPECIAL_CASES:\n\n")
+            for vehicle_name, attempted_url, vehicle_type in failed_vehicles:
+                f.write(f'    "{vehicle_name}": "correct-url-here",  # {vehicle_type} - Attempted: {attempted_url}\n')
+            print(f"\n\nFailed vehicles saved to: {FAILED_OUTPUT_FILE}")
+        else:
+            f.write("No failed vehicles.\n")
     
     # Save to JSON file
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
