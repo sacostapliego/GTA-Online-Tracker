@@ -25,7 +25,7 @@
       "vehicle": "Enus Paragon R"
     }
   ],
-  "weeklyChallenge": "tba",
+  "weeklyChallenge": "Complete 5 Dispatch Work Missions to receive the Summer LSPD Officer w/ Tie Outfit and GTA$200,000",
   "bonuses": [
     "2X GTA$ and RP - Dispatch Work (3X for GTA+ Members)",
     "2X GTA$ and RP - Wildlife Photography (4X for GTA+ Members)",
@@ -69,5 +69,17 @@
     "70% off for GTA+ Members: Body Armor",
     "40% off for GTA+ Members: Compact EMP Launcher"
   ],
-  "gunVanStock": []
+  "gunVanStock": [
+    "Service Carbine (10%, 20%)",
+    "Compact EMP Launcher (10%, 40%)",
+    "Heavy Rifle (50%, 50%)",
+    "Double Barrel Shotgun (10%, 20%)",
+    "Pump Shotgun (10%, 20%)",
+    "Nightstick (100%, 100%)",
+    "Stun Gun (10%, 100%)",
+    "Knife (10%, 20%)",
+    "Sticky Bomb (10%, 20%)",
+    "Proximity Mine (10%, 20%)",
+    "Molotov (10%, 20%)"
+  ]
 }
