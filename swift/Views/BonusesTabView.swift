@@ -35,14 +35,7 @@ struct BonusesTabView: View {
     }
 
     private var background: some View {
-        LinearGradient(
-            colors: [
-                Color(red: 0.08, green: 0.06, blue: 0.04),
-                Color(red: 0.14, green: 0.10, blue: 0.08)
-            ],
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        )
+        Color(red: 18.0 / 255.0, green: 18.0 / 255.0, blue: 18.0 / 255.0)
     }
 
     private func header(weekly: WeeklyUpdate) -> some View {
@@ -53,13 +46,6 @@ struct BonusesTabView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .minimumScaleFactor(0.85)
                 .lineLimit(2)
-
-            Text(weekly.weekOf)
-                .font(.subheadline)
-                .foregroundStyle(Color.orange.opacity(0.9))
-                .multilineTextAlignment(.leading)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .fixedSize(horizontal: false, vertical: true)
         }
         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
     }

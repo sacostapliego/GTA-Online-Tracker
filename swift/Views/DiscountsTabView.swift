@@ -35,14 +35,7 @@ struct DiscountsTabView: View {
     }
 
     private var background: some View {
-        LinearGradient(
-            colors: [
-                Color(red: 0.08, green: 0.06, blue: 0.04),
-                Color(red: 0.14, green: 0.10, blue: 0.08)
-            ],
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        )
+        Color(red: 18.0 / 255.0, green: 18.0 / 255.0, blue: 18.0 / 255.0)
     }
 
     private func header(weekly: WeeklyUpdate) -> some View {
