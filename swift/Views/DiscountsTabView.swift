@@ -2,7 +2,7 @@ import SwiftUI
 
 private enum DiscountCardStyle {
     static let cardBackground = Color(red: 26 / 255, green: 26 / 255, blue: 26 / 255)
-    static let badgeBackground = Color(red: 245 / 255, green: 194 / 255, blue: 150 / 255)
+    static let badgeBackground = Color.orange
     static let saleGreen = Color(red: 134 / 255, green: 239 / 255, blue: 172 / 255)
     static let originalPriceGrey = Color.white.opacity(0.45)
 }
