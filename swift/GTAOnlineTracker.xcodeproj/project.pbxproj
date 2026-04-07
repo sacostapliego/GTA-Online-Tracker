@@ -13,8 +13,6 @@
 		A10000000000000000000004 /* VehicleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* VehicleData.swift */; };
 		A10000000000000000000005 /* TrackerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* TrackerAPI.swift */; };
 		A10000000000000000000006 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* DashboardViewModel.swift */; };
-		A10000000000000000000007 /* weekly-update.sample.json in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* weekly-update.sample.json */; };
-		A10000000000000000000008 /* vehicle-data.sample.json in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* vehicle-data.sample.json */; };
 		A10000000000000000000009 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* HomeTabView.swift */; };
 		A1000000000000000000000B /* BonusesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001A /* BonusesTabView.swift */; };
 		A1000000000000000000000C /* DiscountsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001B /* DiscountsTabView.swift */; };
@@ -32,8 +30,6 @@
 		A10000000000000000000014 /* VehicleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleData.swift; sourceTree = "<group>"; };
 		A10000000000000000000015 /* TrackerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerAPI.swift; sourceTree = "<group>"; };
 		A10000000000000000000016 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
-		A10000000000000000000017 /* weekly-update.sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "weekly-update.sample.json"; sourceTree = "<group>"; };
-		A10000000000000000000018 /* vehicle-data.sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicle-data.sample.json"; sourceTree = "<group>"; };
 		A10000000000000000000019 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		A1000000000000000000001A /* BonusesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusesTabView.swift; sourceTree = "<group>"; };
 		A1000000000000000000001B /* DiscountsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsTabView.swift; sourceTree = "<group>"; };
@@ -115,8 +111,6 @@
 		A10000000000000000000036 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000017 /* weekly-update.sample.json */,
-				A10000000000000000000018 /* vehicle-data.sample.json */,
 				A1000000000000000000001D /* fallback.json */,
 				A1000000000000000000001E /* gta_images.json */,
 				A1000000000000000000001F /* property_images.json */,
@@ -190,8 +184,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000000000000000000007 /* weekly-update.sample.json in Resources */,
-				A10000000000000000000008 /* vehicle-data.sample.json in Resources */,
 				A1000000000000000000000E /* fallback.json in Resources */,
 				A1000000000000000000000F /* gta_images.json in Resources */,
 				A10000000000000000000010 /* property_images.json in Resources */,
