@@ -1,5 +1,12 @@
 import SwiftUI
 
+private enum DiscountCardStyle {
+    static let cardBackground = Color(red: 26 / 255, green: 26 / 255, blue: 26 / 255)
+    static let badgeBackground = Color(red: 245 / 255, green: 194 / 255, blue: 150 / 255)
+    static let saleGreen = Color(red: 134 / 255, green: 239 / 255, blue: 172 / 255)
+    static let originalPriceGrey = Color.white.opacity(0.45)
+}
+
 struct DiscountsTabView: View {
     @ObservedObject var viewModel: DashboardViewModel
 
@@ -46,13 +53,6 @@ struct DiscountsTabView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .minimumScaleFactor(0.85)
                 .lineLimit(2)
-
-            Text(weekly.weekOf)
-                .font(.subheadline)
-                .foregroundStyle(Color.blue.opacity(0.9))
-                .multilineTextAlignment(.leading)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .fixedSize(horizontal: false, vertical: true)
         }
         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
     }
@@ -66,72 +66,98 @@ struct DiscountsTabView: View {
     }
 
     private func discountRow(item: DiscountDisplayItem) -> some View {
-        HStack(alignment: .top, spacing: 16) {
-            AsyncImage(url: URL(string: item.imageURL)) { phase in
-                switch phase {
-                case .empty:
-                    discountPlaceholder
-                case .success(let image):
-                    image
-                        .resizable()
-                        .scaledToFill()
-                case .failure:
-                    discountPlaceholder
-                @unknown default:
-                    discountPlaceholder
+        VStack(alignment: .leading, spacing: 0) {
+            ZStack(alignment: .topTrailing) {
+                discountImage(urlString: item.imageURL)
+                    .aspectRatio(16 / 9, contentMode: .fill)
+                    .frame(maxWidth: .infinity)
+                    .clipped()
+
+                if let badge = percentOffBadgeText(for: item.vehicleData) {
+                    Text(badge)
+                        .font(.system(size: 11, weight: .bold, design: .rounded))
+                        .foregroundStyle(.black)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 5)
+                        .background(DiscountCardStyle.badgeBackground)
+                        .padding(10)
                 }
             }
-            .frame(width: 80, height: 80)
-            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-            .overlay(
-                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .stroke(Color.blue.opacity(0.3), lineWidth: 1)
-            )
 
-            VStack(alignment: .leading, spacing: 6) {
-                Text(item.vehicleName)
-                    .font(.subheadline.weight(.semibold))
+            VStack(alignment: .leading, spacing: 10) {
+                Text(item.vehicleName.uppercased())
+                    .font(.system(size: 15, weight: .bold, design: .default))
+                    .italic()
                     .foregroundStyle(.white)
-
-                Text(item.label)
-                    .font(.caption)
-                    .foregroundStyle(.blue)
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
 
                 if let vehicleData = item.vehicleData {
-                    HStack(spacing: 8) {
-                        if let original = vehicleData.originalPrice {
+                    HStack(alignment: .firstTextBaseline, spacing: 10) {
+                        Text(vehicleData.formattedDiscountedPrice)
+                            .font(.system(size: 18, weight: .bold, design: .rounded))
+                            .foregroundStyle(DiscountCardStyle.saleGreen)
+
+                        if let original = vehicleData.originalPrice, original > 0, !vehicleData.isFree {
                             Text(vehicleData.formattedOriginalPrice)
-                                .font(.caption2)
-                                .foregroundStyle(.red.opacity(0.9))
-                                .strikethrough()
+                                .font(.system(size: 13, weight: .medium, design: .rounded))
+                                .foregroundStyle(DiscountCardStyle.originalPriceGrey)
+                                .strikethrough(true, color: DiscountCardStyle.originalPriceGrey)
                         }
-                        Text("Now: \(vehicleData.formattedDiscountedPrice)")
-                            .font(.caption.weight(.semibold))
-                            .foregroundStyle(.blue)
                     }
                 }
             }
+            .padding(.horizontal, 14)
+            .padding(.vertical, 14)
             .frame(maxWidth: .infinity, alignment: .leading)
+            .background(DiscountCardStyle.cardBackground)
         }
         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-        .padding(16)
-        .background(
-            RoundedRectangle(cornerRadius: 14, style: .continuous)
-                .stroke(Color.blue.opacity(0.35), lineWidth: 1)
-                .background(
-                    RoundedRectangle(cornerRadius: 14, style: .continuous)
-                        .fill(Color.black.opacity(0.3))
-                )
-        )
+        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+    }
+
+    @ViewBuilder
+    private func discountImage(urlString: String) -> some View {
+        AsyncImage(url: URL(string: urlString)) { phase in
+            switch phase {
+            case .empty:
+                discountPlaceholder
+            case .success(let image):
+                image
+                    .resizable()
+                    .scaledToFill()
+            case .failure:
+                discountPlaceholder
+            @unknown default:
+                discountPlaceholder
+            }
+        }
     }
 
     private var discountPlaceholder: some View {
-        RoundedRectangle(cornerRadius: 10, style: .continuous)
-            .fill(Color.black.opacity(0.4))
+        Rectangle()
+            .fill(Color.black.opacity(0.45))
             .overlay {
                 Image(systemName: "tag.fill")
-                    .font(.title2)
-                    .foregroundStyle(.blue.opacity(0.5))
+                    .font(.title)
+                    .foregroundStyle(.white.opacity(0.35))
             }
+    }
+
+    /// Badge like `35% OFF` from API `discount_percent`, or derived from original vs discounted price.
+    private func percentOffBadgeText(for data: VehicleData?) -> String? {
+        guard let data else { return nil }
+        if let p = data.discountPercent, p > 0 {
+            return "\(p)% OFF"
+        }
+        if data.isFree, (data.originalPrice ?? 0) > 0 {
+            return "100% OFF"
+        }
+        if let orig = data.originalPrice, orig > 0, let disc = data.discountedPrice, !data.isFree {
+            let pct = Int(round(100.0 - Double(disc * 100) / Double(orig)))
+            let clamped = max(1, min(99, pct))
+            return "\(clamped)% OFF"
+        }
+        return nil
     }
 }
