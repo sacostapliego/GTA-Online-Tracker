@@ -1,1 +1,12 @@
-No failed vehicles.
+--- FAILED VEHICLES (Add to special_cases.py) ---
+The following vehicles failed to scrape. Add them to SPECIAL_CASES:
+
+    "Annis 300R": "correct-url-here",  # Prize Ride Vehicle - Attempted: 300r
+    "Vapid Apocalypse Imperator (Arena)": "correct-url-here",  # Discount - Attempted: (arena)
+    "Imponte Ruiner 2000": "correct-url-here",  # Discount - Attempted: 2000
+    "Grotti Itali Classic": "correct-url-here",  # Discount - Attempted: classic
+    "Dinka Jester Classic": "correct-url-here",  # Discount - Attempted: classic
+    "Dewbauchee JB 700W": "correct-url-here",  # Discount - Attempted: 700w
+    "Bravado Banshee GTS": "correct-url-here",  # Discount - Attempted: bansheegts
+    "Vom Feuer Anti-Aircraft Trailer": "correct-url-here",  # Discount - Attempted: trailer
+    "Western Rampant Rocket": "correct-url-here",  # Discount - Attempted: rocket
