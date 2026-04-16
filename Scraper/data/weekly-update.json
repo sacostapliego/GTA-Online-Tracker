@@ -1,81 +1,62 @@
 {
-  "weekOf": "April 9th to April 16th (Not live until ~5am EDT on April 9th)",
+  "weekOf": "April 16th to April 23rd (Not live until ~5am EDT on April 16th)",
   "introMessages": [
-    "The Neighborhood Watch Event enters its second week in GTA Online.",
-    "Get behind the wheel of the new Bravado Buffalo STX Pursuit, available to all from Warstock Cache &amp; Carry from this week.",
-    "Clean up the streets by bringing Standard and Most Wanted Bounty Targets into your Bail Office for Double Rewards, or 4X if you’re a GTA+ Member. There’s also bonuses on the Pursuit Race Series, the Community Combat Series, and more.",
-    "Then, get ready for two weeks of hallucinatory hijinks sponsored by LD Organics coinciding with 420 — including a special in-game outfit for Rockstar Propaganda email list subscribers."
+    "Take down waves of hallucinations with extreme firepower in the new Stoner Survival mode, paying out 4X Rewards during LD Organics Presents: The 420 Event occurring over the next two weeks in GTA Online.",
+    "Make the most of 4X GTA$ and RP on a new Hunting Pack (Get Lamar) location, bonuses on Weed Sales, returning psychedelic Peyote Plants, showrooms full of glistening green vehicles, and much more.",
+    "We’re also giving away the Multicolor 420 Festival Outfit to Rockstar Propaganda email list subscribers who play GTA Online at any point between April 16 – 29."
   ],
-  "podiumVehicle": "Pfister Growler",
-  "prizeRideVehicle": "Annis 300R",
-  "prizeRideChallenge": "Place Top 5 in the LS Car Meet Series for 3 days in a row",
-  "timeTrial": "Vinewood Bowl",
-  "premiumRace": "Downtown Underground, locked to Super",
-  "hswTimeTrial": "Textile City to Stab City",
+  "podiumVehicle": "Western Reever",
+  "prizeRideVehicle": "BF Club",
+  "prizeRideChallenge": "Place Top 4 in the LS Car Meet Series for 3 days in a row",
+  "timeTrial": "Power Station",
+  "premiumRace": "Eight Figure Bonus, locked to Sports Classic",
+  "hswTimeTrial": "Ron Alternates to Elysian Island",
   "salvageYardRobberies": [
     {
-      "type": "The Duggan Robbery",
+      "type": "The Cargo Ship Robbery",
       "vehicle": "Dinka Kanjo SJ"
     },
     {
-      "type": "The Gangbanger Robbery",
-      "vehicle": "Ocelot Swinger"
+      "type": "The McTony Robbery",
+      "vehicle": "Vapid Dominator ASP"
     },
     {
       "type": "The Podium Robbery",
-      "vehicle": "Pegassi Zentorno"
+      "vehicle": "Pegassi Ignus"
     }
   ],
-  "weeklyChallenge": "Secure 2 Bail Office Bounties to receive the Winter LSPD Officer Outfit and GTA$100,000",
+  "weeklyChallenge": "Complete five waves in the new Stoner Survival to earn the Sasquatch Outfit and $420,000",
   "bonuses": [
-    "3X GTA$, RP, and LS Car Meet Rep - Pursuit Race Series",
-    "2X GTA$ and RP - Dispatch Work (3X for GTA+ Members)",
-    "2X GTA$ and RP - Bail Office Bounties (4X for GTA+ Members)",
-    "2X GTA$ and RP - The Vespucci Job (Remix)",
-    "2X GTA$ and RP - Community Combat Series",
-    "2X GTA$ - Bail Office Staff Income"
+    "4X GTA$ and RP - Stoner Survival",
+    "4X GTA$ and RP - Hunting Pack (Get Lamar)",
+    "4X GTA$ and RP - Pizza Delivery",
+    "3X GTA$ and RP - First Dose and Last Dose Missions",
+    "2X GTA$ and RP - Short Trips",
+    "2X GTA$ and RP - Weed Sell Missions (includes Nightclub Organic Produce)",
+    "2X GTA$ and RP - Community Combat Series"
   ],
   "discounts": [
-    "40% Off: Bail Offices",
-    "40% Off: Bail Office Upgrades and Modifications",
-    "35% off: Western Police Bike",
-    "35% off: Invetero Coquette D10 Pursuit",
-    "35% off: Vapid Caracara Pursuit",
-    "35% off: Canis Terminus Patrol",
-    "35% off: Willard Outreach Faction",
-    "35% off: Vapid Dominator FX Interceptor",
-    "35% off: Bravado Greenwood Cruiser",
-    "35% off: Bravado Dorado Cruiser",
-    "35% off: Declasse Impaler LX Cruiser",
-    "35% off: Declasse Impaler SZ Cruiser",
-    "35% off: Vapid Stanier LE Cruiser",
-    "35% off: Bravado Gauntlet Interceptor",
-    "35% off: Vapid Unmarked Cruiser",
-    "35% off: Declasse Park Ranger",
-    "30% Off: Imponte Arbiter GT",
-    "30% Off: Vapid Apocalypse Imperator (Arena)",
-    "30% Off: Imponte Ruiner 2000",
-    "30% Off: Grotti Itali Classic",
-    "30% Off: Dinka Jester Classic",
-    "30% Off: Grotti Stinger",
-    "30% Off: Dewbauchee JB 700W",
-    "30% Off: Bravado Banshee GTS",
-    "30% Off: Överflöd Autarch",
-    "30% Off: Vom Feuer Anti-Aircraft Trailer",
-    "30% Off: Nagasaki Outlaw",
-    "30% Off: Mammoth Squaddie",
-    "30% Off: Vapid Winky",
-    "30% Off: Western Rampant Rocket",
-    "30% Off: Pfister Comet Safari",
-    "30% Off: Dewbauchee Specter"
+    "50% Off: Vapid Festival Bus",
+    "50% Off: Green Tire Smoke",
+    "50% Off: Green Space Horror Suit",
+    "40% Off: Weed Farms",
+    "40% Off: Weed Farm Upgrades",
+    "30% Off: Gallivanter Baller ST-D",
+    "30% Off: Gallivanter Baller ST",
+    "30% Off: Declasse Walton L35",
+    "30% Off: Pfister Neon",
+    "30% Off: Buckingham Tug",
+    "30% Off: Shitzu Hakuchou Drag",
+    "30% Off: Vapid Caracara 4x4",
+    "30% Off: Nagasaki Ultralight",
+    "30% Off: Imponte Nightshade"
   ],
   "gunVanDiscounts": [
-    "Free: Nightstick",
     "Free: Baseball Bat",
-    "50% off: Railgun",
-    "Free for GTA+ Members: Stun Gun",
-    "40% off for GTA+ Members: Heavy Rifle",
-    "70% off for GTA+ Members: Body Armor"
+    "Free: Stun Gun",
+    "30% off: Railgun",
+    "70% off for GTA+ Members: Body Armor",
+    "40% off for GTA+ Members: Military Rifle"
   ],
   "gunVanStock": []
 }

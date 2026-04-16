@@ -1,15 +1,24 @@
 {
-  "Pfister Growler": {
+  "Western Reever": {
     "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/growler",
-    "image_url": "https://gtacars.net/images/6b06c411ec28d9fa5840a7a49c32e36e",
-    "original_price": 1627000,
+    "url": "https://gtacars.net/gta5/reever",
+    "image_url": "https://gtacars.net/images/804190eafde87e39284d34980bf4bb2a",
+    "original_price": 1900000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "BF Club": {
+    "type": "Prize Ride Vehicle",
+    "url": "https://gtacars.net/gta5/club",
+    "image_url": "https://gtacars.net/images/6adca2931c8e034e62323194585ed517",
+    "original_price": 1280000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
   "Dinka Kanjo SJ": {
-    "type": "The Duggan Robbery",
+    "type": "The Cargo Ship Robbery",
     "url": "https://gtacars.net/gta5/kanjo",
     "image_url": "https://gtacars.net/images/0e512a64cccb8adec297578b3e7feaa9",
     "original_price": 580000,
@@ -17,241 +26,52 @@
     "discount_percent": null,
     "is_free": false
   },
-  "Ocelot Swinger": {
-    "type": "The Gangbanger Robbery",
-    "url": "https://gtacars.net/gta5/swinger",
-    "image_url": "https://gtacars.net/images/2edbe62476081a6748ce398854d0504b",
-    "original_price": 909000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Pegassi Zentorno": {
+  "Pegassi Ignus": {
     "type": "The Podium Robbery",
-    "url": "https://gtacars.net/gta5/zentorno",
-    "image_url": "https://gtacars.net/images/2d10df4b2a87755c924fa1f3cc57cc18",
-    "original_price": 725000,
+    "url": "https://gtacars.net/gta5/ignus",
+    "image_url": "https://gtacars.net/images/78bcc5b51115aca5bf45540c3680cda2",
+    "original_price": 2765000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Western Police Bike": {
+  "Pfister Neon": {
     "type": "Discount",
-    "discount": "35% off: Western Police Bike",
-    "url": "https://gtacars.net/gta5/policeb2",
-    "image_url": "https://gtacars.net/images/e46f7e3b374b7a5fd7aba4d2d8485ac3",
-    "original_price": 4960000,
-    "discounted_price": 3224000,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Invetero Coquette D10 Pursuit": {
-    "type": "Discount",
-    "discount": "35% off: Invetero Coquette D10 Pursuit",
-    "url": "https://gtacars.net/gta5/polcoquette4",
-    "image_url": "https://gtacars.net/images/0a0eae55e14268685207adbef67bffc7",
-    "original_price": 5620000,
-    "discounted_price": 3653000,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Vapid Caracara Pursuit": {
-    "type": "Discount",
-    "discount": "35% off: Vapid Caracara Pursuit",
-    "url": "https://gtacars.net/gta5/polcaracara",
-    "image_url": "https://gtacars.net/images/ff7beb5b89c83bf4507eebdc10bcb90b",
-    "original_price": 5335000,
-    "discounted_price": 3467750,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Canis Terminus Patrol": {
-    "type": "Discount",
-    "discount": "35% off: Canis Terminus Patrol",
-    "url": "https://gtacars.net/gta5/polterminus",
-    "image_url": "https://gtacars.net/images/22b313c7b1ed548f313e02b1b5a58f3a",
-    "original_price": 5125000,
-    "discounted_price": 3331250,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Willard Outreach Faction": {
-    "type": "Discount",
-    "discount": "35% off: Willard Outreach Faction",
-    "url": "https://gtacars.net/gta5/polfaction2",
-    "image_url": "https://gtacars.net/images/554a3eeebb80822e860a86b9c33dfa94",
-    "original_price": 4150000,
-    "discounted_price": 2697500,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Vapid Dominator FX Interceptor": {
-    "type": "Discount",
-    "discount": "35% off: Vapid Dominator FX Interceptor",
-    "url": "https://gtacars.net/gta5/poldominator10",
-    "image_url": "https://gtacars.net/images/3e797bb2faf1d2a24008019e400525a8",
-    "original_price": 4950000,
-    "discounted_price": 3217500,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Bravado Greenwood Cruiser": {
-    "type": "Discount",
-    "discount": "35% off: Bravado Greenwood Cruiser",
-    "url": "https://gtacars.net/gta5/polgreenwood",
-    "image_url": "https://gtacars.net/images/6f69fd9cc8586140a62e29e205b810c8",
-    "original_price": 4910000,
-    "discounted_price": 3191500,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Bravado Dorado Cruiser": {
-    "type": "Discount",
-    "discount": "35% off: Bravado Dorado Cruiser",
-    "url": "https://gtacars.net/gta5/poldorado",
-    "image_url": "https://gtacars.net/images/74e54fec0e69a5b3e20f969226d84ef5",
-    "original_price": 5005000,
-    "discounted_price": 3253250,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Declasse Impaler LX Cruiser": {
-    "type": "Discount",
-    "discount": "35% off: Declasse Impaler LX Cruiser",
-    "url": "https://gtacars.net/gta5/polimpaler6",
-    "image_url": "https://gtacars.net/images/89bc25acadbfc3161f4648c80ed2d3a2",
-    "original_price": 4800000,
-    "discounted_price": 3120000,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Declasse Impaler SZ Cruiser": {
-    "type": "Discount",
-    "discount": "35% off: Declasse Impaler SZ Cruiser",
-    "url": "https://gtacars.net/gta5/polimpaler5",
-    "image_url": "https://gtacars.net/images/b58a0fbf8253c57efcb50159ee2d29a9",
-    "original_price": 4720000,
-    "discounted_price": 3068000,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Vapid Stanier LE Cruiser": {
-    "type": "Discount",
-    "discount": "35% off: Vapid Stanier LE Cruiser",
-    "url": "https://gtacars.net/gta5/police5",
-    "image_url": "https://gtacars.net/images/a12e83adcbc1915d7109dbb485bce5e6",
-    "original_price": 4690000,
-    "discounted_price": 3048500,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Bravado Gauntlet Interceptor": {
-    "type": "Discount",
-    "discount": "35% off: Bravado Gauntlet Interceptor",
-    "url": "https://gtacars.net/gta5/polgauntlet",
-    "image_url": "https://gtacars.net/images/4e1d27652d5df053e97095ac92401dee",
-    "original_price": 5420000,
-    "discounted_price": 3523000,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Vapid Unmarked Cruiser": {
-    "type": "Discount",
-    "discount": "35% off: Vapid Unmarked Cruiser",
-    "url": "https://gtacars.net/gta5/police4",
-    "image_url": "https://gtacars.net/images/fda8193d8feec0a7aafe7c4eba195a17",
-    "original_price": 3950000,
-    "discounted_price": 2567500,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Declasse Park Ranger": {
-    "type": "Discount",
-    "discount": "35% off: Declasse Park Ranger",
-    "url": "https://gtacars.net/gta5/pranger",
-    "image_url": "https://gtacars.net/images/1ac1eae6610f7c4da7a3e6e386f68a5a",
-    "original_price": 2980000,
-    "discounted_price": 1937000,
-    "discount_percent": 35,
-    "is_free": false
-  },
-  "Imponte Arbiter GT": {
-    "type": "Discount",
-    "discount": "30% Off: Imponte Arbiter GT",
-    "url": "https://gtacars.net/gta5/arbitergt",
-    "image_url": "https://gtacars.net/images/c904b40c035a0f92bc58ef3616e627d1",
-    "original_price": 1580000,
-    "discounted_price": 1106000,
+    "discount": "30% Off: Pfister Neon",
+    "url": "https://gtacars.net/gta5/neon",
+    "image_url": "https://gtacars.net/images/5ee57ae85a2fccfa3b220993d77d050e",
+    "original_price": 1500000,
+    "discounted_price": 1050000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Grotti Stinger": {
+  "Buckingham Tug": {
     "type": "Discount",
-    "discount": "30% Off: Grotti Stinger",
-    "url": "https://gtacars.net/gta5/stinger",
-    "image_url": "https://gtacars.net/images/2e09d34ae6d4df014b806e81466da59b",
-    "original_price": 850000,
-    "discounted_price": 595000,
+    "discount": "30% Off: Buckingham Tug",
+    "url": "https://gtacars.net/gta5/tug",
+    "image_url": "https://gtacars.net/images/1c39bd3fc4c2fda998e63252ff4678a2",
+    "original_price": 1250000,
+    "discounted_price": 875000,
     "discount_percent": 30,
     "is_free": false
   },
-  "\u00d6verfl\u00f6d Autarch": {
+  "Vapid Caracara 4x4": {
     "type": "Discount",
-    "discount": "30% Off: \u00d6verfl\u00f6d Autarch",
-    "url": "https://gtacars.net/gta5/autarch",
-    "image_url": "https://gtacars.net/images/213dc2b50d169485c92cff56abc7b58d",
-    "original_price": 1955000,
-    "discounted_price": 1368500,
+    "discount": "30% Off: Vapid Caracara 4x4",
+    "url": "https://gtacars.net/gta5/caracara2",
+    "image_url": "https://gtacars.net/images/6347430b71f6c3e042efb1eb11991e32",
+    "original_price": 875000,
+    "discounted_price": 612500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Nagasaki Outlaw": {
+  "Imponte Nightshade": {
     "type": "Discount",
-    "discount": "30% Off: Nagasaki Outlaw",
-    "url": "https://gtacars.net/gta5/outlaw",
-    "image_url": "https://gtacars.net/images/7387e46fdc56553bd1b3f9c145be09a4",
-    "original_price": 1268000,
-    "discounted_price": 887600,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Mammoth Squaddie": {
-    "type": "Discount",
-    "discount": "30% Off: Mammoth Squaddie",
-    "url": "https://gtacars.net/gta5/squaddie",
-    "image_url": "https://gtacars.net/images/37814c8956be759da69f24f52f110829",
-    "original_price": 1130000,
-    "discounted_price": 791000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Vapid Winky": {
-    "type": "Discount",
-    "discount": "30% Off: Vapid Winky",
-    "url": "https://gtacars.net/gta5/winky",
-    "image_url": "https://gtacars.net/images/188eb4f30b795fca6504fd43a58e0dd4",
-    "original_price": 1100000,
-    "discounted_price": 770000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Pfister Comet Safari": {
-    "type": "Discount",
-    "discount": "30% Off: Pfister Comet Safari",
-    "url": "https://gtacars.net/gta5/comet4",
-    "image_url": "https://gtacars.net/images/3327020704521d694ea57d70f35fcb35",
-    "original_price": 710000,
-    "discounted_price": 497000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Dewbauchee Specter": {
-    "type": "Discount",
-    "discount": "30% Off: Dewbauchee Specter",
-    "url": "https://gtacars.net/gta5/specter",
-    "image_url": "https://gtacars.net/images/6cb860ef20b5a3160ec6cbed8869c5dd",
-    "original_price": 599000,
-    "discounted_price": 419300,
+    "discount": "30% Off: Imponte Nightshade",
+    "url": "https://gtacars.net/gta5/nightshade",
+    "image_url": "https://gtacars.net/images/2b659a00f8801616c3d1faefd6ac23ed",
+    "original_price": 585000,
+    "discounted_price": 409500,
     "discount_percent": 30,
     "is_free": false
   }
