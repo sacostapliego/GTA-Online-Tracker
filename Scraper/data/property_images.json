@@ -14,5 +14,9 @@
   "Bunker": {
     "image1": "https://static.wikia.nocookie.net/gtawiki/images/f/f9/Gunrunning-GTAO-OfficialScreen-Bunker.jpg/revision/latest?cb=20170525211235",
     "image2": "https://static.wikia.nocookie.net/gtawiki/images/9/94/Bunker-GTAO-BunkerStyle1.png/revision/latest?cb=20170807150753"
+  },
+  "Weed" :{
+    "image1": "https://static.wikia.nocookie.net/gtawiki/images/5/55/WeedFarm-GTAOe-InProduction.png/revision/latest/scale-to-width-down/1200?cb=20230301101046",
+    "image2": "https://assetsio.gnwcdn.com/gta-online-mc-business-weed-farm-building.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
   }
 }

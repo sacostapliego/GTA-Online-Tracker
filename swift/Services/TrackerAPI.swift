@@ -35,14 +35,11 @@ final class TrackerAPI {
             do {
                 return try await fetchJSON(path: "weekly-update.json", from: baseURL)
             } catch {
-                if let fallback = try? loadSampleJSON(named: "fallback", type: WeeklyUpdate.self) {
+                if let fallback: WeeklyUpdate = try? await fetchJSON(path: "fallback.json", from: baseURL) {
                     return fallback
                 }
                 return try loadSampleJSON(named: "weekly-update.sample", type: WeeklyUpdate.self)
             }
-        }
-        if let fallback = try? loadSampleJSON(named: "fallback", type: WeeklyUpdate.self) {
-            return fallback
         }
         return try loadSampleJSON(named: "weekly-update.sample", type: WeeklyUpdate.self)
     }
@@ -59,10 +56,24 @@ final class TrackerAPI {
     }
 
     func fetchGTAImageData() async throws -> GTAImageData {
+        if let baseURL {
+            do {
+                return try await fetchJSON(path: "gta_images.json", from: baseURL)
+            } catch {
+                return try loadSampleJSON(named: "gta_images", type: GTAImageData.self)
+            }
+        }
         return try loadSampleJSON(named: "gta_images", type: GTAImageData.self)
     }
 
     func fetchPropertyImageData() async throws -> PropertyImageData {
+        if let baseURL {
+            do {
+                return try await fetchJSON(path: "property_images.json", from: baseURL)
+            } catch {
+                return try loadSampleJSON(named: "property_images", type: PropertyImageData.self)
+            }
+        }
         return try loadSampleJSON(named: "property_images", type: PropertyImageData.self)
     }
 
