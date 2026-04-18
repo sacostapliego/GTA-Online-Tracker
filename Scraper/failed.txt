@@ -1,13 +1,2 @@
 --- FAILED VEHICLES (Add to special_cases.py) ---
 The following vehicles failed to scrape. Add them to SPECIAL_CASES:
-
-    "Vapid Dominator ASP": "correct-url-here",  # The McTony Robbery - Attempted: dominatorasp
-    "Vapid Festival Bus": "correct-url-here",  # Discount - Attempted: festivalbus
-    "Green Tire Smoke": "correct-url-here",  # Discount - Attempted: smoke
-    "Green Space Horror Suit": "correct-url-here",  # Discount - Attempted: suit
-    "Weed Farms": "correct-url-here",  # Discount - Attempted: farms
-    "Gallivanter Baller ST-D": "correct-url-here",  # Discount - Attempted: st-d
-    "Gallivanter Baller ST": "correct-url-here",  # Discount - Attempted: ballerst
-    "Declasse Walton L35": "correct-url-here",  # Discount - Attempted: waltonl35
-    "Shitzu Hakuchou Drag": "correct-url-here",  # Discount - Attempted: drag
-    "Nagasaki Ultralight": "correct-url-here",  # Discount - Attempted: ultralight

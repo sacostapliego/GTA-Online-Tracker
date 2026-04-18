@@ -66,4 +66,11 @@ SPECIAL_CASES = {
     "Bravado Greenwood Cruiser" : "polgreenwood",
     "Bravado Dorado Cruiser" : "poldorado",
     "Bravado Gauntlet Interceptor" : "polgauntlet",
+    "Vapid Dominator ASP" : "dominator7",
+    "Vapid Festival Bus" : "pbus2",
+    "Gallivanter Baller ST-D" : "baller8",
+    "Gallivanter Baller ST" : "baller7",
+    "Declasse Walton L35" : "l352",
+    "Shitzu Hakuchou Drag" : "hakuchou2",
+    "Nagasaki Ultralight" : "microlight",
 }

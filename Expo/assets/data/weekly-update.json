@@ -1,66 +1,62 @@
 {
-  "weekOf": "March 19th to March 26th (Not live until ~5am EDT on March 19th)",
+  "weekOf": "April 16th to April 23rd (Not live until ~5am EDT on April 16th)",
   "introMessages": [
-    "The Community Series Showcase continues in GTA Online, launching into an explosive second week of action with a Series focused on Combat modes. Test your reflexes in the rocket-propelled carnage of \\[G\\] Bowling Vs Rpg by gecko--87 in the Community Series, paying out 3X GTA$ and RP this week and next.",
-    "This week, get 2X GTA$ on Document Forgery Sell Missions, 2X Research Progress from Bunker Research Missions, and 3X GTA$ and RP on Gerald Contact Missions (including Gerald's Last Play). Plus, keep searching high and low for Lucky and Golden Clover balloons to collect special Outfits."
+    "Take down waves of hallucinations with extreme firepower in the new Stoner Survival mode, paying out 4X Rewards during LD Organics Presents: The 420 Event occurring over the next two weeks in GTA Online.",
+    "Make the most of 4X GTA$ and RP on a new Hunting Pack (Get Lamar) location, bonuses on Weed Sales, returning psychedelic Peyote Plants, showrooms full of glistening green vehicles, and much more.",
+    "We’re also giving away the Multicolor 420 Festival Outfit to Rockstar Propaganda email list subscribers who play GTA Online at any point between April 16 – 29."
   ],
-  "podiumVehicle": "Benefactor Schlagen GT",
-  "prizeRideVehicle": "Albany Cavalcade XL",
-  "prizeRideChallenge": "Win in the LS Car Meet Series",
-  "timeTrial": "Route 68",
-  "premiumRace": "A Sign of Things to Come, locked to Motorcycle",
-  "hswTimeTrial": "East Vinewood to Vespucci Beach",
+  "podiumVehicle": "Western Reever",
+  "prizeRideVehicle": "BF Club",
+  "prizeRideChallenge": "Place Top 4 in the LS Car Meet Series for 3 days in a row",
+  "timeTrial": "Power Station",
+  "premiumRace": "Eight Figure Bonus, locked to Sports Classic",
+  "hswTimeTrial": "Ron Alternates to Elysian Island",
   "salvageYardRobberies": [
     {
-      "type": "The Duggan Robbery",
-      "vehicle": "Annis S80RR"
+      "type": "The Cargo Ship Robbery",
+      "vehicle": "Dinka Kanjo SJ"
     },
     {
       "type": "The McTony Robbery",
-      "vehicle": "Karin Hotring Everon"
+      "vehicle": "Vapid Dominator ASP"
     },
     {
-      "type": "The Gangbanger Robbery",
-      "vehicle": "Karin Boor"
+      "type": "The Podium Robbery",
+      "vehicle": "Pegassi Ignus"
     }
   ],
-  "weeklyChallenge": "Win three Deathmatches to receive GTA$100,000",
+  "weeklyChallenge": "Complete five waves in the new Stoner Survival to earn the Sasquatch Outfit and $420,000",
   "bonuses": [
-    "3X GTA$ and RP - Community Series (6X for GTA+ Members)",
-    "3X GTA$ and RP - Gerald Contact Missions",
-    "2X GTA$ and RP - Document Forgery Sell Missions",
-    "2X - Research Progress from Bunker Research Missions"
+    "4X GTA$ and RP - Stoner Survival",
+    "4X GTA$ and RP - Hunting Pack (Get Lamar)",
+    "4X GTA$ and RP - Pizza Delivery",
+    "3X GTA$ and RP - First Dose and Last Dose Missions",
+    "2X GTA$ and RP - Short Trips",
+    "2X GTA$ and RP - Weed Sell Missions (includes Nightclub Organic Produce)",
+    "2X GTA$ and RP - Community Combat Series"
   ],
   "discounts": [
-    "Free: LSIA Vehicle Warehouse",
-    "Free: Coil Rocket Voltic",
-    "50% Off: Executive Offices",
-    "50% Off: All Ammo",
-    "40% Off: Document Forgery Offices + Upgrades",
-    "40% Off: Mk II Weapon Conversions",
-    "30% Off: Vapid Ratel",
-    "30% Off: Declasse Draugur",
-    "30% Off: Pfister Astron Custom",
-    "30% Off: Vapid Clique Wagon",
-    "30% Off: Western Company Besra",
-    "30% Off: Annis Savestra",
-    "30% Off: Enus Windsor Drop",
-    "30% Off: BF Raptor",
-    "30% Off: Declasse Bugstars Burrito"
+    "50% Off: Vapid Festival Bus",
+    "50% Off: Green Tire Smoke",
+    "50% Off: Green Space Horror Suit",
+    "40% Off: Weed Farms",
+    "40% Off: Weed Farm Upgrades",
+    "30% Off: Gallivanter Baller ST-D",
+    "30% Off: Gallivanter Baller ST",
+    "30% Off: Declasse Walton L35",
+    "30% Off: Pfister Neon",
+    "30% Off: Buckingham Tug",
+    "30% Off: Shitzu Hakuchou Drag",
+    "30% Off: Vapid Caracara 4x4",
+    "30% Off: Nagasaki Ultralight",
+    "30% Off: Imponte Nightshade"
   ],
   "gunVanDiscounts": [
-    "40% off: All Weapons",
-    "50% off for GTA+ Members: All Weapons"
+    "Free: Baseball Bat",
+    "Free: Stun Gun",
+    "30% off: Railgun",
+    "70% off for GTA+ Members: Body Armor",
+    "40% off for GTA+ Members: Military Rifle"
   ],
-  "gunVanStock": [
-    "Battle Rifle (40%, 50%)",
-    "Tactical SMG (40%, 50%)",
-    "Heavy Rifle (40%, 50%)",
-    "El Strickler (40%, 50%)",
-    "Compact EMP Launcher (40%, 50%)",
-    "Precision Rifle (40%, 50%)",
-    "Pipe Bomb (40%, 50%)",
-    "Sticky Bomb (40%, 50%)",
-    "Proximity Mine (40%, 50%)"
-  ]
+  "gunVanStock": []
 }
