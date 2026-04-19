@@ -26,16 +26,18 @@ interface BonusItem {
 }
 
 const DEFAULT_IMAGE = 'https://static.wikia.nocookie.net/gtawiki/images/5/50/GTAOnlineWebsite-ScreensPC-589-3840.jpg/revision/latest/scale-to-width-down/1000?cb=20210629175043';
+const DATA_BASE_URL = 'https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data';
 
 export default function BonusesTab() {
   const [weeklyData, setWeeklyData] = useState<WeeklyData | null>(null);
   const [bonuses, setBonuses] = useState<BonusItem[]>([]);
 
   useEffect(() => {
-    const gtaImages: GTAImageData = require('@/assets/data/gta_images.json');
-    const propertyImages: PropertyImageData = require('@/assets/data/property_images.json');
-
-    const processData = (data: WeeklyData) => {
+    const processData = (
+      data: WeeklyData,
+      gtaImages: GTAImageData,
+      propertyImages: PropertyImageData,
+    ) => {
       setWeeklyData(data);
 
       const propertyImageCounter: { [key: string]: number } = {};
@@ -70,11 +72,21 @@ export default function BonusesTab() {
       setBonuses(parsedBonuses);
     };
 
-    fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/weekly-update.json')
-      .then(res => res.json())
-      .then(data => processData(data))
-      .catch(() => {
-        processData(require('@/assets/data/fallback.json'));
+    Promise.all([
+      fetch(`${DATA_BASE_URL}/weekly-update.json`).then(res => res.json()),
+      fetch(`${DATA_BASE_URL}/gta_images.json`).then(res => res.json()),
+      fetch(`${DATA_BASE_URL}/property_images.json`).then(res => res.json()),
+    ])
+      .then(([data, gtaImages, propertyImages]) => {
+        processData(data, gtaImages, propertyImages);
+      })
+      .catch(async () => {
+        try {
+          const fallbackData = await fetch(`${DATA_BASE_URL}/fallback.json`).then(res => res.json());
+          processData(fallbackData, {}, {});
+        } catch {
+          processData({ weekOf: 'Unable to load weekly data', bonuses: [] }, {}, {});
+        }
       });
   }, []);
 

@@ -27,6 +27,7 @@ interface VehicleImageData {
 }
 
 const DEFAULT_IMAGE = 'https://static.wikia.nocookie.net/gtawiki/images/5/50/GTAOnlineWebsite-ScreensPC-589-3840.jpg/revision/latest/scale-to-width-down/1000?cb=20210629175043';
+const DATA_BASE_URL = 'https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data';
 const { width } = Dimensions.get('window');
 
 export default function HomeScreen() {
@@ -36,15 +37,31 @@ export default function HomeScreen() {
 
   useEffect(() => {
     Promise.all([
-      fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/weekly-update.json').then(res => res.json()),
-      fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/vehicle_data.json').then(res => res.json()),
+      fetch(`${DATA_BASE_URL}/weekly-update.json`).then(res => res.json()),
+      fetch(`${DATA_BASE_URL}/vehicle_data.json`).then(res => res.json()),
     ])
       .then(([data, images]) => {
         setWeeklyData(data);
         setVehicleImages(images);
       })
-      .catch(() => {
-        setWeeklyData(require('@/assets/data/fallback.json'));
+      .catch(async () => {
+        try {
+          const fallbackData = await fetch(`${DATA_BASE_URL}/fallback.json`).then(res => res.json());
+          setWeeklyData(fallbackData);
+        } catch {
+          setWeeklyData({
+            weekOf: 'Unable to load weekly data',
+            introMessages: [],
+            weeklyChallenge: 'Unavailable',
+            podiumVehicle: '',
+            prizeRideVehicle: '',
+            prizeRideChallenge: '',
+            timeTrial: 'Unavailable',
+            premiumRace: 'Unavailable',
+            hswTimeTrial: 'Unavailable',
+            salvageYardRobberies: [],
+          });
+        }
       });
   }, []);
 

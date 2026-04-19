@@ -32,14 +32,18 @@ interface PropertyImageData {
   };
 }
 
+const DATA_BASE_URL = 'https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data';
+
 export default function DiscountsTab() {
   const [weeklyData, setWeeklyData] = useState<WeeklyData | null>(null);
   const [discounts, setDiscounts] = useState<DiscountItem[]>([]);
 
   useEffect(() => {
-    const propertyImages: PropertyImageData = require('@/assets/data/property_images.json');
-
-    const processData = (data: WeeklyData, vehicleImages: VehicleImageData) => {
+    const processData = (
+      data: WeeklyData,
+      vehicleImages: VehicleImageData,
+      propertyImages: PropertyImageData,
+    ) => {
       setWeeklyData(data);
 
       const propertyImageCounter: { [key: string]: number } = {};
@@ -75,12 +79,20 @@ export default function DiscountsTab() {
     };
 
     Promise.all([
-      fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/weekly-update.json').then(res => res.json()),
-      fetch('https://raw.githubusercontent.com/sacostapliego/GTA-Online-Tracker/refs/heads/main/Scraper/data/vehicle_data.json').then(res => res.json()),
+      fetch(`${DATA_BASE_URL}/weekly-update.json`).then(res => res.json()),
+      fetch(`${DATA_BASE_URL}/vehicle_data.json`).then(res => res.json()),
+      fetch(`${DATA_BASE_URL}/property_images.json`).then(res => res.json()),
     ])
-      .then(([data, vehicleImages]) => processData(data, vehicleImages))
-      .catch(() => {
-        processData(require('@/assets/data/fallback.json'), {});
+      .then(([data, vehicleImages, propertyImages]) => {
+        processData(data, vehicleImages, propertyImages);
+      })
+      .catch(async () => {
+        try {
+          const fallbackData = await fetch(`${DATA_BASE_URL}/fallback.json`).then(res => res.json());
+          processData(fallbackData, {}, {});
+        } catch {
+          processData({ weekOf: 'Unable to load weekly data', discounts: [] }, {}, {});
+        }
       });
   }, []);
 
