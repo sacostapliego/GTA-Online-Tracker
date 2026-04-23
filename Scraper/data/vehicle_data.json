@@ -1,45 +1,36 @@
 {
-  "Western Reever": {
-    "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/reever",
-    "image_url": "https://gtacars.net/images/804190eafde87e39284d34980bf4bb2a",
-    "original_price": 1900000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "BF Club": {
+  "Truffade Adder": {
     "type": "Prize Ride Vehicle",
-    "url": "https://gtacars.net/gta5/club",
-    "image_url": "https://gtacars.net/images/6adca2931c8e034e62323194585ed517",
-    "original_price": 1280000,
+    "url": "https://gtacars.net/gta5/adder",
+    "image_url": "https://gtacars.net/images/8866294c242a925d4e20170282a3fdfd",
+    "original_price": 1000000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Dinka Kanjo SJ": {
-    "type": "The Cargo Ship Robbery",
-    "url": "https://gtacars.net/gta5/kanjo",
-    "image_url": "https://gtacars.net/images/0e512a64cccb8adec297578b3e7feaa9",
-    "original_price": 580000,
+  "\u00dcbermacht Sentinel Classic": {
+    "type": "The Duggan Robbery",
+    "url": "https://gtacars.net/gta5/sentinel3",
+    "image_url": "https://gtacars.net/images/39603b6eb6dfe10663486c2cde6c5fe7",
+    "original_price": 650000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Vapid Dominator ASP": {
+  "Karin Everon": {
     "type": "The McTony Robbery",
-    "url": "https://gtacars.net/gta5/dominator7",
-    "image_url": "https://gtacars.net/images/f3c52e761ff8f2492d62dd873dfaee76",
-    "original_price": 1775000,
+    "url": "https://gtacars.net/gta5/everon",
+    "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
+    "original_price": 1475000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Pegassi Ignus": {
-    "type": "The Podium Robbery",
-    "url": "https://gtacars.net/gta5/ignus",
-    "image_url": "https://gtacars.net/images/78bcc5b51115aca5bf45540c3680cda2",
-    "original_price": 2765000,
+  "Dewbauchee Vagner": {
+    "type": "The Gangbanger Robbery",
+    "url": "https://gtacars.net/gta5/vagner",
+    "image_url": "https://gtacars.net/images/4b6f726db6c90968c397d12eb569d586",
+    "original_price": 1535000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
@@ -54,93 +45,103 @@
     "discount_percent": 50,
     "is_free": false
   },
-  "Gallivanter Baller ST-D": {
+  "Enus Deity": {
     "type": "Discount",
-    "discount": "30% Off: Gallivanter Baller ST-D",
-    "url": "https://gtacars.net/gta5/baller8",
-    "image_url": "https://gtacars.net/images/f5bc006d1a0147ebff8fa587b7a705ad",
-    "original_price": 1715000,
-    "discounted_price": 1200500,
+    "discount": "30% Off: Enus Deity",
+    "url": "https://gtacars.net/gta5/deity",
+    "image_url": "https://gtacars.net/images/1bf58b80e3657c282c9dc50c08736040",
+    "original_price": 1845000,
+    "discounted_price": 1291500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Gallivanter Baller ST": {
+  "Lampadati Corsita": {
     "type": "Discount",
-    "discount": "30% Off: Gallivanter Baller ST",
-    "url": "https://gtacars.net/gta5/baller7",
-    "image_url": "https://gtacars.net/images/136b1591019513983e514c99c3c1527c",
-    "original_price": 890000,
-    "discounted_price": 623000,
+    "discount": "30% Off: Lampadati Corsita",
+    "url": "https://gtacars.net/gta5/corsita",
+    "image_url": "https://gtacars.net/images/1d4ec83f0958af6288ff16197aa627b5",
+    "original_price": 1795000,
+    "discounted_price": 1256500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Declasse Walton L35": {
+  "HVY Menacer": {
     "type": "Discount",
-    "discount": "30% Off: Declasse Walton L35",
-    "url": "https://gtacars.net/gta5/l352",
-    "image_url": "https://gtacars.net/images/d9c75fd655c4ebf31aa679ccdfeff423",
-    "original_price": 1303700,
-    "discounted_price": 912590,
+    "discount": "30% Off: HVY Menacer",
+    "url": "https://gtacars.net/gta5/menacer",
+    "image_url": "https://gtacars.net/images/592e835ab9b4290bf2370dd21c8c6cc3",
+    "original_price": 1775000,
+    "discounted_price": 1242500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Pfister Neon": {
+  "Kraken Avisa": {
     "type": "Discount",
-    "discount": "30% Off: Pfister Neon",
-    "url": "https://gtacars.net/gta5/neon",
-    "image_url": "https://gtacars.net/images/5ee57ae85a2fccfa3b220993d77d050e",
-    "original_price": 1500000,
-    "discounted_price": 1050000,
+    "discount": "30% Off: Kraken Avisa",
+    "url": "https://gtacars.net/gta5/avisa",
+    "image_url": "https://gtacars.net/images/d754683900535815aa2c077a10bf5bd3",
+    "original_price": 1545000,
+    "discounted_price": 1081500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Buckingham Tug": {
+  "Progen Itali GTB": {
     "type": "Discount",
-    "discount": "30% Off: Buckingham Tug",
-    "url": "https://gtacars.net/gta5/tug",
-    "image_url": "https://gtacars.net/images/1c39bd3fc4c2fda998e63252ff4678a2",
-    "original_price": 1250000,
-    "discounted_price": 875000,
+    "discount": "30% Off: Progen Itali GTB",
+    "url": "https://gtacars.net/gta5/italigtb",
+    "image_url": "https://gtacars.net/images/7eec638035a0e36c6360c5e588e86534",
+    "original_price": 1189000,
+    "discounted_price": 832300,
     "discount_percent": 30,
     "is_free": false
   },
-  "Shitzu Hakuchou Drag": {
+  "Vapid GB200": {
     "type": "Discount",
-    "discount": "30% Off: Shitzu Hakuchou Drag",
-    "url": "https://gtacars.net/gta5/hakuchou2",
-    "image_url": "https://gtacars.net/images/5d690c0611092463e056bedf5b7eff71",
-    "original_price": 976000,
-    "discounted_price": 683200,
+    "discount": "30% Off: Vapid GB200",
+    "url": "https://gtacars.net/gta5/gb200",
+    "image_url": "https://gtacars.net/images/aa94af09150a58daf5d486fb7bc6030c",
+    "original_price": 940000,
+    "discounted_price": 658000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Vapid Caracara 4x4": {
+  "Classique Broadway": {
     "type": "Discount",
-    "discount": "30% Off: Vapid Caracara 4x4",
-    "url": "https://gtacars.net/gta5/caracara2",
-    "image_url": "https://gtacars.net/images/6347430b71f6c3e042efb1eb11991e32",
-    "original_price": 875000,
-    "discounted_price": 612500,
+    "discount": "30% Off: Classique Broadway",
+    "url": "https://gtacars.net/gta5/broadway",
+    "image_url": "https://gtacars.net/images/20c30c03750a32dffc9a3cec5a5bb9d3",
+    "original_price": 925000,
+    "discounted_price": 647500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Nagasaki Ultralight": {
+  "Annis Hellion": {
     "type": "Discount",
-    "discount": "30% Off: Nagasaki Ultralight",
-    "url": "https://gtacars.net/gta5/microlight",
-    "image_url": "https://gtacars.net/images/05208be74d4888be828e2dd8414896e6",
-    "original_price": 665000,
-    "discounted_price": 465500,
+    "discount": "30% Off: Annis Hellion",
+    "url": "https://gtacars.net/gta5/hellion",
+    "image_url": "https://gtacars.net/images/500970e99b17d36a6d815b7d627405ba",
+    "original_price": 835000,
+    "discounted_price": 584500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Imponte Nightshade": {
+  "Obey 8F Drafter": {
     "type": "Discount",
-    "discount": "30% Off: Imponte Nightshade",
-    "url": "https://gtacars.net/gta5/nightshade",
-    "image_url": "https://gtacars.net/images/2b659a00f8801616c3d1faefd6ac23ed",
-    "original_price": 585000,
-    "discounted_price": 409500,
+    "discount": "30% Off: Obey 8F Drafter",
+    "url": "https://gtacars.net/gta5/drafter",
+    "image_url": "https://gtacars.net/images/601ee8a8f5edfe8deb9fedb8ffef499f",
+    "original_price": 718000,
+    "discounted_price": 502600,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Grotti Cheetah": {
+    "type": "Discount",
+    "discount": "30% Off: Grotti Cheetah",
+    "url": "https://gtacars.net/gta5/cheetah",
+    "image_url": "https://gtacars.net/images/9bf4d9bcf46b953bb655afbffd5645fb",
+    "original_price": 650000,
+    "discounted_price": 455000,
     "discount_percent": 30,
     "is_free": false
   }

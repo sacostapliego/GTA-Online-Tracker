@@ -1,62 +1,57 @@
 {
-  "weekOf": "April 16th to April 23rd (Not live until ~5am EDT on April 16th)",
-  "introMessages": [
-    "Take down waves of hallucinations with extreme firepower in the new Stoner Survival mode, paying out 4X Rewards during LD Organics Presents: The 420 Event occurring over the next two weeks in GTA Online.",
-    "Make the most of 4X GTA$ and RP on a new Hunting Pack (Get Lamar) location, bonuses on Weed Sales, returning psychedelic Peyote Plants, showrooms full of glistening green vehicles, and much more.",
-    "We’re also giving away the Multicolor 420 Festival Outfit to Rockstar Propaganda email list subscribers who play GTA Online at any point between April 16 – 29."
-  ],
-  "podiumVehicle": "Western Reever",
-  "prizeRideVehicle": "BF Club",
-  "prizeRideChallenge": "Place Top 4 in the LS Car Meet Series for 3 days in a row",
-  "timeTrial": "Power Station",
-  "premiumRace": "Eight Figure Bonus, locked to Sports Classic",
-  "hswTimeTrial": "Ron Alternates to Elysian Island",
+  "weekOf": "April 23rd to April 30th (Not live until ~5am EDT on April 23rd)",
+  "introMessages": [],
+  "podiumVehicle": "Vulcar Warrener HKR",
+  "prizeRideVehicle": "Truffade Adder",
+  "prizeRideChallenge": "Place Top 2 in the LS Car Meet Series 3 days in a row",
+  "timeTrial": "Raton Canyon",
+  "premiumRace": "Congestion Charge, locked to Super",
+  "hswTimeTrial": "Terminal to Chiliad Mountain State Wilderness",
   "salvageYardRobberies": [
     {
-      "type": "The Cargo Ship Robbery",
-      "vehicle": "Dinka Kanjo SJ"
+      "type": "The Duggan Robbery",
+      "vehicle": "Übermacht Sentinel Classic"
     },
     {
       "type": "The McTony Robbery",
-      "vehicle": "Vapid Dominator ASP"
+      "vehicle": "Karin Everon"
     },
     {
-      "type": "The Podium Robbery",
-      "vehicle": "Pegassi Ignus"
+      "type": "The Gangbanger Robbery",
+      "vehicle": "Dewbauchee Vagner"
     }
   ],
-  "weeklyChallenge": "Complete five waves in the new Stoner Survival to earn the Sasquatch Outfit and $420,000",
+  "weeklyChallenge": "Win Hunting Pack (Get Lamar) twice to receive the Güffy Drug Rug Hoodie and GTA$100,000",
   "bonuses": [
-    "4X GTA$ and RP - Stoner Survival",
-    "4X GTA$ and RP - Hunting Pack (Get Lamar)",
-    "4X GTA$ and RP - Pizza Delivery",
-    "3X GTA$ and RP - First Dose and Last Dose Missions",
-    "2X GTA$ and RP - Short Trips",
-    "2X GTA$ and RP - Weed Sell Missions (includes Nightclub Organic Produce)",
-    "2X GTA$ and RP - Community Combat Series"
+    "10X GTA$ and RP - Smoke on the Water Legal Work",
+    "4X GTA$ and RP - Featured Series: Hunting Pack (Get Lamar), Hunting Pack, Hunting Pack (Remix)",
+    "2X GTA$ and RP - Counterfeit Cash Sell Missions",
+    "2X GTA$ and RP - Community Race Series",
+    "2X GTA$ - Street Dealer Weed Sales"
   ],
   "discounts": [
+    "50% Off: Smoke on the Water Money Front",
     "50% Off: Vapid Festival Bus",
-    "50% Off: Green Tire Smoke",
-    "50% Off: Green Space Horror Suit",
-    "40% Off: Weed Farms",
-    "40% Off: Weed Farm Upgrades",
-    "30% Off: Gallivanter Baller ST-D",
-    "30% Off: Gallivanter Baller ST",
-    "30% Off: Declasse Walton L35",
-    "30% Off: Pfister Neon",
-    "30% Off: Buckingham Tug",
-    "30% Off: Shitzu Hakuchou Drag",
-    "30% Off: Vapid Caracara 4x4",
-    "30% Off: Nagasaki Ultralight",
-    "30% Off: Imponte Nightshade"
+    "50% Off: Drinks at Nightclub Bars, The Diamond Casino, The Music Locker",
+    "40% Off: Counterfeit Cash Factories",
+    "40% Off: Counterfeit Cash Factory Upgrades",
+    "30% Off: Enus Deity",
+    "30% Off: Lampadati Corsita",
+    "30% Off: HVY Menacer",
+    "30% Off: Kraken Avisa",
+    "30% Off: Progen Itali GTB",
+    "30% Off: Vapid GB200",
+    "30% Off: Classique Broadway",
+    "30% Off: Annis Hellion",
+    "30% Off: Vapid Peyote Gasser",
+    "30% Off: Obey 8F Drafter",
+    "30% Off: Grotti Cheetah"
   ],
   "gunVanDiscounts": [
     "Free: Baseball Bat",
-    "Free: Stun Gun",
-    "30% off: Railgun",
+    "50% off: Battle Rifle",
     "70% off for GTA+ Members: Body Armor",
-    "40% off for GTA+ Members: Military Rifle"
+    "Free for GTA+ Members: Stun Gun"
   ],
   "gunVanStock": []
 }
