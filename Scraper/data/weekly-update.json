@@ -53,5 +53,16 @@
     "70% off for GTA+ Members: Body Armor",
     "Free for GTA+ Members: Stun Gun"
   ],
-  "gunVanStock": []
+  "gunVanStock": [
+    "Stun Gun (10%, 100%)",
+    "Battle Rifle (50%, 50%)",
+    "Precision Rifle (10%, 20%)",
+    "Homing Launcher (10%, 20%)",
+    "Pistol .50 (10%, 20%)",
+    "Pool Cue (10%, 20%)",
+    "Knife (10%, 20%)",
+    "Pipe Bomb (10%, 20%)",
+    "Proximity Mine (10%, 20%)",
+    "Tear Gas (10%, 20%)"
+  ]
 }
