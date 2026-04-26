@@ -50,10 +50,25 @@
   "dispatch": {
     "imageURL": "https://www.gtabase.com/images/gta-5/online-jobs/contact/dispatch-work.jpg"
   },
-  "BLANK9": {
-    "imageURL": "BLANK"
+  "smoke": {
+    "imageURL": "https://gtacars.net/images/c00318ebe29ba7578e8719ca656049f1"
   },
-  "BLANK10": {
-    "imageURL": "BLANK"
+  "Hunting Pack": {
+    "imageURL": "https://www.reddit.com/r/gtaonline/comments/99rp50/hunting_pack_remix_liking_it_loving_it_hating_it/"
+  },
+  "BLANK": {
+    "imageURL": ""
+  },
+  "BLANK2": {
+    "imageURL": ""
+  },
+  "BLANK3": {
+    "imageURL": ""
+  },
+  "BLANK4": {
+    "imageURL": ""
+  },
+  "BLANK5": {
+    "imageURL": ""
   }
 }
