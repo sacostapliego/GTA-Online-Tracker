@@ -1,4 +1,13 @@
 {
+  "Vulcar Warrener HKR": {
+    "type": "Podium Vehicle",
+    "url": "https://gtacars.net/gta5/warrener2",
+    "image_url": "https://gtacars.net/images/9ce5830e8b0968615270c8d3e7377fd2",
+    "original_price": 1260000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
   "Truffade Adder": {
     "type": "Prize Ride Vehicle",
     "url": "https://gtacars.net/gta5/adder",
@@ -122,6 +131,16 @@
     "image_url": "https://gtacars.net/images/500970e99b17d36a6d815b7d627405ba",
     "original_price": 835000,
     "discounted_price": 584500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Vapid Peyote Gasser": {
+    "type": "Discount",
+    "discount": "30% Off: Vapid Peyote Gasser",
+    "url": "https://gtacars.net/gta5/peyote2",
+    "image_url": "https://gtacars.net/images/7f52028e0aea8c337ac2f6e72bfedf66",
+    "original_price": 805000,
+    "discounted_price": 563500,
     "discount_percent": 30,
     "is_free": false
   },

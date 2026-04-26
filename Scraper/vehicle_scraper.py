@@ -216,7 +216,7 @@ def process_weekly_update(json_file_path):
                     vehicle_name = discount_match.group(2)
                 
                 # Skip non-vehicle items
-                if any(term in vehicle_name for term in ("Properties", "Upgrades", "Modifications", "Offices", "Garages", "Warehouse", "Garage", "Ammo", "Property", "Smoke", "Farms", "Suit")):
+                if any(term in vehicle_name for term in ("Properties", "Upgrades", "Modifications", "Offices", "Garages", "Warehouse", "Garage", "Ammo", "Property", "Smoke", "Farms", "Suit", "Drinks", "Factories")):
                     print(f"Skipping non-vehicle: {vehicle_name}")
                     continue
                 

@@ -1,7 +1,1 @@
---- FAILED VEHICLES (Add to special_cases.py) ---
-The following vehicles failed to scrape. Add them to SPECIAL_CASES:
-
-    "Vulcar Warrener HKR": "correct-url-here",  # Podium Vehicle - Attempted: warrenerhkr
-    "Drinks at Nightclub Bars, The Diamond Casino, The Music Locker": "correct-url-here",  # Discount - Attempted: locker
-    "Counterfeit Cash Factories": "correct-url-here",  # Discount - Attempted: factories
-    "Vapid Peyote Gasser": "correct-url-here",  # Discount - Attempted: gasser
+No failed vehicles.

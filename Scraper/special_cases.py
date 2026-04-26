@@ -73,4 +73,6 @@ SPECIAL_CASES = {
     "Declasse Walton L35" : "l352",
     "Shitzu Hakuchou Drag" : "hakuchou2",
     "Nagasaki Ultralight" : "microlight",
+    "Vapid Peyote Gasser" : "peyote2",
+    "Vulcar Warrener HKR" : "warrener2",
 }
