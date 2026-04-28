@@ -1,8 +1,13 @@
-This app will be a way for me to check out the GTA weekly content update
+This app will be a way for me to check out the GTA weekly content update, while also testing popular frameworks with the same dynamic data
 
-Going to make the frontend with two frameworks
+## Mobile
 - React Native Expo
 - Swift
+- Dart
+
+## Web
+- React
+- Svelte
 
 ## Current folders
 - `scraper/`: backend pipeline (Reddit parsing + vehicle data scraping)
