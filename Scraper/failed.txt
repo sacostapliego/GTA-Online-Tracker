@@ -1,1 +1,11 @@
-No failed vehicles.
+--- FAILED VEHICLES (Add to special_cases.py) ---
+The following vehicles failed to scrape. Add them to SPECIAL_CASES:
+
+    "Zirconium Journey II": "correct-url-here",  # Podium Vehicle - Attempted: journeyii
+    "Vapid Uranus LozSpeed": "correct-url-here",  # Prize Ride Vehicle - Attempted: lozspeed
+    "Progen PR4": "correct-url-here",  # Discount - Attempted: pr4
+    "Benefactor BR8": "correct-url-here",  # Discount - Attempted: br8
+    "Declasse DR1": "correct-url-here",  # Discount - Attempted: dr1
+    "Invetero Coquette D1": "correct-url-here",  # Discount - Attempted: coquetted1
+    "Pfister Comet SR": "correct-url-here",  # Discount - Attempted: cometsr
+    "Grotti Turismo Classic": "correct-url-here",  # Discount - Attempted: classic

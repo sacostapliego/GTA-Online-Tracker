@@ -1,68 +1,57 @@
 {
-  "weekOf": "April 23rd to April 30th (Not live until ~5am EDT on April 23rd)",
-  "introMessages": [],
-  "podiumVehicle": "Vulcar Warrener HKR",
-  "prizeRideVehicle": "Truffade Adder",
-  "prizeRideChallenge": "Place Top 2 in the LS Car Meet Series 3 days in a row",
-  "timeTrial": "Raton Canyon",
-  "premiumRace": "Congestion Charge, locked to Super",
-  "hswTimeTrial": "Terminal to Chiliad Mountain State Wilderness",
+  "weekOf": "April 30th to May 7th (Not live until ~5am EDT on April 30th)",
+  "introMessages": [
+    "Take down three targets in Old School Hits, the first featured Community Mission built using the new Rockstar Mission Creator. We teamed up with the talented and long-time Rockstar supporters at GTA Series Videos on the debut entry in the Community Mission Series, a new way for players to jump into experiences created by the GTA Online Creator community.",
+    "Visit the corona at Legion Square to join in on PS5, Xbox Series X|S, and PC (Enhanced) and earn 4X GTA$ and RP now through May 6.",
+    "We’re also releasing a new Big Minimus Energy livery for the Annis Minimus (Sedan), available now from Vehicle Workshops across Los Santos.",
+    "Enjoy bonuses on other liquidations-based work, including Madrazo Hits and Payphone Hits, tripled prize purses for participating in Open Wheel Races and Time Trials, and more."
+  ],
+  "podiumVehicle": "Zirconium Journey II",
+  "prizeRideVehicle": "Vapid Uranus LozSpeed",
+  "prizeRideChallenge": "Place Top 2 in the LS Car Meet Series 4 days in a row",
+  "timeTrial": "Down Chiliad",
+  "premiumRace": "Across the Wilderness, locked to Off-Road",
+  "hswTimeTrial": "Pacific Bluffs to Mount Gordo",
   "salvageYardRobberies": [
     {
+      "type": "The Gangbanger Robbery",
+      "vehicle": "Canis Kamacho"
+    },
+    {
       "type": "The Duggan Robbery",
-      "vehicle": "Übermacht Sentinel Classic"
+      "vehicle": "Ocelot Jugular"
     },
     {
       "type": "The McTony Robbery",
-      "vehicle": "Karin Everon"
-    },
-    {
-      "type": "The Gangbanger Robbery",
-      "vehicle": "Dewbauchee Vagner"
+      "vehicle": "Grotti Itali GTO"
     }
   ],
-  "weeklyChallenge": "Win Hunting Pack (Get Lamar) twice to receive the Güffy Drug Rug Hoodie and GTA$100,000",
+  "weeklyChallenge": "Complete Old School Hits to receive GTA$100,000 (PS5, Xbox Series X|S, PC Enhanced)",
   "bonuses": [
-    "10X GTA$ and RP - Smoke on the Water Legal Work",
-    "4X GTA$ and RP - Featured Series: Hunting Pack (Get Lamar), Hunting Pack, Hunting Pack (Remix)",
-    "2X GTA$ and RP - Counterfeit Cash Sell Missions",
-    "2X GTA$ and RP - Community Race Series",
-    "2X GTA$ - Street Dealer Weed Sales"
+    "4X GTA$ and RP - Community Mission Series (PS5, Xbox Series X|S, PC Enhanced only)",
+    "3X GTA$ and RP - Payphone Hits",
+    "3X GTA$ and RP - Time Trials",
+    "3X GTA$ and RP - Open Wheel Races",
+    "2X GTA$ and RP - Madrazo Hits (4X for GTA+ Members)",
+    "2X GTA$ and RP - Community Race Series (PS4, Xbox One, PC Legacy only)"
   ],
   "discounts": [
-    "50% Off: Smoke on the Water Money Front",
-    "50% Off: Vapid Festival Bus",
-    "50% Off: Drinks at Nightclub Bars, The Diamond Casino, The Music Locker",
-    "40% Off: Counterfeit Cash Factories",
-    "40% Off: Counterfeit Cash Factory Upgrades",
-    "30% Off: Enus Deity",
-    "30% Off: Lampadati Corsita",
-    "30% Off: HVY Menacer",
-    "30% Off: Kraken Avisa",
-    "30% Off: Progen Itali GTB",
-    "30% Off: Vapid GB200",
-    "30% Off: Classique Broadway",
-    "30% Off: Annis Hellion",
-    "30% Off: Vapid Peyote Gasser",
-    "30% Off: Obey 8F Drafter",
-    "30% Off: Grotti Cheetah"
+    "30% Off: Progen PR4",
+    "30% Off: Benefactor BR8",
+    "30% Off: Declasse DR1",
+    "30% Off: Pegassi Osiris",
+    "30% Off: Obey Omnis e-GT",
+    "30% Off: Dinka RT3000",
+    "30% Off: Vapid Dominator FX",
+    "30% Off: Dewbauchee Vagner",
+    "30% Off: Invetero Coquette D1",
+    "30% Off: Pfister Comet SR",
+    "30% Off: Grotti Turismo Classic",
+    "30% Off: MTL Wastelander"
   ],
   "gunVanDiscounts": [
-    "Free: Baseball Bat",
-    "50% off: Battle Rifle",
-    "70% off for GTA+ Members: Body Armor",
-    "Free for GTA+ Members: Stun Gun"
+    "40% off: Precision Rifle",
+    "30% off for GTA+ Members: Combat Shotgun"
   ],
-  "gunVanStock": [
-    "Stun Gun (10%, 100%)",
-    "Battle Rifle (50%, 50%)",
-    "Precision Rifle (10%, 20%)",
-    "Homing Launcher (10%, 20%)",
-    "Pistol .50 (10%, 20%)",
-    "Pool Cue (10%, 20%)",
-    "Knife (10%, 20%)",
-    "Pipe Bomb (10%, 20%)",
-    "Proximity Mine (10%, 20%)",
-    "Tear Gas (10%, 20%)"
-  ]
+  "gunVanStock": []
 }

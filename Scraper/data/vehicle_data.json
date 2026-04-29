@@ -1,166 +1,88 @@
 {
-  "Vulcar Warrener HKR": {
-    "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/warrener2",
-    "image_url": "https://gtacars.net/images/9ce5830e8b0968615270c8d3e7377fd2",
-    "original_price": 1260000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Truffade Adder": {
-    "type": "Prize Ride Vehicle",
-    "url": "https://gtacars.net/gta5/adder",
-    "image_url": "https://gtacars.net/images/8866294c242a925d4e20170282a3fdfd",
-    "original_price": 1000000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "\u00dcbermacht Sentinel Classic": {
-    "type": "The Duggan Robbery",
-    "url": "https://gtacars.net/gta5/sentinel3",
-    "image_url": "https://gtacars.net/images/39603b6eb6dfe10663486c2cde6c5fe7",
-    "original_price": 650000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Karin Everon": {
-    "type": "The McTony Robbery",
-    "url": "https://gtacars.net/gta5/everon",
-    "image_url": "https://gtacars.net/images/3fbeb3dfd3cc418ad89d898f1497628e",
-    "original_price": 1475000,
-    "discounted_price": null,
-    "discount_percent": null,
-    "is_free": false
-  },
-  "Dewbauchee Vagner": {
+  "Canis Kamacho": {
     "type": "The Gangbanger Robbery",
-    "url": "https://gtacars.net/gta5/vagner",
-    "image_url": "https://gtacars.net/images/4b6f726db6c90968c397d12eb569d586",
-    "original_price": 1535000,
+    "url": "https://gtacars.net/gta5/kamacho",
+    "image_url": "https://gtacars.net/images/7058e4ed99359839e5b4eab51a57a33d",
+    "original_price": 345000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Vapid Festival Bus": {
-    "type": "Discount",
-    "discount": "50% Off: Vapid Festival Bus",
-    "url": "https://gtacars.net/gta5/pbus2",
-    "image_url": "https://gtacars.net/images/5e478820e8dd7a202a53be16ca140f0b",
-    "original_price": 1842050,
-    "discounted_price": 921025,
-    "discount_percent": 50,
+  "Ocelot Jugular": {
+    "type": "The Duggan Robbery",
+    "url": "https://gtacars.net/gta5/jugular",
+    "image_url": "https://gtacars.net/images/859e4a027f547501947ca247be15223b",
+    "original_price": 1225000,
+    "discounted_price": null,
+    "discount_percent": null,
     "is_free": false
   },
-  "Enus Deity": {
+  "Grotti Itali GTO": {
+    "type": "The McTony Robbery",
+    "url": "https://gtacars.net/gta5/italigto",
+    "image_url": "https://gtacars.net/images/ba7acf6b4aff2f62b02f9234810713df",
+    "original_price": 1965000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "Pegassi Osiris": {
     "type": "Discount",
-    "discount": "30% Off: Enus Deity",
-    "url": "https://gtacars.net/gta5/deity",
-    "image_url": "https://gtacars.net/images/1bf58b80e3657c282c9dc50c08736040",
-    "original_price": 1845000,
-    "discounted_price": 1291500,
+    "discount": "30% Off: Pegassi Osiris",
+    "url": "https://gtacars.net/gta5/osiris",
+    "image_url": "https://gtacars.net/images/4d2b6f7dd18cf7b6bd59e0229a3ac156",
+    "original_price": 1950000,
+    "discounted_price": 1365000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Lampadati Corsita": {
+  "Obey Omnis e-GT": {
     "type": "Discount",
-    "discount": "30% Off: Lampadati Corsita",
-    "url": "https://gtacars.net/gta5/corsita",
-    "image_url": "https://gtacars.net/images/1d4ec83f0958af6288ff16197aa627b5",
+    "discount": "30% Off: Obey Omnis e-GT",
+    "url": "https://gtacars.net/gta5/omnisegt",
+    "image_url": "https://gtacars.net/images/7244b0fab15821a69b9bc926edc290c6",
     "original_price": 1795000,
     "discounted_price": 1256500,
     "discount_percent": 30,
     "is_free": false
   },
-  "HVY Menacer": {
+  "Dinka RT3000": {
     "type": "Discount",
-    "discount": "30% Off: HVY Menacer",
-    "url": "https://gtacars.net/gta5/menacer",
-    "image_url": "https://gtacars.net/images/592e835ab9b4290bf2370dd21c8c6cc3",
-    "original_price": 1775000,
-    "discounted_price": 1242500,
+    "discount": "30% Off: Dinka RT3000",
+    "url": "https://gtacars.net/gta5/rt3000",
+    "image_url": "https://gtacars.net/images/c9d910fc89907f870d31b8a8b6056ffe",
+    "original_price": 1715000,
+    "discounted_price": 1200500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Kraken Avisa": {
+  "Vapid Dominator FX": {
     "type": "Discount",
-    "discount": "30% Off: Kraken Avisa",
-    "url": "https://gtacars.net/gta5/avisa",
-    "image_url": "https://gtacars.net/images/d754683900535815aa2c077a10bf5bd3",
-    "original_price": 1545000,
-    "discounted_price": 1081500,
+    "discount": "30% Off: Vapid Dominator FX",
+    "url": "https://gtacars.net/gta5/dominator10",
+    "image_url": "https://gtacars.net/images/81c2c27093c1b7b176ca588e062c0e34",
+    "original_price": 1550000,
+    "discounted_price": 1085000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Progen Itali GTB": {
+  "Dewbauchee Vagner": {
     "type": "Discount",
-    "discount": "30% Off: Progen Itali GTB",
-    "url": "https://gtacars.net/gta5/italigtb",
-    "image_url": "https://gtacars.net/images/7eec638035a0e36c6360c5e588e86534",
-    "original_price": 1189000,
-    "discounted_price": 832300,
+    "discount": "30% Off: Dewbauchee Vagner",
+    "url": "https://gtacars.net/gta5/vagner",
+    "image_url": "https://gtacars.net/images/4b6f726db6c90968c397d12eb569d586",
+    "original_price": 1535000,
+    "discounted_price": 1074500,
     "discount_percent": 30,
     "is_free": false
   },
-  "Vapid GB200": {
+  "MTL Wastelander": {
     "type": "Discount",
-    "discount": "30% Off: Vapid GB200",
-    "url": "https://gtacars.net/gta5/gb200",
-    "image_url": "https://gtacars.net/images/aa94af09150a58daf5d486fb7bc6030c",
-    "original_price": 940000,
-    "discounted_price": 658000,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Classique Broadway": {
-    "type": "Discount",
-    "discount": "30% Off: Classique Broadway",
-    "url": "https://gtacars.net/gta5/broadway",
-    "image_url": "https://gtacars.net/images/20c30c03750a32dffc9a3cec5a5bb9d3",
-    "original_price": 925000,
-    "discounted_price": 647500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Annis Hellion": {
-    "type": "Discount",
-    "discount": "30% Off: Annis Hellion",
-    "url": "https://gtacars.net/gta5/hellion",
-    "image_url": "https://gtacars.net/images/500970e99b17d36a6d815b7d627405ba",
-    "original_price": 835000,
-    "discounted_price": 584500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Vapid Peyote Gasser": {
-    "type": "Discount",
-    "discount": "30% Off: Vapid Peyote Gasser",
-    "url": "https://gtacars.net/gta5/peyote2",
-    "image_url": "https://gtacars.net/images/7f52028e0aea8c337ac2f6e72bfedf66",
-    "original_price": 805000,
-    "discounted_price": 563500,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Obey 8F Drafter": {
-    "type": "Discount",
-    "discount": "30% Off: Obey 8F Drafter",
-    "url": "https://gtacars.net/gta5/drafter",
-    "image_url": "https://gtacars.net/images/601ee8a8f5edfe8deb9fedb8ffef499f",
-    "original_price": 718000,
-    "discounted_price": 502600,
-    "discount_percent": 30,
-    "is_free": false
-  },
-  "Grotti Cheetah": {
-    "type": "Discount",
-    "discount": "30% Off: Grotti Cheetah",
-    "url": "https://gtacars.net/gta5/cheetah",
-    "image_url": "https://gtacars.net/images/9bf4d9bcf46b953bb655afbffd5645fb",
-    "original_price": 650000,
-    "discounted_price": 455000,
+    "discount": "30% Off: MTL Wastelander",
+    "url": "https://gtacars.net/gta5/wastelander",
+    "image_url": "https://gtacars.net/images/590448533b310c4a54baf83c2e8776b8",
+    "original_price": 658350,
+    "discounted_price": 460845,
     "discount_percent": 30,
     "is_free": false
   }
