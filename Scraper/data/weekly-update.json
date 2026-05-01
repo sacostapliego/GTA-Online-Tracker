@@ -53,5 +53,16 @@
     "40% off: Precision Rifle",
     "30% off for GTA+ Members: Combat Shotgun"
   ],
-  "gunVanStock": []
+  "gunVanStock": [
+    "Combat Shotgun (10%, 30%)",
+    "Tactical SMG (10%, 20%)",
+    "Precision Rifle (40%, 40%)",
+    "Combat MG (10%, 20%)",
+    "Assault SMG (10%, 20%)",
+    "Stun Gun (10%, 100%)",
+    "Knife (10%, 20%)",
+    "Molotov (10%, 20%)",
+    "Proximity Mine (10%, 20%)",
+    "Tear Gas (10%, 20%)"
+  ]
 }
