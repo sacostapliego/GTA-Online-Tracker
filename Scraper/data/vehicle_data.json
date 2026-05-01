@@ -1,4 +1,22 @@
 {
+  "Zirconium Journey II": {
+    "type": "Podium Vehicle",
+    "url": "https://gtacars.net/gta5/journey2",
+    "image_url": "https://gtacars.net/images/823c56c6146cbe3a5303e508cf36e451",
+    "original_price": 790000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "Vapid Uranus LozSpeed": {
+    "type": "Prize Ride Vehicle",
+    "url": "https://gtacars.net/gta5/uranus",
+    "image_url": "https://gtacars.net/images/8304ed1f0172ef3b3d0ad2f61e1f9805",
+    "original_price": 1140000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
   "Canis Kamacho": {
     "type": "The Gangbanger Robbery",
     "url": "https://gtacars.net/gta5/kamacho",
@@ -24,6 +42,36 @@
     "original_price": 1965000,
     "discounted_price": null,
     "discount_percent": null,
+    "is_free": false
+  },
+  "Progen PR4": {
+    "type": "Discount",
+    "discount": "30% Off: Progen PR4",
+    "url": "https://gtacars.net/gta5/formula",
+    "image_url": "https://gtacars.net/images/9c0ce9e90f0c83c9226704111eeaa6bd",
+    "original_price": 3515000,
+    "discounted_price": 2460500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Benefactor BR8": {
+    "type": "Discount",
+    "discount": "30% Off: Benefactor BR8",
+    "url": "https://gtacars.net/gta5/openwheel1",
+    "image_url": "https://gtacars.net/images/ee0991a83cca4c5e9ce089f6231d4022",
+    "original_price": 3400000,
+    "discounted_price": 2380000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Declasse DR1": {
+    "type": "Discount",
+    "discount": "30% Off: Declasse DR1",
+    "url": "https://gtacars.net/gta5/openwheel2",
+    "image_url": "https://gtacars.net/images/da03f067ec82cec7566e642d69921959",
+    "original_price": 2997000,
+    "discounted_price": 2097900,
+    "discount_percent": 30,
     "is_free": false
   },
   "Pegassi Osiris": {
@@ -73,6 +121,36 @@
     "image_url": "https://gtacars.net/images/4b6f726db6c90968c397d12eb569d586",
     "original_price": 1535000,
     "discounted_price": 1074500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Invetero Coquette D1": {
+    "type": "Discount",
+    "discount": "30% Off: Invetero Coquette D1",
+    "url": "https://gtacars.net/gta5/coquette5",
+    "image_url": "https://gtacars.net/images/0725c1cffd8a581eb9a738a7b51cde8d",
+    "original_price": 1500000,
+    "discounted_price": 1050000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Pfister Comet SR": {
+    "type": "Discount",
+    "discount": "30% Off: Pfister Comet SR",
+    "url": "https://gtacars.net/gta5/comet5",
+    "image_url": "https://gtacars.net/images/f20a7fe3c03e55aa6ac04c0db2a1fc90",
+    "original_price": 1145000,
+    "discounted_price": 801500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Grotti Turismo Classic": {
+    "type": "Discount",
+    "discount": "30% Off: Grotti Turismo Classic",
+    "url": "https://gtacars.net/gta5/turismo2",
+    "image_url": "https://gtacars.net/images/aee8a5bc5135b026a3708e9ee8eeb38c",
+    "original_price": 705000,
+    "discounted_price": 493500,
     "discount_percent": 30,
     "is_free": false
   },

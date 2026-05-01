@@ -75,4 +75,12 @@ SPECIAL_CASES = {
     "Nagasaki Ultralight" : "microlight",
     "Vapid Peyote Gasser" : "peyote2",
     "Vulcar Warrener HKR" : "warrener2",
+    "Zirconium Journey II" : "journey2",
+    "Vapid Uranus LozSpeed" : "uranus",
+    "Progen PR4" : "formula",
+    "Benefactor BR8": "openwheel1",
+    "Declasse DR1" : "openwheel2",
+    "Invetero Coquette D1" : "coquette5",
+    "Pfister Comet SR" : "comet5",
+    "Grotti Turismo Classic" : "turismo2",
 }
