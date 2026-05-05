@@ -6,7 +6,7 @@ This app will be a way for me to check out the GTA weekly content update, while 
 - Dart
 
 ## Web
-- React
+- React Vite
 - Svelte
 
 ## Current folders
