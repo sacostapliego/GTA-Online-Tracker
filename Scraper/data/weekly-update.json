@@ -1,68 +1,52 @@
 {
-  "weekOf": "April 30th to May 7th (Not live until ~5am EDT on April 30th)",
-  "introMessages": [
-    "Take down three targets in Old School Hits, the first featured Community Mission built using the new Rockstar Mission Creator. We teamed up with the talented and long-time Rockstar supporters at GTA Series Videos on the debut entry in the Community Mission Series, a new way for players to jump into experiences created by the GTA Online Creator community.",
-    "Visit the corona at Legion Square to join in on PS5, Xbox Series X|S, and PC (Enhanced) and earn 4X GTA$ and RP now through May 6.",
-    "We’re also releasing a new Big Minimus Energy livery for the Annis Minimus (Sedan), available now from Vehicle Workshops across Los Santos.",
-    "Enjoy bonuses on other liquidations-based work, including Madrazo Hits and Payphone Hits, tripled prize purses for participating in Open Wheel Races and Time Trials, and more."
-  ],
-  "podiumVehicle": "Zirconium Journey II",
-  "prizeRideVehicle": "Vapid Uranus LozSpeed",
-  "prizeRideChallenge": "Place Top 2 in the LS Car Meet Series 4 days in a row",
-  "timeTrial": "Down Chiliad",
-  "premiumRace": "Across the Wilderness, locked to Off-Road",
-  "hswTimeTrial": "Pacific Bluffs to Mount Gordo",
+  "weekOf": "May 7th to May 12th (Not live until ~5am EDT on May 7th)",
+  "introMessages": [],
+  "podiumVehicle": "Överflöd Imorgon",
+  "prizeRideVehicle": "Annis Minimus",
+  "prizeRideChallenge": "Win in the LS Car Meet Series for four days in a row",
+  "timeTrial": "Elysian Island",
+  "premiumRace": "Arms Race, locked to Super",
+  "hswTimeTrial": "North Chumash to Palomino Highlands",
   "salvageYardRobberies": [
     {
+      "type": "The Podium Robbery",
+      "vehicle": "Pfister Growler"
+    },
+    {
+      "type": "The Cargo Ship Robbery",
+      "vehicle": "Dinka Jester Classic"
+    },
+    {
       "type": "The Gangbanger Robbery",
-      "vehicle": "Canis Kamacho"
-    },
-    {
-      "type": "The Duggan Robbery",
-      "vehicle": "Ocelot Jugular"
-    },
-    {
-      "type": "The McTony Robbery",
-      "vehicle": "Grotti Itali GTO"
+      "vehicle": "Albany Cavalcade XL"
     }
   ],
-  "weeklyChallenge": "Complete Old School Hits to receive GTA$100,000 (PS5, Xbox Series X|S, PC Enhanced)",
+  "weeklyChallenge": "Complete 3 Nightclub Management Missions to get the Cherenkov Tee and GTA$100,000",
   "bonuses": [
-    "4X GTA$ and RP - Community Mission Series (PS5, Xbox Series X|S, PC Enhanced only)",
-    "3X GTA$ and RP - Payphone Hits",
-    "3X GTA$ and RP - Time Trials",
-    "3X GTA$ and RP - Open Wheel Races",
-    "2X GTA$ and RP - Madrazo Hits (4X for GTA+ Members)",
-    "2X GTA$ and RP - Community Race Series (PS4, Xbox One, PC Legacy only)"
+    "3X GTA$ and RP - Old School Hits (PS5, Xbox Series X|S, PC Enhanced)",
+    "2X GTA$ and RP - Nightclub Daily Income",
+    "2X GTA$ and RP - Terrorbyte Client Jobs",
+    "2X GTA$ and RP - Community Race Series (PS4, Xbox One, PC Legacy)",
+    "2X GTA$, RP, and Nightclub Goods - Yohan’s Nightclub Goods Missions",
+    "2X GTA$, RP, and Popularity - Nightclub Management Missions",
+    "2X - Nightclub Warehouse Stock Production Speed"
   ],
   "discounts": [
-    "30% Off: Progen PR4",
-    "30% Off: Benefactor BR8",
-    "30% Off: Declasse DR1",
-    "30% Off: Pegassi Osiris",
-    "30% Off: Obey Omnis e-GT",
-    "30% Off: Dinka RT3000",
-    "30% Off: Vapid Dominator FX",
-    "30% Off: Dewbauchee Vagner",
-    "30% Off: Invetero Coquette D1",
-    "30% Off: Pfister Comet SR",
-    "30% Off: Grotti Turismo Classic",
-    "30% Off: MTL Wastelander"
+    "40% Off: Nightclub Properties",
+    "40% Off: Nightclub Upgrades and Modifications",
+    "30% Off: Grotti Itali GTO",
+    "30% Off: Western Company Cargobob",
+    "30% Off: Karin Boor",
+    "30% Off: Willard Eudora",
+    "30% Off: Pfister 811",
+    "30% Off: Declasse Drift Tampa",
+    "30% Off: Grotti Stinger GT",
+    "30% Off: Übermacht Sentinel",
+    "30% Off: Canis Freecrawler"
   ],
   "gunVanDiscounts": [
-    "40% off: Precision Rifle",
-    "30% off for GTA+ Members: Combat Shotgun"
+    "30% off: Heavy Rifle",
+    "30% off for GTA+ Members: Compact EMP Launcher"
   ],
-  "gunVanStock": [
-    "Combat Shotgun (10%, 30%)",
-    "Tactical SMG (10%, 20%)",
-    "Precision Rifle (40%, 40%)",
-    "Combat MG (10%, 20%)",
-    "Assault SMG (10%, 20%)",
-    "Stun Gun (10%, 100%)",
-    "Knife (10%, 20%)",
-    "Molotov (10%, 20%)",
-    "Proximity Mine (10%, 20%)",
-    "Tear Gas (10%, 20%)"
-  ]
+  "gunVanStock": []
 }
