@@ -48,5 +48,15 @@
     "30% off: Heavy Rifle",
     "30% off for GTA+ Members: Compact EMP Launcher"
   ],
-  "gunVanStock": []
+  "gunVanStock": [
+    "Combat Shotgun (10%, 20%)",
+    "Heavy Rifle (30%, 30%)",
+    "Compact EMP Launcher (10%, 30%)",
+    "Sniper Rifle (10%, 20%)",
+    "Up-n-Atomizer (10%, 20%)",
+    "The Shocker (10%, 20%)",
+    "Pipe Bomb (10%, 20%)",
+    "Tear Gas (10%, 20%)",
+    "Proximity Mine (10%, 20%)"
+  ]
 }
