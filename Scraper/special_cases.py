@@ -83,4 +83,5 @@ SPECIAL_CASES = {
     "Invetero Coquette D1" : "coquette5",
     "Pfister Comet SR" : "comet5",
     "Grotti Turismo Classic" : "turismo2",
+    "Dinka Jester Classic" : "jester3",
 }

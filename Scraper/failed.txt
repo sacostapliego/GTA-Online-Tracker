@@ -1,4 +1,1 @@
---- FAILED VEHICLES (Add to special_cases.py) ---
-The following vehicles failed to scrape. Add them to SPECIAL_CASES:
-
-    "Dinka Jester Classic": "correct-url-here",  # The Cargo Ship Robbery - Attempted: classic
+No failed vehicles.

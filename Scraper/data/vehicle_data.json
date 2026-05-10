@@ -26,6 +26,15 @@
     "discount_percent": null,
     "is_free": false
   },
+  "Dinka Jester Classic": {
+    "type": "The Cargo Ship Robbery",
+    "url": "https://gtacars.net/gta5/jester3",
+    "image_url": "https://gtacars.net/images/89bb6e10a5a66e138037c50580d0caf0",
+    "original_price": 790000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
   "Albany Cavalcade XL": {
     "type": "The Gangbanger Robbery",
     "url": "https://gtacars.net/gta5/cavalcade3",
