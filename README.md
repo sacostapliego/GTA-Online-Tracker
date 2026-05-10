@@ -1,4 +1,4 @@
-This app will be a way for me to check out the GTA weekly content update, while also testing popular frameworks with the same dynamic data
+This app will be a way for me to check out the GTA weekly content update, while also testing popular frameworks with the same weekly data
 
 ## Mobile
 - React Native Expo
