@@ -1,62 +1,47 @@
 {
-  "weekOf": "May 7th to May 12th (Not live until ~5am EDT on May 7th)",
-  "introMessages": [],
-  "podiumVehicle": "Överflöd Imorgon",
-  "prizeRideVehicle": "Annis Minimus",
-  "prizeRideChallenge": "Win in the LS Car Meet Series for four days in a row",
-  "timeTrial": "Elysian Island",
-  "premiumRace": "Arms Race, locked to Super",
-  "hswTimeTrial": "North Chumash to Palomino Highlands",
+  "weekOf": "May 14th to May 21st (Not live until ~5am EDT on May 14th)",
+  "introMessages": [
+    "Get ready for two weeks of Motor Madness to engulf Los Santos with Quadruple Rewards on Land Races, a triple payout for completing the HSW Time Trial, and rare prizes for purchasing premium rides at showrooms and podiums citywide.",
+    "Beyond the racing scene, earn supplemental income salvaging unused rides, claim a Salvage Yard Robbery Target as a personal vehicle, reconnect with auto mogul Simeon Yetarian, and more.",
+    "Make your next photo finish one to remember by wrapping your Vapid FMJ MK V in the new Water Like livery.",
+    "Also, we’re excited to share that Old School Hits is now here to stay — play GTA Series Videos’ Community Mission anytime through the Jobs menu."
+  ],
+  "podiumVehicle": "Benefactor LM87",
+  "prizeRideVehicle": "Benefactor Krieger",
+  "prizeRideChallenge": "Place Top 5 in five Races in the LS Car Meet Series Once",
+  "timeTrial": "Galileo Park",
+  "premiumRace": "The Commute, locked to Sports",
+  "hswTimeTrial": "East Vinewood to Vespucci Beach",
   "salvageYardRobberies": [
     {
       "type": "The Podium Robbery",
-      "vehicle": "Pfister Growler"
-    },
-    {
-      "type": "The Cargo Ship Robbery",
-      "vehicle": "Dinka Jester Classic"
+      "vehicle": "Invetero Coquette D10"
     },
     {
       "type": "The Gangbanger Robbery",
-      "vehicle": "Albany Cavalcade XL"
+      "vehicle": "Vapid Dominator GT"
+    },
+    {
+      "type": "The Duggan Robbery",
+      "vehicle": "Karin Previon"
     }
   ],
-  "weeklyChallenge": "Complete 3 Nightclub Management Missions to get the Cherenkov Tee and GTA$100,000",
+  "weeklyChallenge": "Win any two Races to receive the Dark Manor Racing Suit and GTA$100,000",
   "bonuses": [
-    "3X GTA$ and RP - Old School Hits (PS5, Xbox Series X|S, PC Enhanced)",
-    "2X GTA$ and RP - Nightclub Daily Income",
-    "2X GTA$ and RP - Terrorbyte Client Jobs",
-    "2X GTA$ and RP - Community Race Series (PS4, Xbox One, PC Legacy)",
-    "2X GTA$, RP, and Nightclub Goods - Yohan’s Nightclub Goods Missions",
-    "2X GTA$, RP, and Popularity - Nightclub Management Missions",
-    "2X - Nightclub Warehouse Stock Production Speed"
+    "4X GTA$ and RP - Land Races",
+    "3X GTA$ and RP - HSW Time Trial",
+    "3X GTA$ and RP - Simeon Contact Missions",
+    "2X GTA$ and RP - Tow Truck Service",
+    "2X GTA$ and RP - Community Race Series",
+    "2X GTA$ - Salvage Yard Daily Income",
+    "2X GTA$ - Salvage Yard Robbery Target Sale and Salvage Value"
   ],
   "discounts": [
-    "40% Off: Nightclub Properties",
-    "40% Off: Nightclub Upgrades and Modifications",
-    "30% Off: Grotti Itali GTO",
-    "30% Off: Western Company Cargobob",
-    "30% Off: Karin Boor",
-    "30% Off: Willard Eudora",
-    "30% Off: Pfister 811",
-    "30% Off: Declasse Drift Tampa",
-    "30% Off: Grotti Stinger GT",
-    "30% Off: Übermacht Sentinel",
-    "30% Off: Canis Freecrawler"
+    "See full post for details"
   ],
   "gunVanDiscounts": [
-    "30% off: Heavy Rifle",
-    "30% off for GTA+ Members: Compact EMP Launcher"
+    "40% off: Compact EMP Launcher",
+    "40% off for GTA+ Members: Precision Rifle"
   ],
-  "gunVanStock": [
-    "Combat Shotgun (10%, 20%)",
-    "Heavy Rifle (30%, 30%)",
-    "Compact EMP Launcher (10%, 30%)",
-    "Sniper Rifle (10%, 20%)",
-    "Up-n-Atomizer (10%, 20%)",
-    "The Shocker (10%, 20%)",
-    "Pipe Bomb (10%, 20%)",
-    "Tear Gas (10%, 20%)",
-    "Proximity Mine (10%, 20%)"
-  ]
+  "gunVanStock": []
 }

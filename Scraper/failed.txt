@@ -1,1 +1,5 @@
-No failed vehicles.
+--- FAILED VEHICLES (Add to special_cases.py) ---
+The following vehicles failed to scrape. Add them to SPECIAL_CASES:
+
+    "Invetero Coquette D10": "correct-url-here",  # The Podium Robbery - Attempted: coquetted10
+    "Vapid Dominator GT": "correct-url-here",  # The Gangbanger Robbery - Attempted: dominatorgt
