@@ -8,10 +8,10 @@
   ],
   "podiumVehicle": "Benefactor LM87",
   "prizeRideVehicle": "Benefactor Krieger",
-  "prizeRideChallenge": "Place Top 5 in five Races in the LS Car Meet Series Once",
+  "prizeRideChallenge": "Place Top 5 in 5 Races in the LS Car Meet Series",
   "timeTrial": "Galileo Park",
   "premiumRace": "The Commute, locked to Sports",
-  "hswTimeTrial": "East Vinewood to Vespucci Beach",
+  "hswTimeTrial": "East Vinewood to Vespucci Beach \\\\",
   "salvageYardRobberies": [
     {
       "type": "The Podium Robbery",
@@ -43,5 +43,15 @@
     "40% off: Compact EMP Launcher",
     "40% off for GTA+ Members: Precision Rifle"
   ],
-  "gunVanStock": []
+  "gunVanStock": [
+    "Compact EMP Launcher (40%, 40%)",
+    "Military Rifle (10%, 20%)",
+    "Precision Rifle (10%, 40%)",
+    "Homing Launcher (10%, 20%)",
+    "Pump Shotgun (10%, 20%)",
+    "Pool Cue (10%, 20%)",
+    "Molotov (10%, 20%)",
+    "Tear Gas (10%, 20%)",
+    "Proximity Mine (10%, 20%)"
+  ]
 }
