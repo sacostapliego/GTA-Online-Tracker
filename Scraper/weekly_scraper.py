@@ -269,9 +269,10 @@ def extract_discounts(body):
                 current_discount = None
                 continue
 
-            # End capture on first non-discount header after discount sections.
+            # End capture on first non-discount header after discount sections, but allow restarting if another discount section appears.
             if capturing:
-                break
+                capturing = False
+                current_discount = None
 
         if not capturing:
             continue
@@ -280,10 +281,13 @@ def extract_discounts(body):
             current_discount = clean_text(stripped)
             continue
 
-        if stripped.startswith('*') and current_discount:
+        if stripped.startswith('*'):
             item = clean_text(stripped[1:])
             if item:
-                discounts.append(f"{current_discount}: {item}")
+                if current_discount:
+                    discounts.append(f"{current_discount}: {item}")
+                elif capturing:
+                    discounts.append(item)
 
     return discounts if discounts else ["See full post for details"]
 

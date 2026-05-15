@@ -26,7 +26,7 @@
 # Weekly Challenges and Vehicles:
 
 * [**Podium Vehicle**](https://gta.wiki/w/Lucky_Wheel)**:** Benefactor LM87
-* [**Prize Ride Challenge**](https://gta.wiki/w/Prize_Ride_Challenge)**:** Place Top 5 in five Races in the LS Car Meet Series Once
+* [**Prize Ride Challenge**](https://gta.wiki/w/Prize_Ride_Challenge)**:** Place Top 5 in 5 Races in the LS Car Meet Series
 * [**Prize Ride Vehicle**](https://gta.wiki/w/Prize_Ride_Challenge)**:** Benefactor Krieger
 * [**Time Trial**](https://gta.wiki/w/Time_Trials)**:** Galileo Park 
 * [**Premium Race**](https://gta.wiki/w/Stunt_Races#Premium_Stunt_Races)**:** The Commute, locked to Sports 
@@ -36,7 +36,7 @@
 
 **PS5, Xbox X|S, and PC Enhanced Only**
 
-* [**HSW Time Trial**](https://gta.wiki/w/Hao%27s_Special_Works#Hao's_Special_Works_Time_Trials)**:** East Vinewood to Vespucci Beach (3X GTA$ and RP**)**
+* [**HSW Time Trial**](https://gta.wiki/w/Hao%27s_Special_Works#Hao's_Special_Works_Time_Trials)**:** East Vinewood to Vespucci Beach (3X GTA$ and RP\*\*)\*\*
 * [**Premium Test Ride**](https://gta.wiki/w/Hao%27s_Special_Works#Premium_Test_Ride)**:** Weeny Issi Rally
 
 [**This Week's Salvage Yard Robberies Vehicles**](https://gta.wiki/w/Salvage_Yards#Salvage_Yard_Robberies)
@@ -72,7 +72,13 @@
 
 # [Daily Objectives](https://gta.wiki/w/Challenges_in_GTA_Online#Daily_Challenges)
 
-* **T**BA
+* **Thursday:** Participate in a Land Race
+* **Friday:** Complete a Simeon Repo
+* **Saturday:** Participate in the Pursuit Series
+* **Sunday:** Participate in a Business Battle
+* **Monday:** Complete a Contact Mission
+* **Tuesday:** Participate in the Featured Series
+* **Wednesday:** Participate in the Drift Race Series
 
 # Bonuses
 
@@ -145,11 +151,18 @@
 
 **Weapons**
 
-* TBA
+* Compact EMP Launcher (40%, 40%)
+* Military Rifle (10%, 20%)
+* Precision Rifle (10%, 40%)
+* Homing Launcher (10%, 20%)
+* Pump Shotgun (10%, 20%)
+* Pool Cue (10%, 20%)
 
 **Throwables**
 
-* TBA
+* Molotov (10%, 20%)
+* Tear Gas (10%, 20%)
+* Proximity Mine (10%, 20%)
 
 # [GTA+ May Bonuses (Ending June 10th)](https://www.rockstargames.com/gta-plus/benefits)
 
