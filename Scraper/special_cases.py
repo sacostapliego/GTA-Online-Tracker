@@ -84,4 +84,13 @@ SPECIAL_CASES = {
     "Pfister Comet SR" : "comet5",
     "Grotti Turismo Classic" : "turismo2",
     "Dinka Jester Classic" : "jester3",
+    "Invetero Coquette D10" : "coquette4",
+    "Vapid Dominator GT" : "dominator9",
+    "Bravado Banshee GTS": "banshee3",
+    "Dewbauchee Rapid GT Cabrio": "rapidgt",
+    "Western Rat Bike": "ratbike",
+    "Karin 190z" : "z190",
+    "Declasse Impaler SZ" : "impaler5",
+    "Bravado Gauntlet Classic" : "gauntlet5",
+    
 }

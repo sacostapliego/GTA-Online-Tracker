@@ -17,6 +17,24 @@
     "discount_percent": null,
     "is_free": false
   },
+  "Invetero Coquette D10": {
+    "type": "The Podium Robbery",
+    "url": "https://gtacars.net/gta5/coquette4",
+    "image_url": "https://gtacars.net/images/4ef2f283a9428d1f3641e76c0307a043",
+    "original_price": 1510000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
+  "Vapid Dominator GT": {
+    "type": "The Gangbanger Robbery",
+    "url": "https://gtacars.net/gta5/dominator9",
+    "image_url": "https://gtacars.net/images/3a12e40370a4953b500db923da62fcaf",
+    "original_price": 2195000,
+    "discounted_price": null,
+    "discount_percent": null,
+    "is_free": false
+  },
   "Karin Previon": {
     "type": "The Duggan Robbery",
     "url": "https://gtacars.net/gta5/previon",
@@ -24,6 +42,156 @@
     "original_price": 1490000,
     "discounted_price": null,
     "discount_percent": null,
+    "is_free": false
+  },
+  "Bravado Banshee GTS": {
+    "type": "Discount",
+    "discount": "40% Off: Bravado Banshee GTS",
+    "url": "https://gtacars.net/gta5/banshee3",
+    "image_url": "https://gtacars.net/images/e30d2898bb231649b2295e08a214cb6a",
+    "original_price": 1989500,
+    "discounted_price": 1193700,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "\u00d6verfl\u00f6d Pipistrello": {
+    "type": "Discount",
+    "discount": "40% Off: \u00d6verfl\u00f6d Pipistrello",
+    "url": "https://gtacars.net/gta5/pipistrello",
+    "image_url": "https://gtacars.net/images/fd5c7176efe3b3d23d0c1cf6b1bf34c0",
+    "original_price": 2950000,
+    "discounted_price": 1770000,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "Canis Castigator": {
+    "type": "Discount",
+    "discount": "40% Off: Canis Castigator",
+    "url": "https://gtacars.net/gta5/castigator",
+    "image_url": "https://gtacars.net/images/b202714714d019d5e60540743fba9bcc",
+    "original_price": 1650000,
+    "discounted_price": 990000,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "Grotti Itali RSX": {
+    "type": "Discount",
+    "discount": "40% Off: Grotti Itali RSX",
+    "url": "https://gtacars.net/gta5/italirsx",
+    "image_url": "https://gtacars.net/images/74042388552efb0b3b4b483fccfbdba9",
+    "original_price": 3465000,
+    "discounted_price": 2079000,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "Lampadati Furore GT": {
+    "type": "Discount",
+    "discount": "40% Off: Lampadati Furore GT",
+    "url": "https://gtacars.net/gta5/furoregt",
+    "image_url": "https://gtacars.net/images/42775b3635375597405696ff660951bb",
+    "original_price": 448000,
+    "discounted_price": 268800,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "Dewbauchee JB 700": {
+    "type": "Discount",
+    "discount": "40% Off: Dewbauchee JB 700",
+    "url": "https://gtacars.net/gta5/jb700",
+    "image_url": "https://gtacars.net/images/a9c21b4cd4c98475c0eb432283ed79ed",
+    "original_price": 350000,
+    "discounted_price": 210000,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "Dewbauchee Rapid GT Cabrio": {
+    "type": "Discount",
+    "discount": "40% Off: Dewbauchee Rapid GT Cabrio",
+    "url": "https://gtacars.net/gta5/rapidgt",
+    "image_url": "https://gtacars.net/images/8f6c6cf40ae1de61ea8f10e664ab5ee5",
+    "original_price": 132000,
+    "discounted_price": 79200,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "Western Rat Bike": {
+    "type": "Discount",
+    "discount": "40% Off: Western Rat Bike",
+    "url": "https://gtacars.net/gta5/ratbike",
+    "image_url": "https://gtacars.net/images/af2e5d124ede74cf6ae7f9a9f13531c7",
+    "original_price": 48000,
+    "discounted_price": 28800,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "Karin 190z": {
+    "type": "Discount",
+    "discount": "40% Off: Karin 190z",
+    "url": "https://gtacars.net/gta5/z190",
+    "image_url": "https://gtacars.net/images/15bdda7a7065a07747469a7adf3b9c90",
+    "original_price": 900000,
+    "discounted_price": 540000,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "Nagasaki Shotaro": {
+    "type": "Discount",
+    "discount": "40% Off: Nagasaki Shotaro",
+    "url": "https://gtacars.net/gta5/shotaro",
+    "image_url": "https://gtacars.net/images/5e76c6a0b66fd5113140e3bb5e3b5040",
+    "original_price": 2225000,
+    "discounted_price": 1335000,
+    "discount_percent": 40,
+    "is_free": false
+  },
+  "\u00dcbermacht Rhinehart": {
+    "type": "Discount",
+    "discount": "30% Off: \u00dcbermacht Rhinehart",
+    "url": "https://gtacars.net/gta5/rhinehart",
+    "image_url": "https://gtacars.net/images/6e20b42d1b22ad959e7cd6357967532c",
+    "original_price": 1598000,
+    "discounted_price": 1118600,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Declasse Impaler SZ": {
+    "type": "Discount",
+    "discount": "30% Off: Declasse Impaler SZ",
+    "url": "https://gtacars.net/gta5/impaler5",
+    "image_url": "https://gtacars.net/images/dc8fabde7d6fae31f2295637b7166445",
+    "original_price": 1280000,
+    "discounted_price": 896000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Coil Brawler": {
+    "type": "Discount",
+    "discount": "30% Off: Coil Brawler",
+    "url": "https://gtacars.net/gta5/brawler",
+    "image_url": "https://gtacars.net/images/0f0648dbc86a72df60deb5528166cf47",
+    "original_price": 715000,
+    "discounted_price": 500500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Bravado Gauntlet Classic": {
+    "type": "Discount",
+    "discount": "30% Off: Bravado Gauntlet Classic",
+    "url": "https://gtacars.net/gta5/gauntlet5",
+    "image_url": "https://gtacars.net/images/f9eca43cace77bd24d6d02392cc2fcf6",
+    "original_price": 815000,
+    "discounted_price": 570500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Lampadati Novak": {
+    "type": "Discount",
+    "discount": "30% Off: Lampadati Novak",
+    "url": "https://gtacars.net/gta5/novak",
+    "image_url": "https://gtacars.net/images/a064b718ebc51fe5f7409d8eab397227",
+    "original_price": 608000,
+    "discounted_price": 425600,
+    "discount_percent": 30,
     "is_free": false
   }
 }
