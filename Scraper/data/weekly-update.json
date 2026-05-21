@@ -1,74 +1,73 @@
 {
-  "weekOf": "May 14th to May 21st (Not live until ~5am EDT on May 14th)",
+  "weekOf": "May 21st to May 28th (Not live until ~5am EDT on May 21st)",
   "introMessages": [
-    "Get ready for two weeks of Motor Madness to engulf Los Santos with Quadruple Rewards on Land Races, a triple payout for completing the HSW Time Trial, and rare prizes for purchasing premium rides at showrooms and podiums citywide.",
-    "Beyond the racing scene, earn supplemental income salvaging unused rides, claim a Salvage Yard Robbery Target as a personal vehicle, reconnect with auto mogul Simeon Yetarian, and more.",
-    "Make your next photo finish one to remember by wrapping your Vapid FMJ MK V in the new Water Like livery.",
-    "Also, we’re excited to share that Old School Hits is now here to stay — play GTA Series Videos’ Community Mission anytime through the Jobs menu."
+    "Motor Madness shifts into a higher gear this week, with Double Rewards on Auto Shop Robbery Contract Finales, the LS Car Meet Series, Junk Energy and RC Time Trials, and more. Plus, there's 5X LS Car Meet Rep to earn on all sources and the chance to claim the Obey Omnis as a personal vehicle by completing The Gangbanger Robbery."
   ],
-  "podiumVehicle": "Benefactor LM87",
-  "prizeRideVehicle": "Benefactor Krieger",
-  "prizeRideChallenge": "Place Top 5 in 5 Races in the LS Car Meet Series",
-  "timeTrial": "Galileo Park",
-  "premiumRace": "The Commute, locked to Sports",
-  "hswTimeTrial": "East Vinewood to Vespucci Beach \\\\",
+  "podiumVehicle": "Ocelot R88",
+  "prizeRideVehicle": "Ocelot Virtue",
+  "prizeRideChallenge": "Place Top 3 in 3 Races in the LS Car Meet Series",
+  "timeTrial": "Stab City",
+  "premiumRace": "Criminal Records, locked to Super",
+  "hswTimeTrial": "Del Perro Beach to Murietta Heights",
   "salvageYardRobberies": [
     {
-      "type": "The Podium Robbery",
-      "vehicle": "Invetero Coquette D10"
-    },
-    {
       "type": "The Gangbanger Robbery",
-      "vehicle": "Vapid Dominator GT"
+      "vehicle": "Obey Omnis"
     },
     {
-      "type": "The Duggan Robbery",
-      "vehicle": "Karin Previon"
+      "type": "The Cargo Ship Robbery",
+      "vehicle": "Grotti Turismo Omaggio"
+    },
+    {
+      "type": "The McTony Robbery",
+      "vehicle": "Vapid Hustler"
     }
   ],
-  "weeklyChallenge": "Win any two Races to receive the Dark Manor Racing Suit and GTA$100,000",
+  "weeklyChallenge": "Win 2 LS Car Meet Races to get the Bright Manor Racing Suit and GTA$100,000",
   "bonuses": [
-    "4X GTA$ and RP - Land Races",
-    "3X GTA$ and RP - HSW Time Trial",
-    "3X GTA$ and RP - Simeon Contact Missions",
-    "2X GTA$ and RP - Tow Truck Service",
-    "2X GTA$ and RP - Community Race Series",
-    "2X GTA$ - Salvage Yard Daily Income",
-    "2X GTA$ - Salvage Yard Robbery Target Sale and Salvage Value"
+    "5X - LS Car Meet Rep",
+    "2X GTA$ and RP - Auto Shop Robbery Contracts",
+    "2X GTA$ and RP - LS Car Meet Series",
+    "2X GTA$ and RP - Junk Energy Time Trials (4X for GTA+ Members)",
+    "2X GTA$ and RP - RC Time Trials",
+    "2X GTA$ and RP - Hotring Races"
   ],
   "discounts": [
-    "40% Off: Salvage Yard Properties",
-    "40% Off: Salvage Yard Upgrades and Modifications",
-    "40% Off: Eclipse Blvd Garage",
+    "Free: LS Car Meet Membership",
+    "Free: Horn Customization",
+    "50% Off: LS Tuners Racing Suits",
+    "50% Off: Benny's Conversion Upgrades",
+    "50% Off: Turbo Tuning",
+    "50% Off: HSW Performance Upgrade",
+    "50% Off: Blue and Yellow Tire Smoke Customization",
+    "40% Off: Auto Shop Properties",
+    "40% Off: Auto Shop Upgrades and Modifications",
+    "40% Off: Garage Properties",
     "40% Off: Bravado Banshee GTS",
-    "40% Off: Överflöd Pipistrello",
-    "40% Off: Canis Castigator",
-    "40% Off: Grotti Itali RSX",
-    "40% Off: Lampadati Furore GT",
-    "40% Off: Dewbauchee JB 700",
-    "40% Off: Dewbauchee Rapid GT Cabrio",
-    "40% Off: Western Rat Bike",
-    "40% Off: Karin 190z",
-    "40% Off: Nagasaki Shotaro",
-    "30% Off: Übermacht Rhinehart",
-    "30% Off: Declasse Impaler SZ",
-    "30% Off: Coil Brawler",
-    "30% Off: Bravado Gauntlet Classic",
-    "30% Off: Lampadati Novak"
+    "40% Off: Emperor Vectre",
+    "40% Off: Übermacht Cypher",
+    "40% Off: Enus Paragon R",
+    "40% Off: Lampadati Felon GT",
+    "40% Off: Lampadati Felon GT",
+    "40% Off: Nagasaki Hot Rod Blazer",
+    "40% Off: Dewbauchee Rapid GT",
+    "40% Off: Överflöd Entity XF",
+    "30% Off: RC Bandito",
+    "30% Off: HVY Chernobog",
+    "30% Off: Pegassi Torero",
+    "30% Off: Vapid Desert Raid",
+    "30% Off: Dashound"
   ],
   "gunVanDiscounts": [
-    "40% off: Compact EMP Launcher",
-    "40% off for GTA+ Members: Precision Rifle"
+    "50% off: Precision Rifle",
+    "50% off: Railgun",
+    "50% off: Compact Rifle",
+    "50% off: MG",
+    "50% off: Machete",
+    "50% off: Tear Gas",
+    "50% off: Grenades",
+    "50% off: Proximity Mines",
+    "30% off for GTA+ Members: Combat Shotgun"
   ],
-  "gunVanStock": [
-    "Compact EMP Launcher (40%, 40%)",
-    "Military Rifle (10%, 20%)",
-    "Precision Rifle (10%, 40%)",
-    "Homing Launcher (10%, 20%)",
-    "Pump Shotgun (10%, 20%)",
-    "Pool Cue (10%, 20%)",
-    "Molotov (10%, 20%)",
-    "Tear Gas (10%, 20%)",
-    "Proximity Mine (10%, 20%)"
-  ]
+  "gunVanStock": []
 }

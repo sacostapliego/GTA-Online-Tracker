@@ -1,1 +1,12 @@
-No failed vehicles.
+--- FAILED VEHICLES (Add to special_cases.py) ---
+The following vehicles failed to scrape. Add them to SPECIAL_CASES:
+
+    "Grotti Turismo Omaggio": "correct-url-here",  # The Cargo Ship Robbery - Attempted: omaggio
+    "LS Car Meet Membership": "correct-url-here",  # Free - Attempted: membership
+    "Horn Customization": "correct-url-here",  # Free - Attempted: customization
+    "Turbo Tuning": "correct-url-here",  # Discount - Attempted: tuning
+    "HSW Performance Upgrade": "correct-url-here",  # Discount - Attempted: upgrade
+    "Lampadati Felon GT": "correct-url-here",  # Discount - Attempted: felongt
+    "Lampadati Felon GT": "correct-url-here",  # Discount - Attempted: felongt
+    "RC Bandito": "correct-url-here",  # Discount - Attempted: bandito
+    "Vapid Desert Raid": "correct-url-here",  # Discount - Attempted: raid
