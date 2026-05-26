@@ -48,7 +48,6 @@
     "40% Off: Übermacht Cypher",
     "40% Off: Enus Paragon R",
     "40% Off: Lampadati Felon GT",
-    "40% Off: Lampadati Felon GT",
     "40% Off: Nagasaki Hot Rod Blazer",
     "40% Off: Dewbauchee Rapid GT",
     "40% Off: Överflöd Entity XF",
@@ -69,5 +68,15 @@
     "50% off: Proximity Mines",
     "30% off for GTA+ Members: Combat Shotgun"
   ],
-  "gunVanStock": []
+  "gunVanStock": [
+    "Combat Shotgun (10%, 30%)",
+    "Precision Rifle (10%, 20%)",
+    "Railgun (50%, 50%)",
+    "Compact Rifle (10%, 20%)",
+    "MG (10%, 20%)",
+    "Machete (10%, 20%)",
+    "Tear Gas (10%, 20%)",
+    "Grenade (10%, 20%)",
+    "Proximity Mine (10%, 20%)"
+  ]
 }
