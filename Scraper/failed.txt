@@ -1,12 +1,11 @@
 --- FAILED VEHICLES (Add to special_cases.py) ---
 The following vehicles failed to scrape. Add them to SPECIAL_CASES:
 
-    "Grotti Turismo Omaggio": "correct-url-here",  # The Cargo Ship Robbery - Attempted: omaggio
-    "LS Car Meet Membership": "correct-url-here",  # Free - Attempted: membership
-    "Horn Customization": "correct-url-here",  # Free - Attempted: customization
-    "Turbo Tuning": "correct-url-here",  # Discount - Attempted: tuning
-    "HSW Performance Upgrade": "correct-url-here",  # Discount - Attempted: upgrade
-    "Lampadati Felon GT": "correct-url-here",  # Discount - Attempted: felongt
-    "Lampadati Felon GT": "correct-url-here",  # Discount - Attempted: felongt
-    "RC Bandito": "correct-url-here",  # Discount - Attempted: bandito
-    "Vapid Desert Raid": "correct-url-here",  # Discount - Attempted: raid
+    "Albany V-STR": "correct-url-here",  # The Cargo Ship Robbery - Attempted: v-str
+    "Higgins Helitours": "correct-url-here",  # Free - Attempted: helitours
+    "Buckingham Howard NX-25": "correct-url-here",  # Discount - Attempted: nx-25
+    "Sea Sparrow": "correct-url-here",  # Discount - Attempted: sparrow
+    "Obey Tailgater S": "correct-url-here",  # Discount - Attempted: tailgaters
+    "Benefactor Terrorbyte": "correct-url-here",  # Discount - Attempted: terrorbyte
+    "Imponte Ruiner ZZ-8": "correct-url-here",  # Discount - Attempted: zz-8
+    "Grotti Brioso 300": "correct-url-here",  # Discount - Attempted: brioso300

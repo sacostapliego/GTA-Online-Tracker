@@ -1,137 +1,87 @@
 {
-  "Ocelot R88": {
+  "Lampadati Komoda": {
     "type": "Podium Vehicle",
-    "url": "https://gtacars.net/gta5/formula2",
-    "image_url": "https://gtacars.net/images/eccf9965ef99f31ab8f602a5c15c9d9b",
-    "original_price": 3115000,
+    "url": "https://gtacars.net/gta5/komoda",
+    "image_url": "https://gtacars.net/images/33e974c2d5d875139150d1f799b9724f",
+    "original_price": 1700000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Ocelot Virtue": {
+  "Truffade Nero": {
     "type": "Prize Ride Vehicle",
-    "url": "https://gtacars.net/gta5/virtue",
-    "image_url": "https://gtacars.net/images/a15b49fa1e58c76caab5a709187127ff",
-    "original_price": 2980000,
+    "url": "https://gtacars.net/gta5/nero",
+    "image_url": "https://gtacars.net/images/786490cd32aaf1226f0f230846c65b81",
+    "original_price": 1440000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Obey Omnis": {
-    "type": "The Gangbanger Robbery",
-    "url": "https://gtacars.net/gta5/omnis",
-    "image_url": "https://gtacars.net/images/978f6a616e9a4aec6af23f88e7c7418f",
-    "original_price": 701000,
+  "Toundra Panthere": {
+    "type": "The Duggan Robbery",
+    "url": "https://gtacars.net/gta5/panthere",
+    "image_url": "https://gtacars.net/images/04cf41941d132abd4836a9631f2cbb04",
+    "original_price": 2170000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Vapid Hustler": {
-    "type": "The McTony Robbery",
-    "url": "https://gtacars.net/gta5/hustler",
-    "image_url": "https://gtacars.net/images/8804e8f909a7da3ded52ec91a21c4273",
-    "original_price": 625000,
+  "Willard Eudora": {
+    "type": "The Podium Robbery",
+    "url": "https://gtacars.net/gta5/eudora",
+    "image_url": "https://gtacars.net/images/104bb878b056baf1e88a7abca0e8066e",
+    "original_price": 1250000,
     "discounted_price": null,
     "discount_percent": null,
     "is_free": false
   },
-  "Bravado Banshee GTS": {
+  "Buckingham Vestra": {
     "type": "Discount",
-    "discount": "40% Off: Bravado Banshee GTS",
-    "url": "https://gtacars.net/gta5/banshee3",
-    "image_url": "https://gtacars.net/images/e30d2898bb231649b2295e08a214cb6a",
-    "original_price": 1989500,
-    "discounted_price": 1193700,
-    "discount_percent": 40,
-    "is_free": false
-  },
-  "Emperor Vectre": {
-    "type": "Discount",
-    "discount": "40% Off: Emperor Vectre",
-    "url": "https://gtacars.net/gta5/vectre",
-    "image_url": "https://gtacars.net/images/8490b1ff97977806d8df9fe306db467e",
-    "original_price": 1785000,
-    "discounted_price": 1071000,
-    "discount_percent": 40,
-    "is_free": false
-  },
-  "\u00dcbermacht Cypher": {
-    "type": "Discount",
-    "discount": "40% Off: \u00dcbermacht Cypher",
-    "url": "https://gtacars.net/gta5/cypher",
-    "image_url": "https://gtacars.net/images/e994d2238d5211a4f8cf5f2e5ff686b8",
-    "original_price": 1550000,
-    "discounted_price": 930000,
-    "discount_percent": 40,
-    "is_free": false
-  },
-  "Enus Paragon R": {
-    "type": "Discount",
-    "discount": "40% Off: Enus Paragon R",
-    "url": "https://gtacars.net/gta5/paragon",
-    "image_url": "https://gtacars.net/images/433322ae88327066b1357575358ff783",
-    "original_price": 905000,
-    "discounted_price": 543000,
-    "discount_percent": 40,
-    "is_free": false
-  },
-  "Nagasaki Hot Rod Blazer": {
-    "type": "Discount",
-    "discount": "40% Off: Nagasaki Hot Rod Blazer",
-    "url": "https://gtacars.net/gta5/blazer",
-    "image_url": "https://gtacars.net/images/13225dc1a5c96e4de2caa698e948cdd9",
-    "original_price": 8000,
-    "discounted_price": 4800,
-    "discount_percent": 40,
-    "is_free": false
-  },
-  "Dewbauchee Rapid GT": {
-    "type": "Discount",
-    "discount": "40% Off: Dewbauchee Rapid GT",
-    "url": "https://gtacars.net/gta5/rapidgt",
-    "image_url": "https://gtacars.net/images/8f6c6cf40ae1de61ea8f10e664ab5ee5",
-    "original_price": 132000,
-    "discounted_price": 79200,
-    "discount_percent": 40,
-    "is_free": false
-  },
-  "\u00d6verfl\u00f6d Entity XF": {
-    "type": "Discount",
-    "discount": "40% Off: \u00d6verfl\u00f6d Entity XF",
-    "url": "https://gtacars.net/gta5/entityxf",
-    "image_url": "https://gtacars.net/images/82f09e0204cad64f01ff3c2b3ca8b280",
-    "original_price": 795000,
-    "discounted_price": 477000,
-    "discount_percent": 40,
-    "is_free": false
-  },
-  "HVY Chernobog": {
-    "type": "Discount",
-    "discount": "30% Off: HVY Chernobog",
-    "url": "https://gtacars.net/gta5/chernobog",
-    "image_url": "https://gtacars.net/images/ca176fc25b6a244567f029f5abe6dfdb",
-    "original_price": 1500000,
-    "discounted_price": 1050000,
+    "discount": "30% Off: Buckingham Vestra",
+    "url": "https://gtacars.net/gta5/vestra",
+    "image_url": "https://gtacars.net/images/133d5cd379d8b0cc608beded9d451b38",
+    "original_price": 950000,
+    "discounted_price": 665000,
     "discount_percent": 30,
     "is_free": false
   },
-  "Pegassi Torero": {
+  "Jobuilt Velum 5-Seater": {
     "type": "Discount",
-    "discount": "30% Off: Pegassi Torero",
-    "url": "https://gtacars.net/gta5/torero",
-    "image_url": "https://gtacars.net/images/82028c7e552b59b486a953377568db8a",
-    "original_price": 998000,
-    "discounted_price": 698600,
+    "discount": "30% Off: Jobuilt Velum 5-Seater",
+    "url": "https://gtacars.net/gta5/velum2",
+    "image_url": "https://gtacars.net/images/38946ed60b0368f1a35b681f4813cebd",
+    "original_price": 1323350,
+    "discounted_price": 926345,
     "discount_percent": 30,
     "is_free": false
   },
-  "Dashound": {
+  "Albany Cavalcade XL": {
     "type": "Discount",
-    "discount": "30% Off: Dashound",
-    "url": "https://gtacars.net/gta5/coach",
-    "image_url": "https://gtacars.net/images/3517b96ca7926db92aa0a6563f84c1bf",
-    "original_price": 525000,
-    "discounted_price": 367500,
+    "discount": "30% Off: Albany Cavalcade XL",
+    "url": "https://gtacars.net/gta5/cavalcade3",
+    "image_url": "https://gtacars.net/images/c69269f1585872b2530c8eb1a7b4ee22",
+    "original_price": 1665000,
+    "discounted_price": 1165500,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Karin Previon": {
+    "type": "Discount",
+    "discount": "30% Off: Karin Previon",
+    "url": "https://gtacars.net/gta5/previon",
+    "image_url": "https://gtacars.net/images/2eec606a03e074270980266a7ff6c946",
+    "original_price": 1490000,
+    "discounted_price": 1043000,
+    "discount_percent": 30,
+    "is_free": false
+  },
+  "Maibatsu Penumbra FF": {
+    "type": "Discount",
+    "discount": "30% Off: Maibatsu Penumbra FF",
+    "url": "https://gtacars.net/gta5/penumbra2",
+    "image_url": "https://gtacars.net/images/44d89062eff5535b1269e5ee808f70cd",
+    "original_price": 1380000,
+    "discounted_price": 966000,
     "discount_percent": 30,
     "is_free": false
   }
