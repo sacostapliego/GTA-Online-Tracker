@@ -1,82 +1,57 @@
 {
-  "weekOf": "May 21st to May 28th (Not live until ~5am EDT on May 21st)",
+  "weekOf": "May 28th to June 4th (Not live until ~5am EDT on May 28th)",
   "introMessages": [
-    "Motor Madness shifts into a higher gear this week, with Double Rewards on Auto Shop Robbery Contract Finales, the LS Car Meet Series, Junk Energy and RC Time Trials, and more. Plus, there's 5X LS Car Meet Rep to earn on all sources and the chance to claim the Obey Omnis as a personal vehicle by completing The Gangbanger Robbery."
+    "Maximize your business empire’s bottom line with bolstered cashflow from Money Fronts, including 2X Laundered Income at the Hands On Car Wash, 4X GTA$ and RP on all Money Laundering Missions, Double Rewards on Mr. Faber Work, and more.",
+    "Take your operation to new heights by claiming the Higgins Helitours front, free for all Hands On Car Wash owners from Maze Bank Foreclosures through June 3.",
+    "Shop discounted aircraft, including the Sea Sparrow helicopter and a fleet of planes, earn 5X GTA$ and RP on Lamar Contact Missions, and more this week."
   ],
-  "podiumVehicle": "Ocelot R88",
-  "prizeRideVehicle": "Ocelot Virtue",
-  "prizeRideChallenge": "Place Top 3 in 3 Races in the LS Car Meet Series",
-  "timeTrial": "Stab City",
-  "premiumRace": "Criminal Records, locked to Super",
-  "hswTimeTrial": "Del Perro Beach to Murietta Heights",
+  "podiumVehicle": "Lampadati Komoda",
+  "prizeRideVehicle": "Truffade Nero",
+  "prizeRideChallenge": "Place Top 2 in the LS Car Meet Series for 2 days in a row",
+  "timeTrial": "Vinewood Hills",
+  "premiumRace": "Route 68, locked to Muscle",
+  "hswTimeTrial": "Sandy Shores to La Puerta",
   "salvageYardRobberies": [
     {
-      "type": "The Gangbanger Robbery",
-      "vehicle": "Obey Omnis"
+      "type": "The Duggan Robbery",
+      "vehicle": "Toundra Panthere"
     },
     {
       "type": "The Cargo Ship Robbery",
-      "vehicle": "Grotti Turismo Omaggio"
+      "vehicle": "Albany V-STR"
     },
     {
-      "type": "The McTony Robbery",
-      "vehicle": "Vapid Hustler"
+      "type": "The Podium Robbery",
+      "vehicle": "Willard Eudora"
     }
   ],
-  "weeklyChallenge": "Win 2 LS Car Meet Races to get the Bright Manor Racing Suit and GTA$100,000",
+  "weeklyChallenge": "Complete three Hands On Car Wash Legal Missions to receive GTA$100,000",
   "bonuses": [
-    "5X - LS Car Meet Rep",
-    "2X GTA$ and RP - Auto Shop Robbery Contracts",
-    "2X GTA$ and RP - LS Car Meet Series",
-    "2X GTA$ and RP - Junk Energy Time Trials (4X for GTA+ Members)",
-    "2X GTA$ and RP - RC Time Trials",
-    "2X GTA$ and RP - Hotring Races"
+    "5X GTA$ and RP - Lamar Contact Missions",
+    "4X GTA$ and RP - Money Fronts Money Laundering Missions",
+    "2X GTA$ and RP - Laundered Income at Hands On Car Wash",
+    "2X GTA$ and RP - Mr. Faber Work",
+    "2X GTA$ and RP - Random Transform Races",
+    "2X GTA$ and RP - Community Combat Series"
   ],
   "discounts": [
-    "Free: LS Car Meet Membership",
-    "Free: Horn Customization",
-    "50% Off: LS Tuners Racing Suits",
-    "50% Off: Benny's Conversion Upgrades",
-    "50% Off: Turbo Tuning",
-    "50% Off: HSW Performance Upgrade",
-    "50% Off: Blue and Yellow Tire Smoke Customization",
-    "40% Off: Auto Shop Properties",
-    "40% Off: Auto Shop Upgrades and Modifications",
-    "40% Off: Garage Properties",
-    "40% Off: Bravado Banshee GTS",
-    "40% Off: Emperor Vectre",
-    "40% Off: Übermacht Cypher",
-    "40% Off: Enus Paragon R",
-    "40% Off: Lampadati Felon GT",
-    "40% Off: Nagasaki Hot Rod Blazer",
-    "40% Off: Dewbauchee Rapid GT",
-    "40% Off: Överflöd Entity XF",
-    "30% Off: RC Bandito",
-    "30% Off: HVY Chernobog",
-    "30% Off: Pegassi Torero",
-    "30% Off: Vapid Desert Raid",
-    "30% Off: Dashound"
+    "Free: Higgins Helitours",
+    "40% Off: Hands On Car Wash and Smoke on the Water Dispensary",
+    "30% Off: Buckingham Howard NX-25",
+    "30% Off: Buckingham Vestra",
+    "30% Off: Sea Sparrow",
+    "30% Off: Jobuilt Velum 5-Seater",
+    "30% Off: Albany Cavalcade XL",
+    "30% Off: Obey Tailgater S",
+    "30% Off: Karin Previon",
+    "30% Off: Maibatsu Penumbra FF",
+    "30% Off: Benefactor Terrorbyte",
+    "30% Off: Imponte Ruiner ZZ-8",
+    "30% Off: Grotti Brioso 300"
   ],
   "gunVanDiscounts": [
-    "50% off: Precision Rifle",
-    "50% off: Railgun",
-    "50% off: Compact Rifle",
-    "50% off: MG",
-    "50% off: Machete",
-    "50% off: Tear Gas",
-    "50% off: Grenades",
-    "50% off: Proximity Mines",
-    "30% off for GTA+ Members: Combat Shotgun"
+    "50% off: Heavy Rifle",
+    "40% off for GTA+ Members: Military Rifle"
   ],
-  "gunVanStock": [
-    "Combat Shotgun (10%, 30%)",
-    "Precision Rifle (10%, 20%)",
-    "Railgun (50%, 50%)",
-    "Compact Rifle (10%, 20%)",
-    "MG (10%, 20%)",
-    "Machete (10%, 20%)",
-    "Tear Gas (10%, 20%)",
-    "Grenade (10%, 20%)",
-    "Proximity Mine (10%, 20%)"
-  ]
+  "gunVanStock": []
 }
