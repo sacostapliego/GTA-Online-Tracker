@@ -4,7 +4,7 @@ from pathlib import Path
 import requests
 
 SUBREDDIT = "gtaonline"
-SEARCH_URL = f"https://www.reddit.com/r/{SUBREDDIT}/search.json?q=title:%22Weekly+Bonuses+and+Discounts%22&restrict_sr=1&sort=new&limit=1"
+SEARCH_URL = f"https://api.pullpush.io/reddit/search/submission/?subreddit={SUBREDDIT}&title=%22Weekly%20Bonuses%20and%20Discounts%22&size=1"
 
 
 def build_filename_from_title(title):
@@ -37,14 +37,17 @@ def fetch_reddit_post():
         raise Exception(f"Failed to fetch data: {response.status_code}")
     
     data = response.json()
-    posts = data.get('data', {}).get('children', [])
+    posts = data.get('data', [])
     
     if not posts:
-        print("No posts found.")
-        return None
-
-    return posts[0]['data']
-
+        # Fallback for old reddit format
+        posts = data.get('data', {}).get('children', [])
+        if not posts:
+            print("No posts found.")
+            return None
+        return posts[0]['data']
+        
+    return posts[0]
 def main():
     """
     Debug tool to view raw Reddit post data.

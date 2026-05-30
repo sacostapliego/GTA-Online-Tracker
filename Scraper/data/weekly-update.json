@@ -1,57 +1,59 @@
 {
-  "weekOf": "May 28th to June 4th (Not live until ~5am EDT on May 28th)",
+  "weekOf": "May 15th to May 22nd (Not live until 5am EDT on May 15th)",
   "introMessages": [
-    "Maximize your business empire’s bottom line with bolstered cashflow from Money Fronts, including 2X Laundered Income at the Hands On Car Wash, 4X GTA$ and RP on all Money Laundering Missions, Double Rewards on Mr. Faber Work, and more.",
-    "Take your operation to new heights by claiming the Higgins Helitours front, free for all Hands On Car Wash owners from Maze Bank Foreclosures through June 3.",
-    "Shop discounted aircraft, including the Sea Sparrow helicopter and a fleet of planes, earn 5X GTA$ and RP on Lamar Contact Missions, and more this week."
+    "This week in GTA Online rogue agent Jodi Marshall is offering 2X GTA$ and RP on all FIB Files Finales through May 21, including this week’s Priority File: The Fine Art File.",
+    "Each Finale features three Elite Challenges granting additional rewards, including a bonus for completing all three in a single run. Complete any three FIB File Finales this week to earn a GTA$100,000 bonus for completing the Weekly Challenge.",
+    "The Darnell Bros Garment Factory (30% off this week) is also doling out Doubled Garment Factory Passive Income through May 21.",
+    "Meanwhile, successfully completing The Titan Job will secure you a limited-time Merryweather Security livery for the Buckingham DH-7 Iron Mule (Helicopter). Drift Races and the returning Hunting Pack (Remix) are also delivering 2X GTA$ and RP through May 21, along with more ongoing bonuses this week across GTA Online."
   ],
-  "podiumVehicle": "Lampadati Komoda",
-  "prizeRideVehicle": "Truffade Nero",
-  "prizeRideChallenge": "Place Top 2 in the LS Car Meet Series for 2 days in a row",
-  "timeTrial": "Vinewood Hills",
-  "premiumRace": "Route 68, locked to Muscle",
-  "hswTimeTrial": "Sandy Shores to La Puerta",
+  "podiumVehicle": "Annis ZR350",
+  "prizeRideVehicle": "Karin Hotring Everon",
+  "prizeRideChallenge": "Place Top 3 in the LS Car Meet Series for 4 days in a row",
+  "timeTrial": "Fort Zancudo",
+  "premiumRace": "Crossing Paths, locked to Sports Classic",
+  "hswTimeTrial": "Pacific Bluffs to Mount Gordo",
   "salvageYardRobberies": [
     {
-      "type": "The Duggan Robbery",
-      "vehicle": "Toundra Panthere"
+      "type": "The Cargo Ship Robbery",
+      "vehicle": "Albany Hermes"
     },
     {
-      "type": "The Cargo Ship Robbery",
-      "vehicle": "Albany V-STR"
+      "type": "The McTony Robbery",
+      "vehicle": "Obey Omnis"
     },
     {
       "type": "The Podium Robbery",
-      "vehicle": "Willard Eudora"
+      "vehicle": "Pfister Comet S2 Cabrio"
     }
   ],
-  "weeklyChallenge": "Complete three Hands On Car Wash Legal Missions to receive GTA$100,000",
+  "weeklyChallenge": "Complete three FiB File Finales to receive GTA$100,000",
   "bonuses": [
-    "5X GTA$ and RP - Lamar Contact Missions",
-    "4X GTA$ and RP - Money Fronts Money Laundering Missions",
-    "2X GTA$ and RP - Laundered Income at Hands On Car Wash",
-    "2X GTA$ and RP - Mr. Faber Work",
-    "2X GTA$ and RP - Random Transform Races",
-    "2X GTA$ and RP - Community Combat Series"
+    "3X GTA$ and RP - tba",
+    "2X GTA$ and RP - All FIB Files Finales",
+    "2X GTA$ and RP - Drift Races",
+    "2X GTA$ and RP - Hunting Pack (Remix)",
+    "2X GTA$ - Garment Factory Passive Income (4X for GTA+ Members)"
   ],
   "discounts": [
-    "Free: Higgins Helitours",
-    "40% Off: Hands On Car Wash and Smoke on the Water Dispensary",
-    "30% Off: Buckingham Howard NX-25",
-    "30% Off: Buckingham Vestra",
-    "30% Off: Sea Sparrow",
-    "30% Off: Jobuilt Velum 5-Seater",
-    "30% Off: Albany Cavalcade XL",
-    "30% Off: Obey Tailgater S",
-    "30% Off: Karin Previon",
-    "30% Off: Maibatsu Penumbra FF",
-    "30% Off: Benefactor Terrorbyte",
-    "30% Off: Imponte Ruiner ZZ-8",
+    "30% Off: Darnell Bros Garment Factory Property",
+    "30% Off: Drift Tune Upgrades",
+    "30% Off: Dinka Chavos V6",
+    "30% Off: Grotti Visione",
+    "30% Off: Declasse Mamba",
+    "30% Off: Karin Sultan RS Classic",
+    "30% Off: Grotti X80 Proto",
+    "30% Off: Nagasaki Outlaw",
+    "30% Off: Karin Asterope GZ",
+    "30% Off: Albany Brigham",
     "30% Off: Grotti Brioso 300"
   ],
   "gunVanDiscounts": [
-    "50% off: Heavy Rifle",
-    "40% off for GTA+ Members: Military Rifle"
+    "Free: Homing Launcher",
+    "Free: Grenade Launcher",
+    "Free for GTA+ Members: El Strickler Military Rifle",
+    "30% Off: Precision Rifle",
+    "30% Off: Proximity Mines, Tear Gas, Grenades, and Armor",
+    "40% off for GTA+ Members: Heavy Rifle"
   ],
   "gunVanStock": []
 }

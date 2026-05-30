@@ -9,7 +9,7 @@ from weekly_scraper import fetch_reddit_post, parse_markdown_content
 
 # Configuration
 SUBREDDIT = "gtaonline"
-SEARCH_URL = f"https://www.reddit.com/r/{SUBREDDIT}/search.json?q=title:%22Weekly+Bonuses+and+Discounts%22&restrict_sr=1&sort=new&limit=1"
+SEARCH_URL = f"https://api.pullpush.io/reddit/search/submission/?subreddit={SUBREDDIT}&title=%22Weekly%20Bonuses%20and%20Discounts%22&size=1"
 OUTPUT_FILE = "data/weekly-update.json"
 
 

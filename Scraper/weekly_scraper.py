@@ -19,7 +19,7 @@ def _is_discount_header(text):
 
 def fetch_reddit_post(search_url):
     """Fetch the latest weekly bonuses post from Reddit."""
-    headers = {'User-Agent': 'GTAWeeklyTrack/1.0'}
+    headers = {'User-Agent': 'python:gta_weekly_scraper:v1.0.0 (by /u/sacostapliego)'}
 
     print(f"Fetching from: {search_url}")
     response = requests.get(search_url, headers=headers)
@@ -28,13 +28,18 @@ def fetch_reddit_post(search_url):
         raise Exception(f"Failed to fetch data: {response.status_code}")
 
     data = response.json()
-    posts = data.get('data', {}).get('children', [])
+    posts = data.get('data', [])
 
     if not posts:
-        print("No posts found.")
-        return None
+        # Fallback for old reddit format if it ever works again or if proxy returns reddit format
+        posts = data.get('data', {}).get('children', [])
+        if not posts:
+            print("No posts found.")
+            return None
+        return posts[0]['data']
 
-    return posts[0]['data']
+    # PullPush format
+    return posts[0]
 
 
 def clean_text(text):
