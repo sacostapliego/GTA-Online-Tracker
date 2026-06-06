@@ -1,59 +1,54 @@
 {
-  "weekOf": "May 15th to May 22nd (Not live until 5am EDT on May 15th)",
-  "introMessages": [
-    "This week in GTA Online rogue agent Jodi Marshall is offering 2X GTA$ and RP on all FIB Files Finales through May 21, including this week’s Priority File: The Fine Art File.",
-    "Each Finale features three Elite Challenges granting additional rewards, including a bonus for completing all three in a single run. Complete any three FIB File Finales this week to earn a GTA$100,000 bonus for completing the Weekly Challenge.",
-    "The Darnell Bros Garment Factory (30% off this week) is also doling out Doubled Garment Factory Passive Income through May 21.",
-    "Meanwhile, successfully completing The Titan Job will secure you a limited-time Merryweather Security livery for the Buckingham DH-7 Iron Mule (Helicopter). Drift Races and the returning Hunting Pack (Remix) are also delivering 2X GTA$ and RP through May 21, along with more ongoing bonuses this week across GTA Online."
-  ],
-  "podiumVehicle": "Annis ZR350",
-  "prizeRideVehicle": "Karin Hotring Everon",
-  "prizeRideChallenge": "Place Top 3 in the LS Car Meet Series for 4 days in a row",
-  "timeTrial": "Fort Zancudo",
-  "premiumRace": "Crossing Paths, locked to Sports Classic",
-  "hswTimeTrial": "Pacific Bluffs to Mount Gordo",
+  "weekOf": "June 4th to June 11th",
+  "introMessages": [],
+  "podiumVehicle": "Vapid GB200",
+  "prizeRideVehicle": "Declasse Mamba",
+  "prizeRideChallenge": "Place Top 3 in the LS Car Meet Series for 3 days in a row",
+  "timeTrial": "Grove Street",
+  "premiumRace": "Wiwang Park, locked to Sports",
+  "hswTimeTrial": "Textile City to Stab City",
   "salvageYardRobberies": [
     {
       "type": "The Cargo Ship Robbery",
-      "vehicle": "Albany Hermes"
+      "vehicle": "Benefactor SM722"
     },
     {
       "type": "The McTony Robbery",
-      "vehicle": "Obey Omnis"
+      "vehicle": "Annis ZR350"
     },
     {
-      "type": "The Podium Robbery",
-      "vehicle": "Pfister Comet S2 Cabrio"
+      "type": "The Duggan Robbery",
+      "vehicle": "Dinka Sugoi"
     }
   ],
-  "weeklyChallenge": "Complete three FiB File Finales to receive GTA$100,000",
+  "weeklyChallenge": "Steal from two Stash Houses to receive GTA$100,000",
   "bonuses": [
-    "3X GTA$ and RP - tba",
-    "2X GTA$ and RP - All FIB Files Finales",
-    "2X GTA$ and RP - Drift Races",
-    "2X GTA$ and RP - Hunting Pack (Remix)",
-    "2X GTA$ - Garment Factory Passive Income (4X for GTA+ Members)"
+    "4X GTA$ and RP - Community Mission Series (PS5, Xbox Series X|S, PC Enhanced)",
+    "2X GTA$ and RP - Meth Sell Missions (includes Nightclub Pharmaceutical Research Goods)",
+    "2X GTA$ and RP - Featured Series: Top Fun, Turf Wars, Sumo, Come Out to Play",
+    "2X GTA$ - Street Dealers"
   ],
   "discounts": [
-    "30% Off: Darnell Bros Garment Factory Property",
-    "30% Off: Drift Tune Upgrades",
-    "30% Off: Dinka Chavos V6",
-    "30% Off: Grotti Visione",
-    "30% Off: Declasse Mamba",
-    "30% Off: Karin Sultan RS Classic",
-    "30% Off: Grotti X80 Proto",
-    "30% Off: Nagasaki Outlaw",
-    "30% Off: Karin Asterope GZ",
-    "30% Off: Albany Brigham",
-    "30% Off: Grotti Brioso 300"
+    "40% Off: Meth Labs",
+    "40% Off: Meth Lab Upgrades",
+    "30% Off: Declasse Draugur",
+    "30% Off: Fathom FR36",
+    "30% Off: Western Company Rogue",
+    "30% Off: Rhino Tank",
+    "30% Off: MTL Dune",
+    "30% Off: BF Weevil",
+    "30% Off: BF Raptor"
   ],
-  "gunVanDiscounts": [
-    "Free: Homing Launcher",
-    "Free: Grenade Launcher",
-    "Free for GTA+ Members: El Strickler Military Rifle",
-    "30% Off: Precision Rifle",
-    "30% Off: Proximity Mines, Tear Gas, Grenades, and Armor",
-    "40% off for GTA+ Members: Heavy Rifle"
-  ],
-  "gunVanStock": []
+  "gunVanDiscounts": [],
+  "gunVanStock": [
+    "Heavy Rifle (50%, 50%)",
+    "Military Rifle (10%, 40%)",
+    "Tactical SMG (10%, 20%)",
+    "Marksman Rifle (10%, 20%)",
+    "Heavy Pistol (10%, 20%)",
+    "Knife (10%, 20%)",
+    "Pipe Bomb (10%, 20%)",
+    "Sticky Bomb (10%, 20%)",
+    "Molotov (10%, 20%)"
+  ]
 }
